@@ -10,6 +10,10 @@ let historiqueRandom = [];
 
 let positionHistorique = -1;
 
+let langueSource = "fr";
+
+let langueCible = "it";
+
 
 // éléments HTML
 
@@ -23,7 +27,8 @@ const counter = document.getElementById("counter");
 
 const titreSelection = document.getElementById("titreSelection");
 
-
+const selectSource = document.getElementById("langueSource");
+const selectCible = document.getElementById("langueCible");
 
 // ============================
 // CREATION DES MENUS
@@ -133,8 +138,25 @@ function afficherSousCategories(categorie, boutonCategorie){
 
 }
 
+// ============================
+// CHARGEMENT D'UNE LANGUE
+// ============================
 
+selectSource.onchange = function(){
 
+    langueSource = this.value;
+
+    afficherCarte();
+
+};
+
+selectCible.onchange = function(){
+
+    langueCible = this.value;
+
+    afficherCarte();
+
+};
 
 
 // ============================
@@ -243,10 +265,10 @@ function afficherCarte(){
 
 
 
-    front.textContent = carteActuelle.fr;
+    front.textContent = carteActuelle[langueSource];
 
 
-    back.textContent = carteActuelle.it;
+    back.textContent = carteActuelle[langueCible];
 
  if(modeActuel === "random"){
 
@@ -447,7 +469,7 @@ function choisirCarteAleatoire(){
 
 function parler(texte, langue){
 
-
+ speechSynthesis.cancel();
 
     const voix = new SpeechSynthesisUtterance(texte);
 
@@ -458,49 +480,64 @@ function parler(texte, langue){
     voix.rate = 0.8;
 
 
-    speechSynthesis.speak(voix);
-
-
-}
-
-
-
-function prononcerFrancais(){
-
-
-
-    if(carteActuelle){
-
-
-
-        parler(
-
-            carteActuelle.fr,
-
-            "fr-FR"
-
-        );
-
-
-    }
-
+speechSynthesis.speak(voix);
 
 }
 
-function prononcerItalien(){
 
+const voix = {
 
-    if(carteActuelle){
+    fr:"fr-FR",
 
+    it:"it-IT",
 
-        parler(
-            carteActuelle.it,
-            "it-IT"
-        );
+    de:"de-CH"
 
+};
+
+function prononcerCarte(){
+
+    if(!carteActuelle){
+
+        return;
 
     }
 
+    if(card.classList.contains("flipped")){
+
+        prononcerVerso();
+
+    }
+
+    else{
+
+        prononcerRecto();
+
+    }
+
+}
+
+function prononcerRecto(){
+
+    parler(
+
+        carteActuelle[langueSource],
+
+        voix[langueSource]
+
+    );
+
+}
+
+function prononcerVerso(){
+
+    parler(
+
+        carteActuelle[langueCible],
+
+        voix[langueCible]
+
+    );
 
 }
 
@@ -554,35 +591,11 @@ function(event){
 
 
 
-    if(event.code === "ArrowUp"){
+   if(event.code==="ArrowUp"){
 
+    prononcerCarte();
 
-
-        if(card.classList.contains("flipped")){
-
-
-            parler(
-                carteActuelle.it,
-                "it-IT"
-            );
-
-
-        }
-
-        else{
-
-
-            parler(
-                carteActuelle.fr,
-                "fr-FR"
-            );
-
-
-        }
-
-
-    }
-
+}
 
 
 });

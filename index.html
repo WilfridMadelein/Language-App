@@ -71,6 +71,37 @@
 
 <main class="content">
 
+--*choix de la langue source et cible*--
+
+    <div class="language-bar">
+
+    <label>De :</label>
+
+    <select id="langueSource">
+
+        <option value="fr">Français</option>
+
+        <option value="it">Italien</option>
+
+        <option value="de">Allemand (Suisse)</option>
+
+    </select>
+
+    <span>→</span>
+
+    <label>Vers :</label>
+
+    <select id="langueCible">
+
+        <option value="it">Italien</option>
+
+        <option value="fr">Français</option>
+
+        <option value="de">Allemand (Suisse)</option>
+
+    </select>
+
+</div>
 
 <div class="titre-selection" id="titreSelection">
 
@@ -131,13 +162,11 @@ Suivant →
 
 <div class="audio-buttons">
 
+<button onclick="prononcerCarte()">
 
-<button onclick="prononcerItalien()">
-
-🔊 Italien
+🔊 Prononciation
 
 </button>
-
 
 </div>
 

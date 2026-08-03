@@ -74,5 +74,21 @@ AJOUTER CATÉGORIES :
 
 --------
 
+
+
 AJOUTER LANGUE :
 
+    - Modifier les fichiers data (avec google sheet > copie/colle)
+    - Dans index.html, trouver : <select id="langueSource"> et: <select id="langueCible"> , puis ajouter :
+
+--
+
+   <option value="*initial*">*Langue*</option>
+
+--------
+
+    - Dans app.js, trouver : const voix = { , puis ajouter :
+
+--
+
+*initial*:"*initial-pays*"
