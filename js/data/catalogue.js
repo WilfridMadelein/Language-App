@@ -5,5 +5,7 @@ chiffres:chiffres,
 
 vetements:vetements,
 
+directions:directions,
+
 
 };

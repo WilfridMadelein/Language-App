@@ -540,7 +540,7 @@ function(event){
 
 
 
-    if(event.code === "Space"){
+    if(event.code === "ArrowDown"){
 
 
         event.preventDefault();
