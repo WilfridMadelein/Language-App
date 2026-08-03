@@ -34,16 +34,18 @@ function afficherCategories(){
 
     Object.keys(catalogue).forEach(id => {
 
+        const categorie = catalogue[id];
+
 
         const bouton = document.createElement("button");
 
 
-        bouton.innerHTML = catalogue[id].nom;
+        bouton.textContent = categorie.nom;
 
 
-        bouton.onclick = () => {
+       bouton.onclick = function(){
 
-            afficherSousCategories(catalogue[id]);
+            afficherSousCategories(categorie, bouton);
 
         };
 
@@ -59,12 +61,28 @@ function afficherCategories(){
 
 
 
-function afficherSousCategories(categorie){
+function afficherSousCategories(categorie, boutonCategorie){
 
 
-    const zone = document.getElementById("sousCategories");
+  const zone = document.getElementById("sousCategories");
+
 
     zone.innerHTML = "";
+
+
+
+    document
+    .querySelectorAll("#categories button")
+    .forEach(b => {
+
+        b.classList.remove("active");
+
+    });
+
+
+
+    boutonCategorie.classList.add("active");
+
 
 
     Object.keys(categorie.listes).forEach(id => {
@@ -76,16 +94,21 @@ function afficherSousCategories(categorie){
         const bouton = document.createElement("button");
 
 
-        bouton.innerHTML = liste.nom;
+       bouton.textContent = liste.nom;
 
 
-        bouton.onclick = () => {
+        bouton.onclick = function(){
+
 
 
             chargerListe(
+
                 categorie,
+
                 liste,
+
                 bouton
+
             );
 
 
@@ -114,7 +137,7 @@ function chargerListe(categorie, liste, bouton){
 
 
     document
-    .querySelectorAll(".menu button")
+    .querySelectorAll("#sousCategories button")
     .forEach(b => {
 
         b.classList.remove("active");
@@ -127,7 +150,7 @@ function chargerListe(categorie, liste, bouton){
 
 
 
-    mode = liste.mode;
+    modeActuel = liste.mode;
 
 
 
@@ -141,7 +164,7 @@ function chargerListe(categorie, liste, bouton){
 
 
 
-    if(mode === "random"){
+    if(modeActuel === "random"){
 
         carteActuelle = carteAleatoire();
 
@@ -199,14 +222,21 @@ function afficherCarte(){
 
 
 
-    front.innerHTML = carteActuelle.fr;
+    front.textContent = carteActuelle.fr;
 
 
-    back.innerHTML = carteActuelle.it;
+    back.textContent = carteActuelle.it;
+
+ if(modeActuel === "random"){
 
 
+        counter.textContent = "Mode aléatoire";
 
-    counter.innerHTML =
+
+    }
+
+ else {
+    counter.textContent =
 
     (index + 1)
 
@@ -218,7 +248,7 @@ function afficherCarte(){
 
 }
 
-
+}
 
 
 // ============================
@@ -340,7 +370,7 @@ function carteAleatoire(){
 
 
 
-    const hasard = Math.floor(
+    const position = Math.floor(
 
         Math.random()
 
@@ -351,10 +381,10 @@ function carteAleatoire(){
     );
 
 
-    index = hasard;
+    index = position;
 
 
-    return cartesActuelles[hasard];
+    return cartesActuelles[position];
 
 
 }
@@ -371,7 +401,7 @@ function parler(texte, langue){
 
 
 
-    let voix = new SpeechSynthesisUtterance(texte);
+    const voix = new SpeechSynthesisUtterance(texte);
 
 
     voix.lang = langue;
@@ -387,7 +417,27 @@ function parler(texte, langue){
 
 
 
+function prononcerFrancais(){
 
+
+
+    if(carteActuelle){
+
+
+
+        parler(
+
+            carteActuelle.fr,
+
+            "fr-FR"
+
+        );
+
+
+    }
+
+
+}
 
 function prononcerItalien(){
 
