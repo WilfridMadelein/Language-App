@@ -317,3 +317,23 @@ margin-top:20px;
 font-size:18px;
 
 }
+
+/* légende */
+.shortcuts {
+
+    margin-top:40px;
+
+    text-align:center;
+
+    font-size:14px;
+
+    color:#666;
+
+}
+
+
+.shortcuts p {
+
+    margin:5px;
+
+}
