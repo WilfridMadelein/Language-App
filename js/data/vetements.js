@@ -6,166 +6,148 @@ cartes:[
 
 
 {
+cat:"vet",
+gram:"sin",
 fr:"le pantalon",
-it:"il pantalone",
-categorie:"vetement",
-genre:"masculin",
-nombre:"singulier"
+it:"i pantaloni",
+de:"die Hose",
 },
-
-
 {
+cat:"vet",
+gram:"pl",
 fr:"les pantalons",
 it:"i pantaloni",
-categorie:"vetement",
-genre:"masculin",
-nombre:"pluriel"
+de:"die Hosen",
 },
-
-
 {
+cat:"vet",
+gram:"sin",
 fr:"la robe",
 it:"il vestito",
-categorie:"vetement",
-genre:"masculin",
-nombre:"singulier"
+de:"das Kleid",
 },
-
 {
-fr:"les robe",
+cat:"vet",
+gram:"pl",
+fr:"les robes",
 it:"i vestiti",
-categorie:"vetement",
-genre:"masculin",
-nombre:"pluriel"
+de:"die Kleider",
 },
-
 {
+cat:"vet",
+gram:"sin",
 fr:"la chausette",
 it:"il calzino",
-categorie:"vetement",
-genre:"masculin",
-nombre:"singulier"
+de:"die Socke",
 },
-
 {
+cat:"vet",
+gram:"pl",
 fr:"les chausettes",
 it:"i calzini",
-categorie:"vetement",
-genre:"masculin",
-nombre:"pluriel"
+de:"die Socken",
 },
-
 {
+cat:"vet",
+gram:"sin",
 fr:"la chemise",
-it:"la camice",
-categorie:"vetement",
-genre:"feminin",
-nombre:"singulier"
+it:"la camicia",
+de:"das Hemd",
 },
-
 {
+cat:"vet",
+gram:"pl",
 fr:"les chemises",
-it:"le camici",
-categorie:"vetement",
-genre:"feminin",
-nombre:"pluriel"
+it:"le camicie",
+de:"die Hemden",
 },
-
 {
+cat:"vet",
+gram:"sin",
 fr:"le manteau",
 it:"il cappotto",
-categorie:"vetement",
-genre:"masculin",
-nombre:"singulier"
+de:"der Mantel",
 },
-
 {
-fr:"les manteaux",
+cat:"vet",
+gram:"pl",
+fr:"les manteau",
 it:"i cappotti",
-categorie:"vetement",
-genre:"masculin",
-nombre:"pluriel"
+de:"die Mäntel",
 },
-
 {
+cat:"vet",
+gram:"sin",
 fr:"la veste",
 it:"la giacca",
-categorie:"vetement",
-genre:"feminin",
-nombre:"singulier"
+de:"die Jacke",
 },
-
 {
+cat:"vet",
+gram:"pl",
 fr:"les vestes",
 it:"le giacche",
-categorie:"vetement",
-genre:"feminin",
-nombre:"pluriel"
+de:"die Jacken",
 },
-
 {
+cat:"vet",
+gram:"sin",
 fr:"le chapeau",
 it:"il cappello",
-categorie:"vetement",
-genre:"masculin",
-nombre:"singulier"
+de:"der Hut",
 },
-
 {
+cat:"vet",
+gram:"pl",
 fr:"les chapeaux",
 it:"i cappelli",
-categorie:"vetement",
-genre:"masculin",
-nombre:"pluriel"
+de:"die Hüte",
 },
-
 {
+cat:"vet",
+gram:"sin",
 fr:"la chaussure",
 it:"la scarpa",
-categorie:"vetement",
-genre:"feminin",
-nombre:"singulier"
+de:"der Schuh",
 },
-
 {
+cat:"vet",
+gram:"pl",
 fr:"les chaussures",
 it:"le scarpe",
-categorie:"vetement",
-genre:"feminin",
-nombre:"pluriel"
+de:"die Schuhe",
 },
-
 {
-fr:"la chandail",
+cat:"vet",
+gram:"sin",
+fr:"le chandail",
 it:"il maglione",
-categorie:"vetement",
-genre:"masculin",
-nombre:"singulier"
+de:"der Pulli",
 },
-
 {
+cat:"vet",
+gram:"pl",
 fr:"les chandails",
 it:"i maglioni",
-categorie:"vetement",
-genre:"masculin",
-nombre:"pluriel"
+de:"die Pulli",
 },
-
 {
+cat:"vet",
+gram:"sin",
 fr:"la ceinture",
 it:"la cintura",
-categorie:"vetement",
-genre:"feminin",
-nombre:"singulier"
+de:"der Gürtel",
 },
-
 {
+cat:"vet",
+gram:"pl",
 fr:"les ceintures",
 it:"le cinture",
-categorie:"vetement",
-genre:"feminin",
-nombre:"pluriel"
+de:"die Gürtel",
 },
+
+
+
 
 ],
 
