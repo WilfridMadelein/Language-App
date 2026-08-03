@@ -1,219 +1,101 @@
-let mots=[];
+let cartesActuelles = [];
 
-let index=0;
+let index = 0;
 
-let mode="liste";
+let mode = "ordre";
 
-let parametres={};
+let carteActuelle = null;
+
+
+// éléments HTML
+
+const card = document.getElementById("card");
+
+const front = document.getElementById("front");
+
+const back = document.getElementById("back");
+
+const counter = document.getElementById("counter");
+
+
+
+// ============================
+// CREATION DES MENUS
+// ============================
+
 
 function afficherCategories(){
 
 
-let zone=document.getElementById("categories");
+    const zone = document.getElementById("categories");
+
+    zone.innerHTML = "";
 
 
-zone.innerHTML="";
+    Object.keys(catalogue).forEach(id => {
 
 
-Object.keys(modules).forEach(id=>{
+        const bouton = document.createElement("button");
 
 
-let bouton=document.createElement("button");
+        bouton.innerHTML = catalogue[id].nom;
 
 
-bouton.innerHTML=modules[id].nom;
+        bouton.onclick = () => {
+
+            afficherSousCategories(catalogue[id]);
+
+        };
 
 
-bouton.onclick=()=>{
-
-selectionnerModule(id);
-
-};
+        zone.appendChild(bouton);
 
 
-zone.appendChild(bouton);
-
-
-});
-
-
-}
-
-
-
-function selectionnerModule(id){
-
-
-let zone=document.getElementById("sousCategories");
-
-
-zone.innerHTML="";
-
-
-let module=modules[id];
-
-
-
-document.querySelectorAll(".menu button")
-.forEach(b=>b.classList.remove("active"));
-
-
-
-Object.keys(module.sousOnglets)
-.forEach(sous=>{
-
-
-let bouton=document.createElement("button");
-
-
-bouton.innerHTML=
-module.sousOnglets[sous].nom;
-
-
-
-bouton.onclick=()=>{
-
-
-chargerSousOnglet(module.sousOnglets[sous], bouton);
-
-
-};
-
-
-
-zone.appendChild(bouton);
-
-
-});
+    });
 
 
 }
 
-function chargerSousOnglet(data,bouton){
 
 
 
-document.querySelectorAll(".menu button")
-.forEach(b=>b.classList.remove("active"));
+function afficherSousCategories(categorie){
 
 
+    const zone = document.getElementById("sousCategories");
 
-bouton.classList.add("active");
+    zone.innerHTML = "";
 
 
+    Object.keys(categorie.listes).forEach(id => {
 
-mode=data.type;
 
+        const liste = categorie.listes[id];
 
-parametres=data;
 
+        const bouton = document.createElement("button");
 
 
-index=0;
+        bouton.innerHTML = liste.nom;
 
 
+        bouton.onclick = () => {
 
-if(mode==="liste"){
 
+            chargerListe(
+                categorie,
+                liste,
+                bouton
+            );
 
-mots=data.mots;
 
+        };
 
-}
 
+        zone.appendChild(bouton);
 
 
-
-if(mode==="random"){
-
-
-genererNombreAleatoire();
-
-
-}
-
-
-
-if(mode==="randomListe"){
-
-
-genererVetementAleatoire();
-
-
-}
-
-
-
-afficher();
-
-
-
-}
-
-function genererNombreAleatoire(){
-
-
-let nombre=Math.floor(
-
-Math.random()*(parametres.max-parametres.min+1)
-
-)+parametres.min;
-
-
-
-mots=[
-
-[nombre.toString(),nombre.toString()]
-
-];
-
-
-}
-
-
-
-function genererVetementAleatoire(){
-
-
-let choix=
-
-parametres.mots[
-
-Math.floor(
-
-Math.random()*parametres.mots.length
-
-)
-
-];
-
-
-mots=[choix];
-
-
-}
-
-const card=document.getElementById("card");
-
-const front=document.getElementById("front");
-
-const back=document.getElementById("back");
-
-const counter=document.getElementById("counter");
-
-
-
-
-
-function chargerCategorie(nom){
-
-
-mots=categories[nom];
-
-index=0;
-
-
-afficher();
+    });
 
 
 }
@@ -222,32 +104,58 @@ afficher();
 
 
 
-function afficher(){
+// ============================
+// CHARGEMENT D'UNE LISTE
+// ============================
 
 
-card.classList.add("no-animation");
-
-card.classList.remove("flipped");
-
-
-void card.offsetWidth;
+function chargerListe(categorie, liste, bouton){
 
 
 
-setTimeout(()=>{
+    document
+    .querySelectorAll(".menu button")
+    .forEach(b => {
 
-card.classList.remove("no-animation");
+        b.classList.remove("active");
 
-},50);
-
-
-
-front.innerHTML=mots[index][0];
-
-back.innerHTML=mots[index][1];
+    });
 
 
-counter.innerHTML=(index+1)+" / "+mots.length;
+
+    bouton.classList.add("active");
+
+
+
+    mode = liste.mode;
+
+
+
+    cartesActuelles = categorie.cartes.filter(
+        liste.filtre
+    );
+
+
+
+    index = 0;
+
+
+
+    if(mode === "random"){
+
+        carteActuelle = carteAleatoire();
+
+    }
+
+    else{
+
+        carteActuelle = cartesActuelles[index];
+
+    }
+
+
+
+    afficherCarte();
 
 
 
@@ -256,195 +164,344 @@ counter.innerHTML=(index+1)+" / "+mots.length;
 
 
 
-card.onclick=function(){
+// ============================
+// AFFICHAGE CARTE
+// ============================
 
-if(mots.length>0){
 
-card.classList.toggle("flipped");
+function afficherCarte(){
+
+
+
+    if(!carteActuelle){
+
+        return;
+
+    }
+
+
+
+    // empêche le flash de traduction
+
+    card.classList.add("no-animation");
+
+    card.classList.remove("flipped");
+
+
+    void card.offsetWidth;
+
+
+    setTimeout(()=>{
+
+        card.classList.remove("no-animation");
+
+    },50);
+
+
+
+    front.innerHTML = carteActuelle.fr;
+
+
+    back.innerHTML = carteActuelle.it;
+
+
+
+    counter.innerHTML =
+
+    (index + 1)
+
+    + " / "
+
+    + cartesActuelles.length;
+
+
 
 }
+
+
+
+
+// ============================
+// RETOURNER CARTE
+// ============================
+
+
+card.onclick = function(){
+
+
+    if(carteActuelle){
+
+        card.classList.toggle("flipped");
+
+    }
+
 
 };
 
 
 
+
+
+// ============================
+// NAVIGATION
+// ============================
 
 
 function suivant(){
 
 
-if(mode==="random" || mode==="randomListe"){
+
+    if(mode === "random"){
 
 
-genererAleatoire();
+        carteActuelle = carteAleatoire();
 
 
-afficher();
-
-return;
-
-}
+        afficherCarte();
 
 
+        return;
 
-if(index<mots.length-1){
-
-index++;
-
-afficher();
-
-}
+    }
 
 
-}
-
-function genererAleatoire(){
 
 
-if(mode==="random"){
-
-genererNombreAleatoire();
-
-}
+    if(index < cartesActuelles.length - 1){
 
 
-if(mode==="randomListe"){
+        index++;
 
-genererVetementAleatoire();
 
-}
+        carteActuelle = cartesActuelles[index];
+
+
+        afficherCarte();
+
+
+    }
 
 
 
 }
+
+
+
 
 
 function precedent(){
 
 
-if(mode==="random" || mode==="randomListe"){
+
+    if(mode === "random"){
 
 
-genererAleatoire();
+        carteActuelle = carteAleatoire();
 
 
-afficher();
+        afficherCarte();
 
-return;
+
+        return;
+
+    }
+
+
+
+
+    if(index > 0){
+
+
+        index--;
+
+
+        carteActuelle = cartesActuelles[index];
+
+
+        afficherCarte();
+
+
+    }
+
+
 
 }
 
 
 
-if(index>0){
 
-index--;
 
-afficher();
+// ============================
+// RANDOM UNIVERSEL
+// ============================
+
+
+function carteAleatoire(){
+
+
+
+    const hasard = Math.floor(
+
+        Math.random()
+
+        *
+
+        cartesActuelles.length
+
+    );
+
+
+    index = hasard;
+
+
+    return cartesActuelles[hasard];
+
 
 }
 
 
-}
 
 
+// ============================
+// AUDIO
+// ============================
 
 
 function parler(texte, langue){
 
 
-let voix=new SpeechSynthesisUtterance(texte);
 
-voix.lang=langue;
-
-voix.rate=0.8;
+    let voix = new SpeechSynthesisUtterance(texte);
 
 
-speechSynthesis.speak(voix);
+    voix.lang = langue;
+
+
+    voix.rate = 0.8;
+
+
+    speechSynthesis.speak(voix);
 
 
 }
 
 
-
-
-
-function prononcerFrancais(){
-
-parler(mots[index][0],"fr-FR");
-
-}
 
 
 
 function prononcerItalien(){
 
-parler(mots[index][1],"it-IT");
 
-}
-
+    if(carteActuelle){
 
 
+        parler(
+            carteActuelle.it,
+            "it-IT"
+        );
 
 
-
-document.addEventListener("keydown",function(event){
-
-
-
-if(event.code==="ArrowRight"){
-
-suivant();
-
-}
-
-
-
-
-if(event.code==="ArrowLeft"){
-
-precedent();
-
-}
-
-
-
-
-if(event.code==="Space"){
-
-event.preventDefault();
-
-card.classList.toggle("flipped");
-
-}
-
-
-
-
-if(event.code==="ArrowUp"){
-
-
-if(card.classList.contains("flipped")){
-
-prononcerItalien();
-
-}
-
-else{
-
-prononcerFrancais();
-
-}
+    }
 
 
 }
+
+
+
+
+// ============================
+// RACCOURCIS CLAVIER
+// ============================
+
+
+document.addEventListener(
+"keydown",
+function(event){
+
+
+
+    if(event.code === "ArrowRight"){
+
+
+        suivant();
+
+
+    }
+
+
+
+
+    if(event.code === "ArrowLeft"){
+
+
+        precedent();
+
+
+    }
+
+
+
+
+    if(event.code === "Space"){
+
+
+        event.preventDefault();
+
+
+        card.classList.toggle("flipped");
+
+
+    }
+
+
+
+
+    if(event.code === "ArrowUp"){
+
+
+
+        if(card.classList.contains("flipped")){
+
+
+            parler(
+                carteActuelle.it,
+                "it-IT"
+            );
+
+
+        }
+
+        else{
+
+
+            parler(
+                carteActuelle.fr,
+                "fr-FR"
+            );
+
+
+        }
+
+
+    }
 
 
 
 });
 
-window.onload=function(){
 
-afficherCategories();
 
-}
+
+
+// ============================
+// DÉMARRAGE
+// ============================
+
+
+window.onload = function(){
+
+
+    afficherCategories();
+
+
+};
