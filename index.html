@@ -22,3 +22,454 @@
 </body>
 
 </html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Apprendre l'italien</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    display:flex;
+    min-height:100vh;
+}
+
+.menu{
+
+    width:250px;
+    background:white;
+    border-right:1px solid #ddd;
+}
+
+.menu h2{
+    text-align:center;
+    margin-top:20px;
+}
+
+.menu button{
+
+    width:90%;
+    margin:10px auto;
+    display:block;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:#3498db;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+
+}
+
+.menu button:hover{
+    background:#2980b9;
+}
+
+.content{
+
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+.card{
+
+    width:320px;
+    height:200px;
+
+    perspective:1000px;
+    cursor:pointer;
+
+}
+
+.card-inner{
+
+    position:relative;
+    width:100%;
+    height:100%;
+
+    transition:transform .6s;
+
+    transform-style:preserve-3d;
+
+}
+
+.card.no-animation .card-inner{
+
+    transition:none;
+
+}
+
+.card.flipped .card-inner{
+
+    transform:rotateY(180deg);
+
+}
+
+.face{
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:40px;
+
+    font-weight:bold;
+
+    backface-visibility:hidden;
+
+    box-shadow:0px 5px 20px rgba(0,0,0,.2);
+
+}
+
+.front{
+
+    background:white;
+
+}
+
+.back{
+
+    background:#27ae60;
+
+    color:white;
+
+    transform:rotateY(180deg);
+
+}
+
+.controls{
+
+    margin-top:30px;
+
+}
+
+.controls button{
+
+    padding:12px 20px;
+
+    font-size:18px;
+
+    margin:10px;
+
+    cursor:pointer;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2c3e50;
+
+    color:white;
+
+}
+
+.controls button:hover{
+
+    background:#34495e;
+
+}
+
+.counter{
+
+    margin-top:20px;
+
+    font-size:18px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Apprendre l'italien</h1>
+
+</header>
+
+<div class="container">
+
+<div class="menu">
+
+<h2>Table des matières</h2>
+
+<button onclick="chargerChiffres()">
+
+Les chiffres
+
+</button>
+
+</div>
+
+<div class="content">
+
+<div class="card" id="card">
+
+<div class="card-inner">
+
+<div class="face front" id="front">
+
+Clique sur "Les chiffres"
+
+</div>
+
+<div class="face back" id="back">
+
+...
+
+</div>
+
+</div>
+
+</div>
+
+<div class="controls">
+
+<button onclick="precedent()">
+
+◀ Précédent
+
+</button>
+
+<button onclick="suivant()">
+
+Suivant ▶
+
+</button>
+
+</div>
+
+<div class="audio-buttons">
+
+<button onclick="prononcerItalien()">
+
+🔊 Italien
+
+</button>
+
+</div>
+
+<div class="counter" id="counter">
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+const chiffres=[
+
+["un","uno"],
+["deux","due"],
+["trois","tre"],
+["quatre","quattro"],
+["cinq","cinque"],
+["six","sei"],
+["sept","sette"],
+["huit","otto"],
+["neuf","nove"],
+["dix","dieci"],
+["onze","undici"],
+["douze","dodici"],
+["treize","tredici"],
+["quatorze","quattordici"],
+["quinze","quindici"],
+["seize","sedici"],
+["dix-sept","diciassette"],
+["dix-huit","diciotto"],
+["dix-neuf","diciannove"],
+["vingt","venti"]
+
+];
+
+let index=0;
+
+const card=document.getElementById("card");
+
+const front=document.getElementById("front");
+
+const back=document.getElementById("back");
+
+const counter=document.getElementById("counter");
+
+function chargerChiffres(){
+
+index=0;
+
+afficher();
+
+}
+
+function afficher(){
+
+// enlève l'animation temporairement
+
+card.classList.add("no-animation");
+
+card.classList.remove("flipped");
+
+
+// force le navigateur à appliquer le changement immédiatement
+
+void card.offsetWidth;
+
+
+// remet l'animation pour le prochain clic
+
+setTimeout(()=>{
+
+card.classList.remove("no-animation");
+
+},50);
+
+
+front.innerHTML=chiffres[index][0];
+
+back.innerHTML=chiffres[index][1];
+
+counter.innerHTML=(index+1)+" / "+chiffres.length;
+
+}
+
+card.onclick=function(){
+
+card.classList.toggle("flipped");
+
+}
+
+function suivant(){
+
+if(index<chiffres.length-1){
+
+index++;
+
+afficher();
+
+}
+
+}
+
+function precedent(){
+
+if(index>0){
+
+index--;
+
+afficher();
+
+}
+
+}
+
+function parler(texte, langue){
+
+let utterance=new SpeechSynthesisUtterance(texte);
+
+utterance.lang=langue;
+
+utterance.rate=0.8;
+
+speechSynthesis.speak(utterance);
+
+}
+
+
+function prononcerFrancais(){
+
+parler(chiffres[index][0],"fr-FR");
+
+}
+
+
+function prononcerItalien(){
+
+parler(chiffres[index][1],"it-IT");
+
+}
+
+document.addEventListener("keydown", function(event){
+
+
+if(event.code==="ArrowRight"){
+
+suivant();
+
+}
+
+
+if(event.code==="ArrowLeft"){
+
+precedent();
+
+}
+
+
+if(event.code==="Space"){
+
+event.preventDefault();
+
+card.classList.toggle("flipped");
+
+}
+
+
+if(event.code==="ArrowUp"){
+
+
+// détecte le côté visible
+
+if(card.classList.contains("flipped")){
+
+prononcerItalien();
+
+}
+
+else{
+
+prononcerFrancais();
+
+}
+
+}
+
+
+});
+
+</script>
+
+</body>
+</html>
