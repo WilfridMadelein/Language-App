@@ -49,11 +49,41 @@ min-height:calc(100vh - 80px);
 
 }
 
+.categories-container .menu-title {
+
+    font-size:20px;
+
+}
+
+
+.souscategories-container .menu-title {
+
+    font-size:18px;
+
+}
 
 
 
 /* MENU */
 
+.menu-columns {
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+
+
+.categories-container,
+.souscategories-container {
+
+
+    flex:1;
+
+
+}
 
 .menu{
 
@@ -75,7 +105,15 @@ text-align:center;
 
 }
 
+.categories-container h3 {
 
+
+    margin-top:20px;
+
+    font-size:16px;
+
+
+}
 
 .menu button{
 
@@ -102,7 +140,6 @@ cursor:pointer;
 }
 
 
-
 .menu button:hover{
 
 background:#2980b9;
@@ -110,8 +147,49 @@ background:#2980b9;
 }
 
 
+.categorie-btn {
+
+    background-color:#3498db;
+
+    color:white;
+
+    width:100%;
+
+    margin-bottom:10px;
+
+}
 
 
+.categorie-btn.active {
+
+    background-color:#1abc9c;
+
+}
+
+.souscategorie-btn {
+
+
+    background-color:#ecf0f1;
+
+    color:#333;
+
+    width:100%;
+
+    margin-bottom:10px;
+
+
+}
+
+
+.souscategorie-btn.active {
+
+
+    background-color:#1abc9c;
+
+    color:white;
+
+
+}
 
 /* ZONE CARTES */
 
@@ -130,7 +208,19 @@ align-items:center;
 
 }
 
+.titre-selection {
 
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+
+    text-align:center;
+
+
+}
 
 
 /* CARTE */

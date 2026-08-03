@@ -21,6 +21,8 @@ const back = document.getElementById("back");
 
 const counter = document.getElementById("counter");
 
+const titreSelection = document.getElementById("titreSelection");
+
 
 
 // ============================
@@ -45,6 +47,8 @@ function afficherCategories(){
 
 
         bouton.textContent = categorie.nom;
+
+        bouton.classList.add("categorie-btn");
 
 
        bouton.onclick = function(){
@@ -100,6 +104,8 @@ function afficherSousCategories(categorie, boutonCategorie){
 
        bouton.textContent = liste.nom;
 
+        bouton.classList.add("souscategorie-btn");
+
 
         bouton.onclick = function(){
 
@@ -152,7 +158,13 @@ function chargerListe(categorie, liste, bouton){
 
     bouton.classList.add("active");
 
+titreSelection.textContent =
 
+categorie.nom
+
++ " > "
+
++ liste.nom;
 
     modeActuel = liste.mode;
 
