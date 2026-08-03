@@ -6,6 +6,10 @@ let mode = "ordre";
 
 let carteActuelle = null;
 
+let historiqueRandom = [];
+
+let positionHistorique = -1;
+
 
 // éléments HTML
 
@@ -162,29 +166,34 @@ function chargerListe(categorie, liste, bouton){
 
     index = 0;
 
+ if(modeActuel === "random"){
+
+    historiqueRandom = [];
 
 
-    if(modeActuel === "random"){
-
-        carteActuelle = carteAleatoire();
-
-    }
-
-    else{
-
-        carteActuelle = cartesActuelles[index];
-
-    }
+    positionHistorique = -1;
 
 
+    carteActuelle = choisirCarteAleatoire();
 
-    afficherCarte();
 
+    historiqueRandom.push(carteActuelle);
+
+
+    positionHistorique = 0;
+
+}
+else {
+
+
+    carteActuelle = cartesActuelles[index];
 
 
 }
 
+afficherCarte();
 
+}
 
 
 // ============================
@@ -281,10 +290,26 @@ function suivant(){
 
 
 
-    if(mode === "random"){
+    if(modeActuel === "random"){
 
 
-        carteActuelle = carteAleatoire();
+        carteActuelle = choisirCarteAleatoire();
+
+
+
+        historiqueRandom = historiqueRandom.slice(
+            0,
+            positionHistorique + 1
+        );
+
+
+
+        historiqueRandom.push(carteActuelle);
+
+
+
+        positionHistorique++;
+
 
 
         afficherCarte();
@@ -323,16 +348,30 @@ function precedent(){
 
 
 
-    if(mode === "random"){
+    if(modeActuel === "random"){
 
 
-        carteActuelle = carteAleatoire();
+        if(positionHistorique > 0){
 
 
-        afficherCarte();
+
+            positionHistorique--;
+
+
+
+            carteActuelle = historiqueRandom[positionHistorique];
+
+
+
+            afficherCarte();
+
+
+        }
+
 
 
         return;
+
 
     }
 
@@ -366,8 +405,8 @@ function precedent(){
 // ============================
 
 
-function carteAleatoire(){
-
+function choisirCarteAleatoire(){
+    
 
 
     const position = Math.floor(
@@ -379,9 +418,6 @@ function carteAleatoire(){
         cartesActuelles.length
 
     );
-
-
-    index = position;
 
 
     return cartesActuelles[position];
