@@ -489,9 +489,11 @@ const voix = {
 
     fr:"fr-FR",
 
+    en:"en-US",
+
     it:"it-IT",
 
-    de:"de-CH"
+    de:"de-CH",
 
 };
 
