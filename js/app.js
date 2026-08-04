@@ -618,3 +618,11 @@ window.onload = function(){
 
 
 };
+
+//temporaire
+chargerPageWiktionary("être")
+.then(resultat=>{
+
+    console.log(resultat);
+
+});
