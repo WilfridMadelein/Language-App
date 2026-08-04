@@ -603,7 +603,20 @@ function(event){
 });
 
 
+//temporaire
+chargerPageWiktionary("être")
+.then(resultat=>{
 
+
+    const zone = document.getElementById("wiktionaryResult");
+
+
+    zone.innerText = 
+
+    resultat.parse.wikitext["*"];
+
+
+});
 
 
 // ============================
@@ -619,10 +632,3 @@ window.onload = function(){
 
 };
 
-//temporaire
-chargerPageWiktionary("être")
-.then(resultat=>{
-
-    console.log(resultat);
-
-});
