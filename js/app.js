@@ -603,32 +603,6 @@ function(event){
 });
 
 
-//temporaire
-chargerConjugaisonWiktionary("être")
-
-.then(resultat=>{
-
-
-    const zone = document.getElementById("wiktionaryResult");
-
-
-    zone.innerText = 
-
-    resultat.parse.wikitext["*"];
-
-
-})
-
-.catch(erreur=>{
-
-
-    document.getElementById("wiktionaryResult").innerText =
-
-    "ERREUR : " + erreur;
-
-
-});
-
 
 // ============================
 // DÉMARRAGE

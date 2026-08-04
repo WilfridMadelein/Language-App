@@ -427,24 +427,3 @@ font-size:18px;
     margin:5px;
 
 }
-
-
-#wiktionaryResult {
-
-    margin-top:30px;
-
-    padding:20px;
-
-    max-height:300px;
-
-    overflow:auto;
-
-    border:1px solid #ccc;
-
-    text-align:left;
-
-    font-size:12px;
-
-    white-space:pre-wrap;
-
-}
