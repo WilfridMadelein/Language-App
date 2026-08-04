@@ -19,6 +19,14 @@ async function chargerPageWiktionary(mot){
 
     const reponse = await fetch(url);
 
+        if(!reponse.ok){
+
+        throw new Error(
+            "Erreur API Wiktionary"
+        );
+
+    }
+
     const donnees = await reponse.json();
 
     return donnees;

@@ -605,15 +605,28 @@ function(event){
 
 //temporaire
 chargerPageWiktionary("être")
+
 .then(resultat=>{
 
 
     const zone = document.getElementById("wiktionaryResult");
 
 
-    zone.innerText = 
+    zone.innerText = JSON.stringify(
+        resultat,
+        null,
+        2
+    );
 
-    resultat.parse.wikitext["*"];
+
+})
+
+.catch(erreur=>{
+
+
+    document.getElementById("wiktionaryResult").innerText =
+
+    "ERREUR : " + erreur;
 
 
 });
