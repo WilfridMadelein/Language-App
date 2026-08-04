@@ -604,7 +604,7 @@ function(event){
 
 
 //temporaire
-chargerPageWiktionary("être")
+chargerConjugaisonWiktionary("être")
 
 .then(resultat=>{
 
@@ -612,11 +612,9 @@ chargerPageWiktionary("être")
     const zone = document.getElementById("wiktionaryResult");
 
 
-    zone.innerText = JSON.stringify(
-        resultat,
-        null,
-        2
-    );
+    zone.innerText = 
+
+    resultat.parse.wikitext["*"];
 
 
 })
