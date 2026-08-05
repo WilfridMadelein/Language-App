@@ -495,6 +495,8 @@ const voix = {
 
     de:"de-CH",
 
+    es:"es-ES",
+
 };
 
 function prononcerCarte(){

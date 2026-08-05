@@ -1,119 +1,166 @@
 const directions = {
 
-    nom:"Les directions",
+nom:"Les directions",
 
-
-    cartes:[
-
+cartes:[
 
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"à gauche",
-en:"to the left",
-it:"a sinistra",
+en:"left",
+it:"Sinistra",
 de:"links",
+es:"izquierda"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"à droite",
-en:"to the right",
-it:"a destra",
-de:"rechts",
+en:"right",
+it:"Giusto",
+de:"Rechts",
+es:"bien"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"tout droit",
 en:"straight ahead",
-it:"dritto",
+it:"sempre dritto",
 de:"geradeaus",
+es:"todo derecho"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"devant",
 en:"in front",
-it:"devanti",
+it:"davanti",
 de:"vorne",
+es:"Al frente"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"derrière",
 en:"behind",
 it:"dietro",
-de:"hinten",
+de:"hinter",
+es:"detrás"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"tourne",
-en:"turn",
-it:"gira",
-de:"drehen",
+en:"turned",
+it:"girato",
+de:"gedreht",
+es:"transformado"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"avance",
-en:"forward",
-it:"avanti",
-de:"vorwärts",
+en:"advance",
+it:"anticipo",
+de:"Vorauszahlung",
+es:"avance"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"recule",
-en:"backward",
-it:"indietro",
-de:"rückwärts",
+en:"retreat",
+it:"ritirarsi",
+de:"Rückzug",
+es:"retiro"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"arrête",
 en:"stop",
-it:"fermati",
-de:"anhalten",
+it:"fermare",
+de:"stoppen",
+es:"detener"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"en dessous",
 en:"below",
 it:"sotto",
 de:"unten",
+es:"abajo"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"au-dessus",
 en:"above",
-it:"sopra",
-de:"oben",
+it:"Sopra",
+de:"über",
+es:"arriba"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"dedans",
 en:"inside",
 it:"dentro",
-de:"drinnen",
+de:"innen",
+es:"adentro"
 },
+
+
 {
-cat:"dir",
+cat:"directions",
 gram:"inv",
+
 fr:"à côté de",
 en:"next to",
 it:"accanto a",
 de:"neben",
-},
+es:"junto a"
+}
 
 
-
-    ],
+],
 
 
 

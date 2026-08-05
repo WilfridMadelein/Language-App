@@ -4,175 +4,264 @@ nom:"Les vêtements",
 
 cartes:[
 
+{
+cat:"vetement",
+gram:"s",
+
+fr:"le vêtement",
+en:"the garment",
+it:"l'indumento",
+de:"das Kleidungsstück",
+es:"la prenda"
+},
+
 
 {
-cat:"vet",
-gram:"sin",
-fr:"le pantalon",
-en:"the pants (1)",
-it:"i pantaloni (1)",
-de:"die Hose",
-},
-{
-cat:"vet",
+cat:"vetement",
 gram:"pl",
-fr:"les pantalons",
-en:"the pants (2+)",
-it:"i pantaloni (2+)",
-de:"die Hosen",
+
+fr:"les vêtements",
+en:"clothes",
+it:"gli indumenti",
+de:"Kleidung",
+es:"ropa"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"la robe",
 en:"the dress",
 it:"il vestito",
 de:"das Kleid",
+es:"el vestido"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les robes",
 en:"the dresses",
 it:"i vestiti",
 de:"die Kleider",
+es:"los vestidos"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"la chausette",
 en:"the sock",
 it:"il calzino",
 de:"die Socke",
+es:"el calcetín"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les chausettes",
-en:"the socks",
-it:"i calzini",
-de:"die Socken",
+en:"socks",
+it:"calzini",
+de:"Socken",
+es:"los calcetines"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"la chemise",
 en:"the shirt",
 it:"la camicia",
 de:"das Hemd",
+es:"la camisa"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les chemises",
 en:"the shirts",
 it:"le camicie",
 de:"die Hemden",
+es:"las camisas"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"le manteau",
 en:"the coat",
 it:"il cappotto",
 de:"der Mantel",
+es:"el abrigo"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les manteau",
 en:"the coats",
 it:"i cappotti",
 de:"die Mäntel",
+es:"los abrigos"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"la veste",
 en:"the jacket",
 it:"la giacca",
 de:"die Jacke",
+es:"la chaqueta"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les vestes",
 en:"the jackets",
 it:"le giacche",
 de:"die Jacken",
+es:"las chaquetas"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"le chapeau",
 en:"the hat",
 it:"il cappello",
 de:"der Hut",
+es:"el sombrero"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les chapeaux",
-en:"the hats",
-it:"i cappelli",
-de:"die Hüte",
+en:"hats",
+it:"cappelli",
+de:"Hüte",
+es:"sombreros"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"la chaussure",
 en:"the shoe",
 it:"la scarpa",
 de:"der Schuh",
+es:"el zapato"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les chaussures",
 en:"the shoes",
 it:"le scarpe",
 de:"die Schuhe",
+es:"los zapatos"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"le chandail",
 en:"the sweater",
 it:"il maglione",
-de:"der Pulli",
+de:"der Pullover",
+es:"el suéter"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les chandails",
 en:"the sweaters",
 it:"i maglioni",
-de:"die Pulli",
+de:"die Pullover",
+es:"los suéteres"
 },
+
+
 {
-cat:"vet",
-gram:"sin",
+cat:"vetement",
+gram:"pl",
+
 fr:"la ceinture",
 en:"the belt",
 it:"la cintura",
 de:"der Gürtel",
+es:"el cinturón"
 },
+
+
 {
-cat:"vet",
-gram:"pl",
+cat:"vetement",
+gram:"s",
+
 fr:"les ceintures",
 en:"the belts",
 it:"le cinture",
 de:"die Gürtel",
+es:"los cinturones"
 },
 
 
+{
+cat:"vetement",
+gram:"pl",
 
-
-
+fr:"les pantalons",
+en:"the trousers",
+it:"i pantaloni",
+de:"die Hose",
+es:"los pantalones"
+}
 
 
 ],
+
+
+
+
+
 
 
     listes:{
