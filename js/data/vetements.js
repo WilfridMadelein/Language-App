@@ -264,14 +264,13 @@ es:"los pantalones"
 
 
 
-    listes:{
+   listes:{
 
-        random:{
-            nom:"Random - vêtements",
-            mode:"random",
-            filtre: () => true
-        }
-
+    vetements:{
+        nom:"Les vêtements",
+        filtre: () => true
     }
+
+}
 
 };

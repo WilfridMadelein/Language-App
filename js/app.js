@@ -1,3 +1,5 @@
+// variables globales
+
 let cartesActuelles = [];
 
 let index = 0;
@@ -13,6 +15,18 @@ let positionHistorique = -1;
 let langueSource = "fr";
 
 let langueCible = "it";
+
+let configurationActive = {
+
+    mode:"ordre",
+
+    gram:[],
+
+    type:[],
+
+    temps:[]
+
+};
 
 
 // éléments HTML
@@ -158,6 +172,27 @@ selectCible.onchange = function(){
 
 };
 
+// ============================
+// PROPRIETES DISPONIBLES
+// ============================
+
+function proprietesDisponibles(cartes){
+
+    const disponibles = {};
+
+    cartes.forEach(carte=>{
+
+        Object.keys(carte).forEach(cle=>{
+
+            disponibles[cle]=true;
+
+        });
+
+    });
+
+    return disponibles;
+
+}
 
 // ============================
 // CHARGEMENT D'UNE LISTE
@@ -180,6 +215,8 @@ function chargerListe(categorie, liste, bouton){
 
     bouton.classList.add("active");
 
+    configurationActive.mode = liste.mode;
+
 titreSelection.textContent =
 
 categorie.nom
@@ -188,17 +225,29 @@ categorie.nom
 
 + liste.nom;
 
-    modeActuel = liste.mode;
+modeActuel = configurationActive.mode;
 
 
-
-    cartesActuelles = categorie.cartes.filter(
-        liste.filtre
-    );
-
+// Détecte automatiquement les propriétés présentes
+const cartesFiltrees =
+categorie.cartes.filter(liste.filtre);
 
 
-    index = 0;
+const disponibles =
+proprietesDisponibles(cartesFiltrees);
+
+
+console.log(disponibles);
+
+
+afficherOptions(disponibles);
+
+
+cartesActuelles =
+categorie.cartes.filter(liste.filtre);
+
+
+index = 0;
 
  if(modeActuel === "random"){
 
@@ -229,6 +278,107 @@ afficherCarte();
 
 }
 
+// ============================
+// AFFICHAGE OPTIONS
+// ============================
+
+function afficherOptions(disponibles){
+
+
+    const zone = document.getElementById("optionsContenu");
+
+
+    zone.innerHTML = "";
+
+
+
+// MODE (toujours présent)
+
+zone.innerHTML += `
+
+<div class="option-groupe">
+
+    <h4>Mode</h4>
+
+    <label>
+
+    <input 
+    type="radio" 
+    name="mode" 
+    value="ordre"
+    checked
+    onchange="changerOptionMode(this.value)">
+
+    Ordre
+
+    </label>
+
+
+    <label>
+
+    <input 
+    type="radio" 
+    name="mode" 
+    value="random"
+    onchange="changerOptionMode(this.value)">
+
+    Random
+
+    </label>
+
+</div>
+
+`;
+
+
+
+    // GRAMMAIRE
+
+    if(disponibles.gram){
+
+        zone.innerHTML += `
+
+        <div class="option-groupe">
+
+        <h4>Grammaire</h4>
+
+        <label>
+        <input type="checkbox" value="s">
+        Singulier
+        </label>
+
+
+        <label>
+        <input type="checkbox" value="pl">
+        Pluriel
+        </label>
+
+
+        <label>
+        <input type="checkbox" value="inv">
+        Invariable
+        </label>
+
+        </div>
+
+        `;
+
+    }
+
+
+}
+
+function changerOptionMode(mode){
+
+    configurationActive.mode = mode;
+
+
+    console.log(
+        "Mode choisi :",
+        configurationActive.mode
+    );
+
+}
 
 // ============================
 // AFFICHAGE CARTE
@@ -603,6 +753,7 @@ function(event){
 
 
 });
+
 
 
 
