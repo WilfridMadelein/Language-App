@@ -4,7 +4,7 @@ nom:"Être",
 
 cartes:[
 
-{ 
+{
 cat:"etre",
 type:"infinitif",
 
@@ -28,9 +28,9 @@ personne:"1s",
 
 fr:"Je suis",
 en:"I am",
-it:"Sono",
+it:"Io Sono",
 de:"Ich bin",
-es:"Soy"
+es:"Yo Soy"
 },
 
 
@@ -44,9 +44,9 @@ personne:"2s",
 
 fr:"Tu es",
 en:"You are",
-it:"Sei",
+it:"Tu Sei",
 de:"Du bist",
-es:"Eres"
+es:"Tú Eres"
 },
 
 
@@ -78,7 +78,7 @@ fr:"Nous sommes",
 en:"We are",
 it:"Noi siamo",
 de:"Wir sind",
-es:"Somos"
+es:"Nosotros Somos"
 },
 
 
@@ -92,9 +92,9 @@ personne:"2pl",
 
 fr:"Vous êtes",
 en:"You are",
-it:"Sei",
-de:"Du bist",
-es:"Eres"
+it:"Voi Sei",
+de:"Ihr bist",
+es:"Vosotros Eres"
 },
 
 
@@ -108,9 +108,9 @@ personne:"3pl",
 
 fr:"Ils/Elles sont",
 en:"They are",
-it:"Sono",
-de:"Sie sind",
-es:"Ellos son"
+it:"Loro Sono",
+de:"Si sind",
+es:"Ellos/Ellas son"
 },
 
 
@@ -122,11 +122,11 @@ model:"indicatif",
 temps:"passé",
 personne:"1s",
 
-fr:"J'étais",
+fr:"Je J'étais",
 en:"I was",
-it:"Ero",
+it:"Io Ero",
 de:"Ich war",
-es:"Era"
+es:"Yo Era"
 },
 
 
@@ -172,7 +172,7 @@ personne:"1pl",
 
 fr:"Nous étions",
 en:"We were",
-it:"Eravamo",
+it:"Noi Eravamo",
 de:"Wir waren",
 es:"Nosotros éramos"
 },
@@ -188,9 +188,9 @@ personne:"2pl",
 
 fr:"Vous étiez",
 en:"You were",
-it:"Tu eri",
-de:"Du warst",
-es:"Tú eras"
+it:"Voi eri",
+de:"Ihr warst",
+es:"Vosotros eras"
 },
 
 
@@ -204,9 +204,9 @@ personne:"3pl",
 
 fr:"Ils/Elles étaient",
 en:"They were",
-it:"Li avevamo",
-de:"Sie waren",
-es:"Ellos eran"
+it:"Loro avevamo",
+de:"Si waren",
+es:"Ellos/Ellas eran"
 },
 
 
@@ -236,9 +236,9 @@ personne:"2s",
 
 fr:"Tu seras",
 en:"You will be",
-it:"Sarai",
+it:"Tu Sarai",
 de:"Du wirst sein",
-es:"Usted será"
+es:"Tú será"
 },
 
 
@@ -268,9 +268,9 @@ personne:"1pl",
 
 fr:"Nous serons",
 en:"We will be",
-it:"Saremo",
+it:"Noi Saremo",
 de:"Wir werden sein",
-es:"Estaremos"
+es:"Nosotros Estaremos"
 },
 
 
@@ -284,9 +284,9 @@ personne:"2pl",
 
 fr:"Vous serez",
 en:"You will be",
-it:"Sarai",
-de:"Du wirst sein",
-es:"Usted será"
+it:"Voi Sarai",
+de:"Ihr wirst sein",
+es:"Vosotros será"
 },
 
 
@@ -301,8 +301,8 @@ personne:"3pl",
 fr:"Ils/Elles seront",
 en:"They will be",
 it:"Loro saranno",
-de:"Sie werden sein",
-es:"Ellos serán"
+de:"Si werden sein",
+es:"Ellos/Ellas serán"
 }
 
 ]
