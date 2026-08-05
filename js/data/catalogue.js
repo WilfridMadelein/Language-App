@@ -7,5 +7,6 @@ vetements:vetements,
 
 directions:directions,
 
+verbes:verbes,
 
 };
