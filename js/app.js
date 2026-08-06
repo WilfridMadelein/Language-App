@@ -238,7 +238,7 @@ categorie.cartes.filter(liste.filtre);
 
 
 const disponibles =
-proprietesDisponibles(cartesFiltrees);
+analyserFiltres(cartesFiltrees);
 
 
 console.log(disponibles);
@@ -272,9 +272,7 @@ index = 0;
 }
 else {
 
-
     carteActuelle = cartesActuelles[index];
-
 
 }
 
@@ -288,7 +286,10 @@ afficherCarte();
 
 function afficherOptions(disponibles){
 
-
+console.log(
+    "OPTIONS RECUES :",
+    disponibles
+);
     const zone = document.getElementById("optionsContenu");
 
 
@@ -336,56 +337,46 @@ zone.innerHTML += `
 
 
 
-  // GRAMMAIRE
+  // FILTRE : GRAMMAIRE
 
-  const compteurGram = compterValeurs("gram");
+  if(disponibles.gram){
 
-if(disponibles.gram){
+    const compteur = compterValeurs("gram");
 
     zone.innerHTML += `
-
-    <div class="option-groupe">
-
-        <h4>Grammaire</h4>
-
-        <label>
-            <input
-            type="checkbox"
-            class="option-gram"
-            value="s"
-            checked
-              ${!compteurGram.s ? "disabled" : ""}
-            onchange="changerOptionGram()">
-            Singulier (${compteurGram.s || 0})
-        </label>
-
-
-        <label>
-            <input
-            type="checkbox"
-            class="option-gram"
-            value="pl"
-            checked
-              ${!compteurGram.pl ? "disabled" : ""}
-            onchange="changerOptionGram()">
-            Pluriel (${compteurGram.pl || 0})
-        </label>
-
-
-        <label>
-            <input
-            type="checkbox"
-            class="option-gram"
-            value="inv"
-            checked
-             ${!compteurGram.inv ? "disabled" : ""}
-            onchange="changerOptionGram()">
-            Invariable (${compteurGram.inv || 0})
-        </label>
-
-    </div>
-
+        <div class="option-groupe">
+            <h4>Grammaire</h4>
     `;
+
+    disponibles.gram.forEach(valeur=>{
+
+        const texte =
+            libellesFiltres.gram[valeur] ?? valeur;
+
+        const nombre =
+            compteur[valeur] ?? 0;
+
+        zone.innerHTML += `
+
+            <label>
+
+                <input
+                    type="checkbox"
+                    class="option-gram"
+                    value="${valeur}"
+                    checked
+                    ${nombre===0 ? "disabled" : ""}
+                    onchange="changerOptionGram()">
+
+                ${texte} (${nombre})
+
+            </label>
+
+        `;
+
+    });
+
+    zone.innerHTML += `</div>`;
 
 }
 
@@ -442,7 +433,10 @@ function changerOptionGram(){
         .forEach(c=>{
 
             if(configurationActive.gram.includes(c.value)){
-                c.checked=true;
+             c.checked=true;
+            }
+            else{
+             c.checked=false;
             }
 
         });
@@ -572,6 +566,161 @@ function compterValeurs(cle){
     });
 
     return compteurs;
+
+}
+
+// ============================
+// CONFIGURATION DES FILTRES
+// ============================
+
+const ordreFiltres = {
+
+    gram:[
+        "s",
+        "pl",
+        "inv"
+    ],
+
+    type:[
+        "infinitif",
+        "conju"
+    ],
+
+    temps:[
+        "présent",
+        "passé",
+        "futur"
+    ],
+
+    personne:[
+        "1s",
+        "2s",
+        "3s",
+        "1pl",
+        "2pl",
+        "3pl"
+    ]
+
+};
+
+const libellesFiltres = {
+
+    gram:{
+
+        s:"Singulier",
+
+        pl:"Pluriel",
+
+        inv:"Invariable"
+
+    },
+
+    type:{
+
+        infinitif:"Infinitif",
+
+        conju:"Conjugaison"
+
+    },
+
+    temps:{
+
+        "présent":"Présent",
+
+        "passé":"Passé",
+
+        "futur":"Futur"
+
+    },
+
+    personne:{
+
+        "1s":"Je",
+
+        "2s":"Tu",
+
+        "3s":"Il / Elle",
+
+        "1pl":"Nous",
+
+        "2pl":"Vous",
+
+        "3pl":"Ils / Elles"
+
+    }
+
+};
+
+function analyserFiltres(cartes){
+
+
+    const filtres = {};
+
+
+
+    cartes.forEach(carte=>{
+
+
+        Object.keys(carte).forEach(cle=>{
+
+
+            // ignorer les traductions
+            if(
+                cle==="fr" ||
+                cle==="en" ||
+                cle==="it" ||
+                cle==="de" ||
+                cle==="es"
+            ){
+                return;
+            }
+
+
+            // ignorer les identifiants
+            if(
+                cle==="cat" ||
+                cle==="nb"
+            ){
+
+                return;
+            }
+
+            // créer le filtre s'il n'existe pas encore
+
+            if(!filtres[cle]){
+                filtres[cle]=[];
+            }
+
+            // ajouter la valeur si elle n'existe pas
+
+            if(
+                !filtres[cle].includes(carte[cle])
+            ){
+
+                filtres[cle].push(carte[cle]);
+
+            }
+
+        });
+
+    });
+
+    Object.keys(filtres).forEach(cle=>{
+
+    if(ordreFiltres[cle]){
+
+        filtres[cle].sort((a,b)=>{
+
+            return ordreFiltres[cle].indexOf(a)
+                 - ordreFiltres[cle].indexOf(b);
+
+        });
+
+    }
+
+});
+
+    return filtres;
 
 }
 

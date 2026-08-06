@@ -92,3 +92,12 @@ AJOUTER LANGUE :
 --
 
 *initial*:"*initial-pays*"
+
+---------
+
+    - Dans app.js, trouver : function analyserFiltres(cartes){ , puis ajouter : 
+
+--
+
+cle==="*initial*" ||
+
