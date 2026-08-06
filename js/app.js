@@ -409,7 +409,7 @@ function changerOptionMode(mode){
 function changerOptionGram(){
 
     //lire cases cochées
-    
+
     const cases =
     document.querySelectorAll(
         ".option-gram:checked"
@@ -423,26 +423,12 @@ function changerOptionGram(){
 
     // teste si la nouvelle sélection est valide
 
-    const cartesTest =
-    categorieActive.cartes.filter(carte => {
+     const cartesTest =
+    appliquerFiltre(
+        "gram",
+        nouvelleSelection
+    );
 
-
-        if(!listeActive.filtre(carte)){
-            return false;
-        }
-
-
-        if(
-            carte.gram !== undefined
-            &&
-            !nouvelleSelection.includes(carte.gram)
-        ){
-            return false;
-        }
-
-        return true;
-
-    });
 
     // aucune carte, refuse le changement
 
@@ -452,41 +438,48 @@ function changerOptionGram(){
     "Impossible : aucune carte avec cette sélection."
 );
 
-    const cases =
-    document.querySelectorAll(
-        ".option-gram"
-    );
+    document.querySelectorAll(".option-gram")
+        .forEach(c=>{
+
+            if(configurationActive.gram.includes(c.value)){
+                c.checked=true;
+            }
+
+        });
 
 
-    cases.forEach(c => {
+        return;
 
-        if(
-            configurationActive.gram.includes(c.value)
-        ){
-            c.checked = true;
-        }
-    });
-
-
-    return;
-
-}
+    }
 
 //accepte changement
 
     configurationActive.gram =
-    Array.from(cases).map(
-        checkbox => checkbox.value
-    );
-
-
-    console.log(
-        "Grammaire choisie :",
-        configurationActive.gram
-    );
+    nouvelleSelection;
 
 
     rechargerCartes();
+
+}
+
+// filtre
+
+function appliquerFiltre(cle, valeurs){
+
+    const cartesTest = cartesActuelles.filter(carte=>{
+
+        if(
+            carte[cle] !== undefined
+            &&
+            !valeurs.includes(carte[cle])
+        ){
+            return false;
+        }
+
+        return true;
+    });
+
+    return cartesTest;
 
 }
 
