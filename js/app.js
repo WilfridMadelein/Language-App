@@ -22,7 +22,7 @@ let configurationActive = {
 
     gram:["s","pl","inv"],
 
-    type:[],
+    type:["infinitif","conju"],
 
     temps:[]
 
@@ -385,8 +385,63 @@ zone.innerHTML += `
 
 }
 
+// TYPE
+
+if(disponibles.type){
+
+
+    const compteur = compterValeurs("type");
+
+    zone.innerHTML += `
+
+    <div class="option-groupe">
+
+        <h4>Type</h4>
+
+    `;
+
+
+    disponibles.type.forEach(valeur=>{
+
+
+        const texte =
+        libellesFiltres.type[valeur] ?? valeur;
+
+        const nombre =
+        compteur[valeur] ?? 0;
+
+        zone.innerHTML += `
+
+        <label>
+
+            <input
+            type="checkbox"
+            class="option-type"
+            value="${valeur}"
+            checked
+            ${nombre===0 ? "disabled" : ""}
+            onchange="changerOptionType()">
+
+
+            <span class="option-valeur-texte">
+            ${texte} (${nombre})
+            </span>
+        </label>
+
+        `;
+
+    });
+
+    zone.innerHTML += `</div>`;
 
 }
+
+
+}
+
+// ============================
+// CHANGEMENT D'OPTION
+// ============================
 
 function changerOptionMode(mode){
 
@@ -461,6 +516,65 @@ function changerOptionGram(){
 
 }
 
+function changerOptionType(){
+
+    //lire cases cochées
+
+    const cases =
+    document.querySelectorAll(
+        ".option-type:checked"
+    );
+
+     const nouvelleSelection =
+    Array.from(cases).map(
+        checkbox => checkbox.value
+    );
+
+
+    // teste si la nouvelle sélection est valide
+
+     const cartesTest =
+    appliquerFiltre(
+        "type",
+        nouvelleSelection
+    );
+
+
+    // aucune carte, refuse le changement
+
+    if(cartesTest.length === 0){
+
+        alert(
+    "Impossible : aucune carte avec cette sélection."
+);
+
+    document.querySelectorAll(".option-type")
+        .forEach(c=>{
+
+            if(configurationActive.type.includes(c.value)){
+             c.checked=true;
+            }
+            else{
+             c.checked=false;
+            }
+
+        });
+
+
+        return;
+
+    }
+
+//accepte changement
+
+    configurationActive.type =
+    nouvelleSelection;
+
+
+    rechargerCartes();
+
+}
+
 // filtre
 
 function appliquerFiltre(cle, valeurs){
@@ -514,6 +628,19 @@ categorieActive.cartes.filter(carte => {
     ){
         return false;
     }
+
+
+    // FILTRE TYPE
+    if(
+        carte.type !== undefined
+        &&
+        !configurationActive.type.includes(carte.type)
+    ){
+        return false;
+    }
+
+
+    
     return true;
 
 });
@@ -613,9 +740,7 @@ const libellesFiltres = {
     gram:{
 
         s:"Singulier",
-
         pl:"Pluriel",
-
         inv:"Invariable"
 
     },
@@ -623,34 +748,26 @@ const libellesFiltres = {
     type:{
 
         infinitif:"Infinitif",
-
-        conju:"Conjugaison"
+        conju:"Conju-gay-son"
 
     },
 
     temps:{
 
         "présent":"Présent",
-
         "passé":"Passé",
-
         "futur":"Futur"
 
     },
 
     personne:{
 
-        "1s":"Je",
-
-        "2s":"Tu",
-
-        "3s":"Il / Elle",
-
-        "1pl":"Nous",
-
-        "2pl":"Vous",
-
-        "3pl":"Ils / Elles"
+        "1s":"1er p. - S",
+        "2s":"2e p. - S",
+        "3s":"3e p. - S",
+        "1pl":"1er p. - PL",
+        "2pl":"2e p. - PL",
+        "3pl":"3e p. - PL"
 
     }
 
