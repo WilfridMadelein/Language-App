@@ -6,7 +6,6 @@ cartes:[
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:0,
 
 fr:"zéro",
@@ -19,7 +18,6 @@ es:"cero"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:1,
 
 fr:"un",
@@ -32,7 +30,6 @@ es:"A"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:2,
 
 fr:"deux",
@@ -45,7 +42,6 @@ es:"dos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:3,
 
 fr:"trois",
@@ -58,7 +54,6 @@ es:"tres"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:4,
 
 fr:"quatre",
@@ -71,7 +66,6 @@ es:"cuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:5,
 
 fr:"cinq",
@@ -84,7 +78,6 @@ es:"cinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:6,
 
 fr:"six",
@@ -97,7 +90,6 @@ es:"seis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:7,
 
 fr:"sept",
@@ -110,7 +102,6 @@ es:"Siete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:8,
 
 fr:"huit",
@@ -123,7 +114,6 @@ es:"ocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:9,
 
 fr:"neuf",
@@ -136,7 +126,6 @@ es:"nueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:10,
 
 fr:"dix",
@@ -149,7 +138,6 @@ es:"diez"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:11,
 
 fr:"onze",
@@ -162,7 +150,6 @@ es:"once"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:12,
 
 fr:"douze",
@@ -175,7 +162,6 @@ es:"doce"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:13,
 
 fr:"treize",
@@ -188,7 +174,6 @@ es:"trece"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:14,
 
 fr:"quatorze",
@@ -201,7 +186,6 @@ es:"catorce"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:15,
 
 fr:"quinze",
@@ -214,7 +198,6 @@ es:"quince"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:16,
 
 fr:"seize",
@@ -227,7 +210,6 @@ es:"dieciséis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:17,
 
 fr:"dix-sept",
@@ -240,7 +222,6 @@ es:"diecisiete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:18,
 
 fr:"dix-huit",
@@ -253,7 +234,6 @@ es:"dieciocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:19,
 
 fr:"dix-neuf",
@@ -266,7 +246,6 @@ es:"diecinueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:20,
 
 fr:"vingt",
@@ -279,7 +258,6 @@ es:"veinte"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:21,
 
 fr:"vingt et un",
@@ -292,7 +270,6 @@ es:"veintiuno"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:22,
 
 fr:"vingt-deux",
@@ -305,7 +282,6 @@ es:"Veintidós"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:23,
 
 fr:"vingt-trois",
@@ -318,7 +294,6 @@ es:"veintitrés"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:24,
 
 fr:"vingt-quatre",
@@ -331,7 +306,6 @@ es:"veinticuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:25,
 
 fr:"vingt-cinq",
@@ -344,7 +318,6 @@ es:"Veinticinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:26,
 
 fr:"vingt-six",
@@ -357,7 +330,6 @@ es:"veintiséis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:27,
 
 fr:"vingt-sept",
@@ -370,7 +342,6 @@ es:"veintisiete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:28,
 
 fr:"vingt-huit",
@@ -383,7 +354,6 @@ es:"veintiocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:29,
 
 fr:"vingt-neuf",
@@ -396,7 +366,6 @@ es:"veintinueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:30,
 
 fr:"trente",
@@ -409,7 +378,6 @@ es:"treinta"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:31,
 
 fr:"trente et un",
@@ -422,7 +390,6 @@ es:"treinta y uno"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:32,
 
 fr:"trente-deux",
@@ -435,7 +402,6 @@ es:"treinta y dos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:33,
 
 fr:"trente-trois",
@@ -448,7 +414,6 @@ es:"treinta y tres"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:34,
 
 fr:"trente-quatre",
@@ -461,7 +426,6 @@ es:"treinta y cuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:35,
 
 fr:"trente-cinq",
@@ -474,7 +438,6 @@ es:"treinta y cinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:36,
 
 fr:"trente-six",
@@ -487,7 +450,6 @@ es:"treinta y seis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:37,
 
 fr:"trente-sept",
@@ -500,7 +462,6 @@ es:"treinta y siete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:38,
 
 fr:"trente-huit",
@@ -513,7 +474,6 @@ es:"treinta y ocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:39,
 
 fr:"trente-neuf",
@@ -526,7 +486,6 @@ es:"treinta y nueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:40,
 
 fr:"quarante",
@@ -539,7 +498,6 @@ es:"cuarenta"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:41,
 
 fr:"quarante et un",
@@ -552,7 +510,6 @@ es:"cuarenta y uno"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:42,
 
 fr:"quarante-deux",
@@ -565,7 +522,6 @@ es:"cuarenta y dos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:43,
 
 fr:"quarante-trois",
@@ -578,7 +534,6 @@ es:"cuarenta y tres"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:44,
 
 fr:"quarante-quatre",
@@ -591,7 +546,6 @@ es:"cuarenta y cuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:45,
 
 fr:"quarante-cinq",
@@ -604,7 +558,6 @@ es:"Cuarenta y cinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:46,
 
 fr:"quarante-six",
@@ -617,7 +570,6 @@ es:"cuarenta y seis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:47,
 
 fr:"quarante-sept",
@@ -630,7 +582,6 @@ es:"cuarenta y siete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:48,
 
 fr:"quarante-huit",
@@ -643,7 +594,6 @@ es:"cuarenta y ocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:49,
 
 fr:"quarante-neuf",
@@ -656,7 +606,6 @@ es:"cuarenta y nueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:50,
 
 fr:"cinquante",
@@ -669,7 +618,6 @@ es:"cincuenta"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:51,
 
 fr:"cinquante et un",
@@ -682,7 +630,6 @@ es:"cincuenta y uno"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:52,
 
 fr:"cinquante-deux",
@@ -695,7 +642,6 @@ es:"cincuenta y dos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:53,
 
 fr:"cinquante-trois",
@@ -708,7 +654,6 @@ es:"cincuenta y tres"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:54,
 
 fr:"cinquante-quatre",
@@ -721,7 +666,6 @@ es:"cincuenta y cuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:55,
 
 fr:"cinquante-cinq",
@@ -734,7 +678,6 @@ es:"cincuenta y cinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:56,
 
 fr:"cinquante-six",
@@ -747,7 +690,6 @@ es:"cincuenta y seis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:57,
 
 fr:"cinquante-sept",
@@ -760,7 +702,6 @@ es:"cincuenta y siete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:58,
 
 fr:"cinquante-huit",
@@ -773,7 +714,6 @@ es:"cincuenta y ocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:59,
 
 fr:"cinquante-neuf",
@@ -786,7 +726,6 @@ es:"cincuenta y nueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:60,
 
 fr:"soixante",
@@ -799,7 +738,6 @@ es:"sesenta"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:61,
 
 fr:"soixante et un",
@@ -812,7 +750,6 @@ es:"sesenta y uno"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:62,
 
 fr:"soixante-deux",
@@ -825,7 +762,6 @@ es:"sesenta y dos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:63,
 
 fr:"soixante-trois",
@@ -838,7 +774,6 @@ es:"sesenta y tres"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:64,
 
 fr:"soixante-quatre",
@@ -851,7 +786,6 @@ es:"sesenta y cuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:65,
 
 fr:"soixante-cinq",
@@ -864,7 +798,6 @@ es:"sesenta y cinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:66,
 
 fr:"soixante-six",
@@ -877,7 +810,6 @@ es:"sesenta y seis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:67,
 
 fr:"soixante-sept",
@@ -890,7 +822,6 @@ es:"sesenta y siete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:68,
 
 fr:"soixante-huit",
@@ -903,7 +834,6 @@ es:"sesenta y ocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:69,
 
 fr:"soixante-neuf",
@@ -916,7 +846,6 @@ es:"sesenta y nueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:70,
 
 fr:"soixante-dix",
@@ -929,7 +858,6 @@ es:"setenta"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:71,
 
 fr:"soixante et onze",
@@ -942,7 +870,6 @@ es:"setenta y uno"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:72,
 
 fr:"soixante-douze",
@@ -955,7 +882,6 @@ es:"setenta y dos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:73,
 
 fr:"soixante-treize",
@@ -968,7 +894,6 @@ es:"setenta y tres"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:74,
 
 fr:"soixante-quatorze",
@@ -981,7 +906,6 @@ es:"setenta y cuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:75,
 
 fr:"soixante-quinze",
@@ -994,7 +918,6 @@ es:"setenta y cinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:76,
 
 fr:"soixante-seize",
@@ -1007,7 +930,6 @@ es:"setenta y seis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:77,
 
 fr:"soixante-dix-sept",
@@ -1020,7 +942,6 @@ es:"setenta y siete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:78,
 
 fr:"soixante-dix-huit",
@@ -1033,7 +954,6 @@ es:"setenta y ocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:79,
 
 fr:"soixante-dix-neuf",
@@ -1046,7 +966,6 @@ es:"setenta y nueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:80,
 
 fr:"quatre-vingts",
@@ -1059,7 +978,6 @@ es:"ochenta"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:81,
 
 fr:"quatre-vingt-un",
@@ -1072,7 +990,6 @@ es:"ochenta y uno"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:82,
 
 fr:"quatre-vingt-deux",
@@ -1085,7 +1002,6 @@ es:"ochenta y dos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:83,
 
 fr:"quatre-vingt-trois",
@@ -1098,7 +1014,6 @@ es:"ochenta y tres"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:84,
 
 fr:"quatre-vingt-quatre",
@@ -1111,7 +1026,6 @@ es:"ochenta y cuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:85,
 
 fr:"quatre-vingt-cinq",
@@ -1124,7 +1038,6 @@ es:"ochenta y cinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:86,
 
 fr:"quatre-vingt-six",
@@ -1137,7 +1050,6 @@ es:"ochenta y seis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:87,
 
 fr:"quatre-vingt-sept",
@@ -1150,7 +1062,6 @@ es:"ochenta y siete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:88,
 
 fr:"quatre-vingt-huit",
@@ -1163,7 +1074,6 @@ es:"ochenta y ocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:89,
 
 fr:"quatre-vingt-neuf",
@@ -1176,7 +1086,6 @@ es:"ochenta y nueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:90,
 
 fr:"quatre-vingt-dix",
@@ -1189,7 +1098,6 @@ es:"noventa"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:91,
 
 fr:"quatre-vingt-onze",
@@ -1202,7 +1110,6 @@ es:"noventa y uno"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:92,
 
 fr:"quatre-vingt-douze",
@@ -1215,7 +1122,6 @@ es:"noventa y dos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:93,
 
 fr:"quatre-vingt-treize",
@@ -1228,7 +1134,6 @@ es:"noventa y tres"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:94,
 
 fr:"quatre-vingt-quatorze",
@@ -1241,7 +1146,6 @@ es:"noventa y cuatro"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:95,
 
 fr:"quatre-vingt-quinze",
@@ -1254,7 +1158,6 @@ es:"noventa y cinco"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:96,
 
 fr:"quatre-vingt-seize",
@@ -1267,7 +1170,6 @@ es:"noventa y seis"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:97,
 
 fr:"quatre-vingt-dix-sept",
@@ -1280,7 +1182,6 @@ es:"noventa y siete"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:98,
 
 fr:"quatre-vingt-dix-huit",
@@ -1293,7 +1194,6 @@ es:"noventa y ocho"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:99,
 
 fr:"quatre-vingt-dix-neuf",
@@ -1306,7 +1206,6 @@ es:"noventa y nueve"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:100,
 
 fr:"cent",
@@ -1319,7 +1218,6 @@ es:"centenar"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:200,
 
 fr:"deux-cent",
@@ -1332,7 +1230,6 @@ es:"doscientos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:300,
 
 fr:"trois-cent",
@@ -1345,7 +1242,6 @@ es:"trescientos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:400,
 
 fr:"quatre-cent",
@@ -1358,7 +1254,6 @@ es:"cuatrocientos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:500,
 
 fr:"cinq-cent",
@@ -1371,7 +1266,6 @@ es:"quinientos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:600,
 
 fr:"six-cent",
@@ -1384,7 +1278,6 @@ es:"seiscientos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:700,
 
 fr:"sept-cent",
@@ -1397,7 +1290,6 @@ es:"setecientos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:800,
 
 fr:"huit-cent",
@@ -1410,7 +1302,6 @@ es:"ochocientos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:900,
 
 fr:"neuf-cent",
@@ -1423,7 +1314,6 @@ es:"novecientos"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:1000,
 
 fr:"mille",
@@ -1436,7 +1326,6 @@ es:"mil"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:10000,
 
 fr:"dix-mille",
@@ -1449,7 +1338,6 @@ es:"diez mil"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:100000,
 
 fr:"cent-mille",
@@ -1462,7 +1350,6 @@ es:"cien mil"
 
 {
 cat:"chiffres",
-gram:"inv",
 nb:1000000,
 
 fr:"un million",
@@ -1483,22 +1370,19 @@ es:"un millón"
 
         zeroTrente:{
             nom:"0 à 30",
-            mode:"ordre",
             filtre: carte => carte.nb <= 30
         },
 
         unites:{
             nom:"Les unités",
-            mode:"ordre",
             filtre: carte =>
                 [10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800,900,1000,10000,100000,1000000]
                 .includes(carte.nb)
         },
 
-        random100:{
-            nom:"Random - 100",
-            mode:"random",
-            filtre: carte => carte.nb <= 100
+        all:{
+            nom:"0-100 & unités",
+            filtre: carte => carte.nb <= 1000000
         }
 
     }

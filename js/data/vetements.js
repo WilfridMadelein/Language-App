@@ -268,7 +268,7 @@ es:"los pantalones"
 
     vetements:{
         nom:"Les vêtements",
-        filtre: () => true
+        filtre: carte => carte.cat==="vetement"
     }
 
 }

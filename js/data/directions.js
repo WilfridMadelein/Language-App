@@ -167,21 +167,12 @@ es:"junto a"
     listes:{
 
 
-        ordre:{
+    directions:{
 
-            nom:"Directions - ordre",
-            mode:"ordre",
-            filtre: carte => true
+            nom:"Directions",
+            filtre: () => true
 
         },
-
-        random:{
-
-            nom:"Directions - random",
-            mode:"random",
-            filtre: carte => true
-
-        }
 
     }
 

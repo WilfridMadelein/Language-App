@@ -17,31 +17,16 @@ cartes:[
 listes:{
 
 
-etreOrdre:{
+etre:{
 
-nom:"Être - ordre",
-mode:"ordre",
+nom:"Être",
 filtre: carte => carte.cat==="etre"
 },
 
-etreRandom:{
 
-nom:"Être - random",
-mode:"random",
-filtre: carte => carte.cat==="etre"
-},
+avoir:{
 
-avoirOrdre:{
-
-nom:"Avoir - ordre",
-mode:"ordre",
-filtre: carte => carte.cat==="avoir"
-},
-
-avoirRandom:{
-
-nom:"Avoir - random",
-mode:"random",
+nom:"Avoir",
 filtre: carte => carte.cat==="avoir"
 },
 
