@@ -362,7 +362,7 @@ zone.innerHTML += `
 
         zone.innerHTML += `
 
-            <label class="option-valeur">
+            <label>
 
                 <input
                     type="checkbox"
@@ -372,7 +372,7 @@ zone.innerHTML += `
                     ${nombre===0 ? "disabled" : ""}
                     onchange="changerOptionGram()">
                 
-                <span>
+                <span class="option-valeur-texte">
                 ${texte} (${nombre})
                 </span>
             </label>
