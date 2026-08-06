@@ -9,9 +9,7 @@ box-sizing:border-box;
 body{
 
 margin:0;
-
 font-family:Arial, Helvetica, sans-serif;
-
 background:#f2f2f2;
 
 }
@@ -21,11 +19,8 @@ background:#f2f2f2;
 header{
 
 background:#2c3e50;
-
 color:white;
-
 padding:20px;
-
 text-align:center;
 
 }
@@ -44,7 +39,6 @@ margin:0;
 .container{
 
 display:flex;
-
 min-height:calc(100vh - 80px);
 
 }
@@ -69,7 +63,6 @@ min-height:calc(100vh - 80px);
 .menu-columns {
 
     display:flex;
-
     gap:20px;
 
 }
@@ -79,24 +72,18 @@ min-height:calc(100vh - 80px);
 .categories-container,
 .souscategories-container {
 
-
     flex:1;
-
 
 }
 
 .menu{
 
 width:260px;
-
 background:white;
-
 border-right:1px solid #ddd;
-
 padding:20px;
 
 }
-
 
 
 .menu h2{
@@ -107,33 +94,21 @@ text-align:center;
 
 .categories-container h3 {
 
-
     margin-top:20px;
-
     font-size:16px;
-
 
 }
 
 .menu button{
 
-
 width:100%;
-
 padding:15px;
-
 margin:10px 0;
-
 border:none;
-
 border-radius:8px;
-
 background:#3498db;
-
 color:white;
-
 font-size:16px;
-
 cursor:pointer;
 
 
@@ -150,11 +125,8 @@ background:#2980b9;
 .categorie-btn {
 
     background-color:#3498db;
-
     color:white;
-
     width:100%;
-
     margin-bottom:10px;
 
 }
@@ -170,11 +142,8 @@ background:#2980b9;
 
 
     background-color:#ecf0f1;
-
     color:#333;
-
     width:100%;
-
     margin-bottom:10px;
 
 
@@ -185,7 +154,6 @@ background:#2980b9;
 
 
     background-color:#1abc9c;
-
     color:white;
 
 
@@ -197,13 +165,9 @@ background:#2980b9;
 .content{
 
 flex:1;
-
 display:flex;
-
 flex-direction:column;
-
 justify-content:center;
-
 align-items:center;
 
 }
@@ -212,11 +176,8 @@ align-items:center;
 
 
     font-size:24px;
-
     font-weight:bold;
-
     margin-bottom:25px;
-
     text-align:center;
 
 
@@ -229,31 +190,22 @@ align-items:center;
 .card{
 
 width:350px;
-
 height:220px;
-
 perspective:1000px;
-
 cursor:pointer;
 
 }
 
 
-
 .card-inner{
 
 width:100%;
-
 height:100%;
-
 position:relative;
-
 transition:transform .6s;
-
 transform-style:preserve-3d;
 
 }
-
 
 
 .card.flipped .card-inner{
@@ -261,7 +213,6 @@ transform-style:preserve-3d;
 transform:rotateY(180deg);
 
 }
-
 
 
 .card.no-animation .card-inner{
@@ -272,34 +223,18 @@ transition:none;
 
 
 
-
 .face{
 
-
 position:absolute;
-
 width:100%;
-
 height:100%;
-
 display:flex;
-
 align-items:center;
-
 justify-content:center;
-
-
 border-radius:15px;
-
-
 font-size:42px;
-
 font-weight:bold;
-
-
 backface-visibility:hidden;
-
-
 box-shadow:0 5px 20px rgba(0,0,0,0.2);
 
 
@@ -320,15 +255,10 @@ background:white;
 .back{
 
 background:#27ae60;
-
 color:white;
-
 transform:rotateY(180deg);
 
 }
-
-
-
 
 
 
@@ -345,27 +275,17 @@ margin-top:30px;
 
 .controls button{
 
-
 padding:12px 20px;
-
 margin:5px;
-
 font-size:18px;
-
 border:none;
-
 border-radius:8px;
-
 background:#2c3e50;
-
 color:white;
-
 cursor:pointer;
 
 
 }
-
-
 
 
 .audio-buttons{
@@ -378,21 +298,13 @@ margin-top:15px;
 
 .audio-buttons button{
 
-
 padding:10px 15px;
-
 margin:5px;
-
 border:none;
-
 border-radius:8px;
-
 background:#8e44ad;
-
 color:white;
-
 font-size:16px;
-
 cursor:pointer;
 
 }
@@ -403,7 +315,6 @@ cursor:pointer;
 .counter{
 
 margin-top:20px;
-
 font-size:18px;
 
 }
@@ -412,11 +323,8 @@ font-size:18px;
 .shortcuts {
 
     margin-top:40px;
-
     text-align:center;
-
     font-size:14px;
-
     color:#666;
 
 }
@@ -433,9 +341,7 @@ font-size:18px;
 .options-panel{
 
     margin-top:20px;
-
     padding-top:15px;
-
     border-top:1px solid #ccc;
 
 }
@@ -455,60 +361,37 @@ font-size:18px;
 .option-groupe label{
 
     display:block;
-
     margin:4px 0;
 
 }
-
-.option-valeur span {
-
-    font-family: "Consolas", "Courier New", monospace;
-
-    font-size: 13px;
-
-}
-
 
 
 #optionsContenu h4{
 
     font-family: inherit;
-
     font-size: 16px;
-
     margin-bottom: 8px;
 
 }
 
-
-
-.option-valeur {
-    display: block !important;
-    width: 100%;
-}
-
-.option-valeur input{
-
-    margin-right: 6px;
-
-}
-
-#optionsContenu {
-    display: block;
-}
-
-.option-groupe {
-    display: block;
-}
-
 #optionsContenu label {
-    display:block !important;
-    clear:both;
+
+    display:block;
+    margin:6px 0;
+
 }
+
+
+#optionsContenu input {
+
+    margin-right:6px;
+
+}
+
+
 .option-valeur-texte {
 
     font-family: "Consolas", "Courier New", monospace;
-
     font-size:13px;
 
 }
