@@ -5,7 +5,7 @@ nom:"Les vêtements",
 cartes:[
 
 {
-cat:"vetement",
+cat:"vetements",
 gram:"s",
 
 fr:"le vêtement",
@@ -17,7 +17,7 @@ es:"la prenda"
 
 
 {
-cat:"vetement",
+cat:"vetements",
 gram:"pl",
 
 fr:"les vêtements",
@@ -29,8 +29,8 @@ es:"ropa"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"la robe",
 en:"the dress",
@@ -41,8 +41,8 @@ es:"el vestido"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les robes",
 en:"the dresses",
@@ -53,8 +53,8 @@ es:"los vestidos"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"la chausette",
 en:"the sock",
@@ -65,8 +65,8 @@ es:"el calcetín"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les chausettes",
 en:"socks",
@@ -77,8 +77,8 @@ es:"los calcetines"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"la chemise",
 en:"the shirt",
@@ -89,8 +89,8 @@ es:"la camisa"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les chemises",
 en:"the shirts",
@@ -101,8 +101,8 @@ es:"las camisas"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"le manteau",
 en:"the coat",
@@ -113,8 +113,8 @@ es:"el abrigo"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les manteau",
 en:"the coats",
@@ -125,8 +125,8 @@ es:"los abrigos"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"la veste",
 en:"the jacket",
@@ -137,8 +137,8 @@ es:"la chaqueta"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les vestes",
 en:"the jackets",
@@ -149,8 +149,8 @@ es:"las chaquetas"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"le chapeau",
 en:"the hat",
@@ -161,8 +161,8 @@ es:"el sombrero"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les chapeaux",
 en:"hats",
@@ -173,8 +173,8 @@ es:"sombreros"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"la chaussure",
 en:"the shoe",
@@ -185,8 +185,8 @@ es:"el zapato"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les chaussures",
 en:"the shoes",
@@ -197,8 +197,8 @@ es:"los zapatos"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"le chandail",
 en:"the sweater",
@@ -209,8 +209,8 @@ es:"el suéter"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les chandails",
 en:"the sweaters",
@@ -221,8 +221,8 @@ es:"los suéteres"
 
 
 {
-cat:"vetement",
-gram:"pl",
+cat:"vetements",
+gram:"s",
 
 fr:"la ceinture",
 en:"the belt",
@@ -233,8 +233,8 @@ es:"el cinturón"
 
 
 {
-cat:"vetement",
-gram:"s",
+cat:"vetements",
+gram:"pl",
 
 fr:"les ceintures",
 en:"the belts",
@@ -245,7 +245,7 @@ es:"los cinturones"
 
 
 {
-cat:"vetement",
+cat:"vetements",
 gram:"pl",
 
 fr:"les pantalons",
@@ -263,14 +263,12 @@ es:"los pantalones"
 
 
 
-
    listes:{
 
     vetements:{
         nom:"Les vêtements",
-        filtre: carte => carte.cat==="vetement"
+        filtre: carte => carte.cat==="vetements"
     }
 
 }
-
-};
+}

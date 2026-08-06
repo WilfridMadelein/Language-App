@@ -20,7 +20,7 @@ let configurationActive = {
 
     mode:"ordre",
 
-    gram:[],
+    gram:["s","pl","inv"],
 
     type:[],
 
@@ -336,38 +336,53 @@ zone.innerHTML += `
 
 
 
-    // GRAMMAIRE
+  // GRAMMAIRE
 
-    if(disponibles.gram){
+if(disponibles.gram){
 
-        zone.innerHTML += `
+    zone.innerHTML += `
 
-        <div class="option-groupe">
+    <div class="option-groupe">
 
         <h4>Grammaire</h4>
 
         <label>
-        <input type="checkbox" value="s">
-        Singulier
+            <input
+            type="checkbox"
+            class="option-gram"
+            value="s"
+            checked
+            onchange="changerOptionGram()">
+            Singulier
         </label>
 
 
         <label>
-        <input type="checkbox" value="pl">
-        Pluriel
+            <input
+            type="checkbox"
+            class="option-gram"
+            value="pl"
+            checked
+            onchange="changerOptionGram()">
+            Pluriel
         </label>
 
 
         <label>
-        <input type="checkbox" value="inv">
-        Invariable
+            <input
+            type="checkbox"
+            class="option-gram"
+            value="inv"
+            checked
+            onchange="changerOptionGram()">
+            Invariable
         </label>
 
-        </div>
+    </div>
 
-        `;
+    `;
 
-    }
+}
 
 
 }
@@ -381,6 +396,31 @@ function changerOptionMode(mode){
         "Mode choisi :",
         configurationActive.mode
     );
+
+    rechargerCartes();
+
+}
+
+function changerOptionGram(){
+
+
+    const cases =
+    document.querySelectorAll(
+        ".option-gram:checked"
+    );
+
+
+    configurationActive.gram =
+    Array.from(cases).map(
+        checkbox => checkbox.value
+    );
+
+
+    console.log(
+        "Grammaire choisie :",
+        configurationActive.gram
+    );
+
 
     rechargerCartes();
 
@@ -401,9 +441,26 @@ function rechargerCartes(){
 
 
     cartesActuelles =
-    categorieActive.cartes.filter(
-        listeActive.filtre
-    );
+categorieActive.cartes.filter(carte => {
+
+    // La carte doit appartenir à la sous-catégorie
+
+    if(!listeActive.filtre(carte)){
+        return false;
+    }
+
+    // FILTRE GRAMMAIRE
+
+    if(
+        carte.gram !== undefined
+        &&
+        !configurationActive.gram.includes(carte.gram)
+    ){
+        return false;
+    }
+    return true;
+
+});
 
 
     index=0;
