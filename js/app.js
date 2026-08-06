@@ -408,12 +408,71 @@ function changerOptionMode(mode){
 
 function changerOptionGram(){
 
-
+    //lire cases cochées
+    
     const cases =
     document.querySelectorAll(
         ".option-gram:checked"
     );
 
+     const nouvelleSelection =
+    Array.from(cases).map(
+        checkbox => checkbox.value
+    );
+
+
+    // teste si la nouvelle sélection est valide
+
+    const cartesTest =
+    categorieActive.cartes.filter(carte => {
+
+
+        if(!listeActive.filtre(carte)){
+            return false;
+        }
+
+
+        if(
+            carte.gram !== undefined
+            &&
+            !nouvelleSelection.includes(carte.gram)
+        ){
+            return false;
+        }
+
+        return true;
+
+    });
+
+    // aucune carte, refuse le changement
+
+    if(cartesTest.length === 0){
+
+        alert(
+    "Impossible : aucune carte avec cette sélection."
+);
+
+    const cases =
+    document.querySelectorAll(
+        ".option-gram"
+    );
+
+
+    cases.forEach(c => {
+
+        if(
+            configurationActive.gram.includes(c.value)
+        ){
+            c.checked = true;
+        }
+    });
+
+
+    return;
+
+}
+
+//accepte changement
 
     configurationActive.gram =
     Array.from(cases).map(
