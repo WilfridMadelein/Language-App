@@ -28,6 +28,10 @@ let configurationActive = {
 
 };
 
+let categorieActive = null;
+
+let listeActive = null;
+
 
 // éléments HTML
 
@@ -201,7 +205,9 @@ function proprietesDisponibles(cartes){
 
 function chargerListe(categorie, liste, bouton){
 
+    categorieActive = categorie;
 
+    listeActive = liste;
 
     document
     .querySelectorAll("#sousCategories button")
@@ -225,8 +231,6 @@ categorie.nom
 
 + liste.nom;
 
-modeActuel = configurationActive.mode;
-
 
 // Détecte automatiquement les propriétés présentes
 const cartesFiltrees =
@@ -249,7 +253,7 @@ categorie.cartes.filter(liste.filtre);
 
 index = 0;
 
- if(modeActuel === "random"){
+ if(configurationActive.mode === "random"){
 
     historiqueRandom = [];
 
@@ -378,7 +382,56 @@ function changerOptionMode(mode){
         configurationActive.mode
     );
 
+    rechargerCartes();
+
 }
+
+// ============================
+// RECHARGER CARTE SELON OPTIONS
+// ============================
+
+function rechargerCartes(){
+
+
+    if(!categorieActive || !listeActive){
+
+        return;
+
+    }
+
+
+    cartesActuelles =
+    categorieActive.cartes.filter(
+        listeActive.filtre
+    );
+
+
+    index=0;
+
+
+    if(configurationActive.mode==="random"){
+
+
+        carteActuelle =
+        choisirCarteAleatoire();
+
+
+    }
+    else{
+
+
+        carteActuelle =
+        cartesActuelles[index];
+
+
+    }
+
+
+    afficherCarte();
+
+}
+
+
 
 // ============================
 // AFFICHAGE CARTE
@@ -420,7 +473,7 @@ function afficherCarte(){
 
     back.textContent = carteActuelle[langueCible];
 
- if(modeActuel === "random"){
+ if(configurationActive.mode === "random"){
 
 
         counter.textContent = "Mode aléatoire";
@@ -474,7 +527,7 @@ function suivant(){
 
 
 
-    if(modeActuel === "random"){
+    if(configurationActive.mode === "random"){
 
 
         carteActuelle = choisirCarteAleatoire();
@@ -532,7 +585,7 @@ function precedent(){
 
 
 
-    if(modeActuel === "random"){
+    if(configurationActive.mode === "random"){
 
 
         if(positionHistorique > 0){
