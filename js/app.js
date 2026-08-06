@@ -314,7 +314,9 @@ zone.innerHTML += `
     checked
     onchange="changerOptionMode(this.value)">
 
+    <span class="option-valeur-texte">
     Ordre
+    </span>
 
     </label>
 
@@ -327,7 +329,9 @@ zone.innerHTML += `
     value="random"
     onchange="changerOptionMode(this.value)">
 
+    <span class="option-valeur-texte">
     Random
+    </span>
 
     </label>
 
@@ -358,7 +362,7 @@ zone.innerHTML += `
 
         zone.innerHTML += `
 
-            <label>
+            <label class="option-valeur">
 
                 <input
                     type="checkbox"
@@ -367,9 +371,10 @@ zone.innerHTML += `
                     checked
                     ${nombre===0 ? "disabled" : ""}
                     onchange="changerOptionGram()">
-
+                
+                <span>
                 ${texte} (${nombre})
-
+                </span>
             </label>
 
         `;

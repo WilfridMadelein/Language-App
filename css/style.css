@@ -459,3 +459,56 @@ font-size:18px;
     margin:4px 0;
 
 }
+
+.option-valeur span {
+
+    font-family: "Consolas", "Courier New", monospace;
+
+    font-size: 13px;
+
+}
+
+
+
+#optionsContenu h4{
+
+    font-family: inherit;
+
+    font-size: 16px;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+.option-valeur {
+    display: block !important;
+    width: 100%;
+}
+
+.option-valeur input{
+
+    margin-right: 6px;
+
+}
+
+#optionsContenu {
+    display: block;
+}
+
+.option-groupe {
+    display: block;
+}
+
+#optionsContenu label {
+    display:block !important;
+    clear:both;
+}
+.option-valeur-texte {
+
+    font-family: "Consolas", "Courier New", monospace;
+
+    font-size:13px;
+
+}
