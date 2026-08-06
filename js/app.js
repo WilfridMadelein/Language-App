@@ -338,6 +338,8 @@ zone.innerHTML += `
 
   // GRAMMAIRE
 
+  const compteurGram = compterValeurs("gram");
+
 if(disponibles.gram){
 
     zone.innerHTML += `
@@ -352,8 +354,9 @@ if(disponibles.gram){
             class="option-gram"
             value="s"
             checked
+              ${!compteurGram.s ? "disabled" : ""}
             onchange="changerOptionGram()">
-            Singulier
+            Singulier (${compteurGram.s || 0})
         </label>
 
 
@@ -363,8 +366,9 @@ if(disponibles.gram){
             class="option-gram"
             value="pl"
             checked
+              ${!compteurGram.pl ? "disabled" : ""}
             onchange="changerOptionGram()">
-            Pluriel
+            Pluriel (${compteurGram.pl || 0})
         </label>
 
 
@@ -374,8 +378,9 @@ if(disponibles.gram){
             class="option-gram"
             value="inv"
             checked
+             ${!compteurGram.inv ? "disabled" : ""}
             onchange="changerOptionGram()">
-            Invariable
+            Invariable (${compteurGram.inv || 0})
         </label>
 
     </div>
@@ -488,7 +493,35 @@ categorieActive.cartes.filter(carte => {
 
 }
 
+function compterValeurs(cle){
 
+    const compteurs = {};
+
+    categorieActive.cartes.forEach(carte=>{
+
+        // On applique seulement le filtre de la sous-catégorie
+        if(!listeActive.filtre(carte)){
+            return;
+        }
+
+        // La carte possède-t-elle cette propriété ?
+        if(carte[cle]===undefined){
+            return;
+        }
+
+        const valeur = carte[cle];
+
+        if(!compteurs[valeur]){
+            compteurs[valeur]=0;
+        }
+
+        compteurs[valeur]++;
+
+    });
+
+    return compteurs;
+
+}
 
 // ============================
 // AFFICHAGE CARTE
