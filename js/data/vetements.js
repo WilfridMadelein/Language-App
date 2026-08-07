@@ -64,7 +64,7 @@ el:"τα φορέματα"
 cat:"vetements",
 gram:"s",
 
-fr:"la chausette",
+fr:"la chaussette",
 en:"the sock",
 it:"il calzino",
 de:"die Socke",
@@ -78,7 +78,7 @@ el:"η κάλτσα"
 cat:"vetements",
 gram:"pl",
 
-fr:"les chausettes",
+fr:"les chaussettes",
 en:"socks",
 it:"calzini",
 de:"Socken",
@@ -134,13 +134,13 @@ el:"το παλτό"
 cat:"vetements",
 gram:"pl",
 
-fr:"les manteau",
-en:"the coats",
-it:"i cappotti",
-de:"die Mäntel",
-es:"los abrigos",
+fr:"les manteaux",
+en:"coats",
+it:"cappotti",
+de:"Mäntel",
+es:"abrigos",
 la:"pallia",
-el:"τα παλτά"
+el:"παλτά"
 },
 
 

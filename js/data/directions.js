@@ -134,6 +134,48 @@ el:"στάση"
 cat:"directions",
 gram:"inv",
 
+fr:"ici",
+en:"here",
+it:"Qui",
+de:"Hier",
+es:"aquí",
+la:"hic",
+el:"εδώ"
+},
+
+
+{
+cat:"directions",
+gram:"inv",
+
+fr:"là",
+en:"there",
+it:"Là",
+de:"Dort",
+es:"allá",
+la:"ibi",
+el:"εκεί"
+},
+
+
+{
+cat:"directions",
+gram:"inv",
+
+fr:"là-bas",
+en:"over there",
+it:"laggiù",
+de:"da drüben",
+es:"allí",
+la:"illic",
+el:"εκεί πέρα"
+},
+
+
+{
+cat:"directions",
+gram:"inv",
+
 fr:"en dessous",
 en:"below",
 it:"sotto",
@@ -187,7 +229,6 @@ el:"δίπλα σε"
 
 
 ],
-
 
 
 
