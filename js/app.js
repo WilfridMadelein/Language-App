@@ -366,11 +366,12 @@ zone.innerHTML += `
 
                 <input
                     type="checkbox"
-                    class="option-gram"
+                    class="option-filtre"
+                        data-filtre="gram"
                     value="${valeur}"
                     checked
                     ${nombre===0 ? "disabled" : ""}
-                    onchange="changerOptionGram()">
+                    onchange="changerOptionFiltre(this)">
                 
                 <span class="option-valeur-texte">
                 ${texte} (${nombre})
@@ -416,11 +417,12 @@ if(disponibles.type){
 
             <input
             type="checkbox"
-            class="option-type"
+            class="option-filtre"
+            data-filtre="type"
             value="${valeur}"
             checked
             ${nombre===0 ? "disabled" : ""}
-            onchange="changerOptionType()">
+            onchange="changerOptionFiltre(this)">
 
 
             <span class="option-valeur-texte">
@@ -442,6 +444,76 @@ if(disponibles.type){
 // ============================
 // CHANGEMENT D'OPTION
 // ============================
+function changerOptionFiltre(input){
+
+    const idFiltre = input.dataset.filtre;
+
+    // lire les cases cochées
+
+    const cases =
+    document.querySelectorAll(
+        `.option-filtre[data-filtre="${idFiltre}"]:checked`
+    );
+
+
+    const nouvelleSelection =
+    Array.from(cases).map(
+        checkbox => checkbox.value
+    );
+
+    // teste si la nouvelle sélection est valide
+
+    const cartesTest =
+    appliquerFiltre(
+        idFiltre,
+        nouvelleSelection
+    );
+
+    // aucune carte, refuse le changement
+
+    if(cartesTest.length === 0){
+
+        alert(
+            "Impossible : aucune carte avec cette sélection."
+        );
+    
+
+    document
+        .querySelectorAll(
+            `.option-filtre[data-filtre="${idFiltre}"]`
+        )
+        .forEach(c=>{
+
+            if(
+            configurationActive[idFiltre]
+            .includes(c.value)
+            ){
+
+                c.checked=true;
+
+            }
+            else{
+
+                c.checked=false;
+
+            }
+
+        });
+
+
+        return;
+
+    }
+
+    // accepte changement   
+
+    configurationActive[idFiltre] =
+    nouvelleSelection;
+
+     rechargerCartes();
+
+}
+    
 
 function changerOptionMode(mode){
 
@@ -457,123 +529,7 @@ function changerOptionMode(mode){
 
 }
 
-function changerOptionGram(){
 
-    //lire cases cochées
-
-    const cases =
-    document.querySelectorAll(
-        ".option-gram:checked"
-    );
-
-     const nouvelleSelection =
-    Array.from(cases).map(
-        checkbox => checkbox.value
-    );
-
-
-    // teste si la nouvelle sélection est valide
-
-     const cartesTest =
-    appliquerFiltre(
-        "gram",
-        nouvelleSelection
-    );
-
-
-    // aucune carte, refuse le changement
-
-    if(cartesTest.length === 0){
-
-        alert(
-    "Impossible : aucune carte avec cette sélection."
-);
-
-    document.querySelectorAll(".option-gram")
-        .forEach(c=>{
-
-            if(configurationActive.gram.includes(c.value)){
-             c.checked=true;
-            }
-            else{
-             c.checked=false;
-            }
-
-        });
-
-
-        return;
-
-    }
-
-//accepte changement
-
-    configurationActive.gram =
-    nouvelleSelection;
-
-
-    rechargerCartes();
-
-}
-
-function changerOptionType(){
-
-    //lire cases cochées
-
-    const cases =
-    document.querySelectorAll(
-        ".option-type:checked"
-    );
-
-     const nouvelleSelection =
-    Array.from(cases).map(
-        checkbox => checkbox.value
-    );
-
-
-    // teste si la nouvelle sélection est valide
-
-     const cartesTest =
-    appliquerFiltre(
-        "type",
-        nouvelleSelection
-    );
-
-
-    // aucune carte, refuse le changement
-
-    if(cartesTest.length === 0){
-
-        alert(
-    "Impossible : aucune carte avec cette sélection."
-);
-
-    document.querySelectorAll(".option-type")
-        .forEach(c=>{
-
-            if(configurationActive.type.includes(c.value)){
-             c.checked=true;
-            }
-            else{
-             c.checked=false;
-            }
-
-        });
-
-
-        return;
-
-    }
-
-//accepte changement
-
-    configurationActive.type =
-    nouvelleSelection;
-
-
-    rechargerCartes();
-
-}
 
 // filtre
 
@@ -640,7 +596,7 @@ categorieActive.cartes.filter(carte => {
     }
 
 
-    
+
     return true;
 
 });
@@ -748,7 +704,7 @@ const libellesFiltres = {
     type:{
 
         infinitif:"Infinitif",
-        conju:"Conju-gay-son"
+        conju:"Conjugaison"
 
     },
 
