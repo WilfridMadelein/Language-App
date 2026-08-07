@@ -96,50 +96,44 @@ AJOUTER LANGUE :
 AJOUTER FILTRE
 
     - Modifier les cartes (pour qu'ils aient le bon filtre)
-    - ajoute les libellé en allant dans const libellesFiltres (app.js)
+    - ajoute les libellé en allant dans const Filtres (filtres.js)
 
     --
 
-        *filtre*:{
-          *nomcarte1* :"*nomaffichage1*",
-          *nomcarte2* :"*nomaffichage2*"
+        *nouveau filtre*:{
+
+        titre:"Nom",
+
+        type:"checkbox",
+
+        dependDe:"*autre filtre*",   *!!!si nécessaire seulement!!!*
+
+        afficherSi:[
+            "*option de autre filtre*"
+        ],                           *!!! si "dependDe" utilisé!!!*
+
+        ordre:[
+            "*1er option*",
+            "*2e option*",
+            "*3e option*"
+        ],
+
+        options:{
+
+            "*1er option*":"*Nom affiché 1*",
+            "*2e option*":"*Nom affiché 2*",
+            "*3e option*":"*Nom affiché 3*"
+
         }
-    
-    --------
 
-    - ajouter affichage automatique dans afficherOption(disponibles) (app.js) :
-
-    --
-
-        // *nouveaufiltre*
-
-        if(disponible.*filtre*){
-
-            zone.innerHTML += `
-
-            <div class="option-groupe">
-
-            <h4>*Filtre Affichagé*</h4>
-
-            `;
-        
-            disponibles.*filtre*.forEach(valeur=>{
-
-
-                const texte =
-                libellesFiltres.*filtre*[valeur] ?? valeur;
-
-            ... (universel) ...
-
-            }
-
+        },
     --------
 
     - dans let configurationActive , ajouter la mémoire du choix :
 
     --
 
-        *filtre*:["*filtre1*","*filtre2*"]
+        *filtre*:["*option1*","*option2*",...]
 
     --------
 

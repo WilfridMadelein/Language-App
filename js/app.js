@@ -24,7 +24,7 @@ let configurationActive = {
 
     type:["infinitif","conju"],
 
-    temps:[]
+    temps:["présent","passé","futur"]
 
 };
 
@@ -402,7 +402,6 @@ zone.innerHTML += `
 zone.innerHTML += afficherFiltre("gram", disponibles);
 zone.innerHTML += afficherFiltre("type", disponibles);
 zone.innerHTML += afficherFiltre("temps", disponibles);
-zone.innerHTML += afficherFiltre("personne", disponibles);
 
 
 
@@ -554,6 +553,7 @@ categorieActive.cartes.filter(carte => {
 
 
     // FILTRE TYPE
+
     if(
         carte.type !== undefined
         &&
@@ -562,9 +562,24 @@ categorieActive.cartes.filter(carte => {
         return false;
     }
 
+    // FILTRE TEMPS
+
+    if(
+        carte.temps !== undefined
+        &&
+        !configurationActive.temps.includes(carte.temps)
+    ){
+        return false;
+    }
+
+
+
+
 
 
     return true;
+
+
 
 });
 
