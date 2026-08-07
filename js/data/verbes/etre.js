@@ -136,7 +136,7 @@ model:"indicatif",
 temps:"passé",
 personne:"1s",
 
-fr:"Je J'étais",
+fr:"J'étais",
 en:"I was",
 it:"Io Ero",
 de:"Ich war",
