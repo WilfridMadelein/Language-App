@@ -12,7 +12,9 @@ fr:"à gauche",
 en:"left",
 it:"Sinistra",
 de:"links",
-es:"izquierda"
+es:"izquierda",
+la:"sinistra",
+el:"αριστερά"
 },
 
 
@@ -24,7 +26,9 @@ fr:"à droite",
 en:"right",
 it:"Giusto",
 de:"Rechts",
-es:"bien"
+es:"bien",
+la:"dexter",
+el:"δικαίωμα"
 },
 
 
@@ -36,7 +40,9 @@ fr:"tout droit",
 en:"straight ahead",
 it:"sempre dritto",
 de:"geradeaus",
-es:"todo derecho"
+es:"todo derecho",
+la:"recto ante",
+el:"ευθεία μπροστά"
 },
 
 
@@ -48,7 +54,9 @@ fr:"devant",
 en:"in front",
 it:"davanti",
 de:"vorne",
-es:"Al frente"
+es:"Al frente",
+la:"ante",
+el:"μπροστά"
 },
 
 
@@ -60,7 +68,9 @@ fr:"derrière",
 en:"behind",
 it:"dietro",
 de:"hinter",
-es:"detrás"
+es:"detrás",
+la:"post tergum",
+el:"πίσω"
 },
 
 
@@ -72,7 +82,9 @@ fr:"tourne",
 en:"turned",
 it:"girato",
 de:"gedreht",
-es:"transformado"
+es:"transformado",
+la:"versus",
+el:"γύρισε"
 },
 
 
@@ -84,7 +96,9 @@ fr:"avance",
 en:"advance",
 it:"anticipo",
 de:"Vorauszahlung",
-es:"avance"
+es:"avance",
+la:"progressus",
+el:"προκαταβολή"
 },
 
 
@@ -96,7 +110,9 @@ fr:"recule",
 en:"retreat",
 it:"ritirarsi",
 de:"Rückzug",
-es:"retiro"
+es:"retiro",
+la:"refugium",
+el:"υποχώρηση"
 },
 
 
@@ -108,7 +124,9 @@ fr:"arrête",
 en:"stop",
 it:"fermare",
 de:"stoppen",
-es:"detener"
+es:"detener",
+la:"siste",
+el:"στάση"
 },
 
 
@@ -120,7 +138,9 @@ fr:"en dessous",
 en:"below",
 it:"sotto",
 de:"unten",
-es:"abajo"
+es:"abajo",
+la:"infra",
+el:"παρακάτω"
 },
 
 
@@ -132,7 +152,9 @@ fr:"au-dessus",
 en:"above",
 it:"Sopra",
 de:"über",
-es:"arriba"
+es:"arriba",
+la:"supra",
+el:"πάνω από"
 },
 
 
@@ -144,7 +166,9 @@ fr:"dedans",
 en:"inside",
 it:"dentro",
 de:"innen",
-es:"adentro"
+es:"adentro",
+la:"intus",
+el:"μέσα"
 },
 
 
@@ -156,11 +180,15 @@ fr:"à côté de",
 en:"next to",
 it:"accanto a",
 de:"neben",
-es:"junto a"
+es:"junto a",
+la:"iuxta",
+el:"δίπλα σε"
 }
 
 
 ],
+
+
 
 
 

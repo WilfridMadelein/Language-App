@@ -12,7 +12,9 @@ fr:"zéro",
 en:"zero",
 it:"zero",
 de:"null",
-es:"cero"
+es:"cero",
+la:"nihilum",
+el:"μηδέν"
 },
 
 
@@ -24,7 +26,9 @@ fr:"un",
 en:"A",
 it:"UN",
 de:"A",
-es:"A"
+es:"A",
+la:"A",
+el:"ΕΝΑ"
 },
 
 
@@ -36,7 +40,9 @@ fr:"deux",
 en:"two",
 it:"due",
 de:"zwei",
-es:"dos"
+es:"dos",
+la:"duo",
+el:"δυο"
 },
 
 
@@ -48,7 +54,9 @@ fr:"trois",
 en:"three",
 it:"tre",
 de:"drei",
-es:"tres"
+es:"tres",
+la:"tres",
+el:"τρία"
 },
 
 
@@ -60,7 +68,9 @@ fr:"quatre",
 en:"four",
 it:"quattro",
 de:"vier",
-es:"cuatro"
+es:"cuatro",
+la:"quattuor",
+el:"τέσσερα"
 },
 
 
@@ -72,7 +82,9 @@ fr:"cinq",
 en:"five",
 it:"cinque",
 de:"fünf",
-es:"cinco"
+es:"cinco",
+la:"quinque",
+el:"πέντε"
 },
 
 
@@ -84,7 +96,9 @@ fr:"six",
 en:"six",
 it:"sei",
 de:"sechs",
-es:"seis"
+es:"seis",
+la:"sex",
+el:"έξι"
 },
 
 
@@ -96,7 +110,9 @@ fr:"sept",
 en:"seven",
 it:"Sette",
 de:"Sieben",
-es:"Siete"
+es:"Siete",
+la:"septem",
+el:"επτά"
 },
 
 
@@ -108,7 +124,9 @@ fr:"huit",
 en:"eight",
 it:"otto",
 de:"acht",
-es:"ocho"
+es:"ocho",
+la:"octo",
+el:"οκτώ"
 },
 
 
@@ -120,7 +138,9 @@ fr:"neuf",
 en:"nine",
 it:"nove",
 de:"neun",
-es:"nueve"
+es:"nueve",
+la:"novem",
+el:"εννέα"
 },
 
 
@@ -132,7 +152,9 @@ fr:"dix",
 en:"ten",
 it:"dieci",
 de:"zehn",
-es:"diez"
+es:"diez",
+la:"decem",
+el:"δέκα"
 },
 
 
@@ -144,7 +166,9 @@ fr:"onze",
 en:"eleven",
 it:"undici",
 de:"elf",
-es:"once"
+es:"once",
+la:"undecim",
+el:"έντεκα"
 },
 
 
@@ -156,7 +180,9 @@ fr:"douze",
 en:"twelve",
 it:"dodici",
 de:"zwölf",
-es:"doce"
+es:"doce",
+la:"duodecim",
+el:"δώδεκα"
 },
 
 
@@ -168,7 +194,9 @@ fr:"treize",
 en:"thirteen",
 it:"tredici",
 de:"dreizehn",
-es:"trece"
+es:"trece",
+la:"tredecim",
+el:"δεκατρείς"
 },
 
 
@@ -180,7 +208,9 @@ fr:"quatorze",
 en:"fourteen",
 it:"quattordici",
 de:"vierzehn",
-es:"catorce"
+es:"catorce",
+la:"quattuordecim",
+el:"δεκατέσσερα"
 },
 
 
@@ -192,7 +222,9 @@ fr:"quinze",
 en:"fifteen",
 it:"quindici",
 de:"fünfzehn",
-es:"quince"
+es:"quince",
+la:"quindecim",
+el:"δεκαπέντε"
 },
 
 
@@ -204,7 +236,9 @@ fr:"seize",
 en:"sixteen",
 it:"sedici",
 de:"sechzehn",
-es:"dieciséis"
+es:"dieciséis",
+la:"sedecim",
+el:"δεκαέξι"
 },
 
 
@@ -216,7 +250,9 @@ fr:"dix-sept",
 en:"seventeen",
 it:"diciassette",
 de:"siebzehn",
-es:"diecisiete"
+es:"diecisiete",
+la:"septemdecim",
+el:"δεκαεπτά"
 },
 
 
@@ -228,7 +264,9 @@ fr:"dix-huit",
 en:"eighteen",
 it:"diciotto",
 de:"achtzehn",
-es:"dieciocho"
+es:"dieciocho",
+la:"duodeviginti",
+el:"δεκαοχτώ"
 },
 
 
@@ -240,7 +278,9 @@ fr:"dix-neuf",
 en:"nineteen",
 it:"diciannove",
 de:"neunzehn",
-es:"diecinueve"
+es:"diecinueve",
+la:"undeviginti",
+el:"δεκαεννέα"
 },
 
 
@@ -252,7 +292,9 @@ fr:"vingt",
 en:"twenty",
 it:"venti",
 de:"zwanzig",
-es:"veinte"
+es:"veinte",
+la:"viginti",
+el:"είκοσι"
 },
 
 
@@ -264,7 +306,9 @@ fr:"vingt et un",
 en:"twenty-one",
 it:"ventuno",
 de:"einundzwanzig",
-es:"veintiuno"
+es:"veintiuno",
+la:"viginti unus",
+el:"είκοσι ένα"
 },
 
 
@@ -276,7 +320,9 @@ fr:"vingt-deux",
 en:"twenty-two",
 it:"ventidue",
 de:"zweiundzwanzig",
-es:"Veintidós"
+es:"Veintidós",
+la:"viginti duo",
+el:"είκοσι δύο"
 },
 
 
@@ -288,7 +334,9 @@ fr:"vingt-trois",
 en:"twenty-three",
 it:"ventitré",
 de:"dreiundzwanzig",
-es:"veintitrés"
+es:"veintitrés",
+la:"viginti tres",
+el:"είκοσι τρία"
 },
 
 
@@ -300,7 +348,9 @@ fr:"vingt-quatre",
 en:"twenty-four",
 it:"ventiquattro",
 de:"vierundzwanzig",
-es:"veinticuatro"
+es:"veinticuatro",
+la:"viginti quattuor",
+el:"είκοσι τέσσερα"
 },
 
 
@@ -312,7 +362,9 @@ fr:"vingt-cinq",
 en:"twenty-five",
 it:"venticinque",
 de:"fünfundzwanzig",
-es:"Veinticinco"
+es:"Veinticinco",
+la:"viginti quinque",
+el:"είκοσι πέντε"
 },
 
 
@@ -324,7 +376,9 @@ fr:"vingt-six",
 en:"twenty-six",
 it:"ventisei",
 de:"sechsundzwanzig",
-es:"veintiséis"
+es:"veintiséis",
+la:"viginti sex",
+el:"είκοσι έξι"
 },
 
 
@@ -336,7 +390,9 @@ fr:"vingt-sept",
 en:"twenty-seven",
 it:"ventisette",
 de:"siebenundzwanzig",
-es:"veintisiete"
+es:"veintisiete",
+la:"viginti septem",
+el:"είκοσι επτά"
 },
 
 
@@ -348,7 +404,9 @@ fr:"vingt-huit",
 en:"twenty-eight",
 it:"ventotto",
 de:"achtundzwanzig",
-es:"veintiocho"
+es:"veintiocho",
+la:"viginti octo",
+el:"είκοσι οκτώ"
 },
 
 
@@ -360,7 +418,9 @@ fr:"vingt-neuf",
 en:"twenty-nine",
 it:"ventinove",
 de:"neunundzwanzig",
-es:"veintinueve"
+es:"veintinueve",
+la:"viginti novem",
+el:"είκοσι εννέα"
 },
 
 
@@ -372,7 +432,9 @@ fr:"trente",
 en:"thirty",
 it:"trenta",
 de:"dreißig",
-es:"treinta"
+es:"treinta",
+la:"triginta",
+el:"τριάντα"
 },
 
 
@@ -384,7 +446,9 @@ fr:"trente et un",
 en:"thirty-one",
 it:"trentuno",
 de:"einunddreißig",
-es:"treinta y uno"
+es:"treinta y uno",
+la:"triginta unus",
+el:"τριάντα ένα"
 },
 
 
@@ -396,7 +460,9 @@ fr:"trente-deux",
 en:"thirty-two",
 it:"trentadue",
 de:"zweiunddreißig",
-es:"treinta y dos"
+es:"treinta y dos",
+la:"triginta duo",
+el:"τριάντα δύο"
 },
 
 
@@ -408,7 +474,9 @@ fr:"trente-trois",
 en:"thirty-three",
 it:"trentatré",
 de:"dreiunddreißig",
-es:"treinta y tres"
+es:"treinta y tres",
+la:"triginta tres",
+el:"τριάντα τρία"
 },
 
 
@@ -420,7 +488,9 @@ fr:"trente-quatre",
 en:"thirty-four",
 it:"trentaquattro",
 de:"vierunddreißig",
-es:"treinta y cuatro"
+es:"treinta y cuatro",
+la:"triginta quattuor",
+el:"τριάντα τέσσερα"
 },
 
 
@@ -432,7 +502,9 @@ fr:"trente-cinq",
 en:"thirty-five",
 it:"trentacinque",
 de:"fünfunddreißig",
-es:"treinta y cinco"
+es:"treinta y cinco",
+la:"triginta quinque",
+el:"τριάντα πέντε"
 },
 
 
@@ -444,7 +516,9 @@ fr:"trente-six",
 en:"thirty-six",
 it:"trentasei",
 de:"sechsunddreißig",
-es:"treinta y seis"
+es:"treinta y seis",
+la:"triginta sex",
+el:"τριάντα έξι"
 },
 
 
@@ -456,7 +530,9 @@ fr:"trente-sept",
 en:"thirty-seven",
 it:"trentasette",
 de:"siebenunddreißig",
-es:"treinta y siete"
+es:"treinta y siete",
+la:"triginta septem",
+el:"τριάντα επτά"
 },
 
 
@@ -468,7 +544,9 @@ fr:"trente-huit",
 en:"thirty-eight",
 it:"trentotto",
 de:"achtunddreißig",
-es:"treinta y ocho"
+es:"treinta y ocho",
+la:"triginta octo",
+el:"τριάντα οκτώ"
 },
 
 
@@ -480,7 +558,9 @@ fr:"trente-neuf",
 en:"thirty-nine",
 it:"trentanove",
 de:"neununddreißig",
-es:"treinta y nueve"
+es:"treinta y nueve",
+la:"triginta novem",
+el:"τριάντα εννέα"
 },
 
 
@@ -492,7 +572,9 @@ fr:"quarante",
 en:"forty",
 it:"quaranta",
 de:"vierzig",
-es:"cuarenta"
+es:"cuarenta",
+la:"quadraginta",
+el:"σαράντα"
 },
 
 
@@ -504,7 +586,9 @@ fr:"quarante et un",
 en:"forty-one",
 it:"quarantuno",
 de:"einundvierzig",
-es:"cuarenta y uno"
+es:"cuarenta y uno",
+la:"quadraginta unus",
+el:"σαράντα ένα"
 },
 
 
@@ -516,7 +600,9 @@ fr:"quarante-deux",
 en:"forty-two",
 it:"quarantadue",
 de:"zweiundvierzig",
-es:"cuarenta y dos"
+es:"cuarenta y dos",
+la:"quadraginta duo",
+el:"σαράντα δύο"
 },
 
 
@@ -528,7 +614,9 @@ fr:"quarante-trois",
 en:"forty-three",
 it:"quarantatré",
 de:"dreiundvierzig",
-es:"cuarenta y tres"
+es:"cuarenta y tres",
+la:"quadraginta tres",
+el:"σαράντα τρία"
 },
 
 
@@ -540,7 +628,9 @@ fr:"quarante-quatre",
 en:"forty-four",
 it:"quarantaquattro",
 de:"vierundvierzig",
-es:"cuarenta y cuatro"
+es:"cuarenta y cuatro",
+la:"quadraginta quattuor",
+el:"σαράντα τέσσερα"
 },
 
 
@@ -552,7 +642,9 @@ fr:"quarante-cinq",
 en:"forty-five",
 it:"quarantacinque",
 de:"fünfundvierzig",
-es:"Cuarenta y cinco"
+es:"Cuarenta y cinco",
+la:"quadraginta quinque",
+el:"σαράντα πέντε"
 },
 
 
@@ -564,7 +656,9 @@ fr:"quarante-six",
 en:"forty-six",
 it:"quarantasei",
 de:"sechsundvierzig",
-es:"cuarenta y seis"
+es:"cuarenta y seis",
+la:"quadraginta sex",
+el:"σαράντα έξι"
 },
 
 
@@ -576,7 +670,9 @@ fr:"quarante-sept",
 en:"forty-seven",
 it:"quarantasette",
 de:"siebenundvierzig",
-es:"cuarenta y siete"
+es:"cuarenta y siete",
+la:"quadraginta septem",
+el:"σαράντα επτά"
 },
 
 
@@ -588,7 +684,9 @@ fr:"quarante-huit",
 en:"forty-eight",
 it:"quarantotto",
 de:"achtundvierzig",
-es:"cuarenta y ocho"
+es:"cuarenta y ocho",
+la:"quadraginta octo",
+el:"σαράντα οκτώ"
 },
 
 
@@ -600,7 +698,9 @@ fr:"quarante-neuf",
 en:"forty-nine",
 it:"quarantanove",
 de:"neunundvierzig",
-es:"cuarenta y nueve"
+es:"cuarenta y nueve",
+la:"quadraginta novem",
+el:"σαράντα εννέα"
 },
 
 
@@ -612,7 +712,9 @@ fr:"cinquante",
 en:"fifty",
 it:"cinquanta",
 de:"fünfzig",
-es:"cincuenta"
+es:"cincuenta",
+la:"quinquaginta",
+el:"πενήντα"
 },
 
 
@@ -624,7 +726,9 @@ fr:"cinquante et un",
 en:"fifty-one",
 it:"cinquantuno",
 de:"einundfünfzig",
-es:"cincuenta y uno"
+es:"cincuenta y uno",
+la:"quinquaginta unus",
+el:"πενήντα ένα"
 },
 
 
@@ -636,7 +740,9 @@ fr:"cinquante-deux",
 en:"fifty-two",
 it:"cinquantadue",
 de:"zweiundfünfzig",
-es:"cincuenta y dos"
+es:"cincuenta y dos",
+la:"quinquaginta duo",
+el:"πενήντα δύο"
 },
 
 
@@ -648,7 +754,9 @@ fr:"cinquante-trois",
 en:"fifty-three",
 it:"cinquantatré",
 de:"dreiundfünfzig",
-es:"cincuenta y tres"
+es:"cincuenta y tres",
+la:"quinquaginta tres",
+el:"πενήντα τρία"
 },
 
 
@@ -660,7 +768,9 @@ fr:"cinquante-quatre",
 en:"fifty-four",
 it:"cinquantaquattro",
 de:"vierundfünfzig",
-es:"cincuenta y cuatro"
+es:"cincuenta y cuatro",
+la:"quinquaginta quattuor",
+el:"πενήντα τέσσερα"
 },
 
 
@@ -672,7 +782,9 @@ fr:"cinquante-cinq",
 en:"fifty-five",
 it:"cinquantacinque",
 de:"fünfundfünfzig",
-es:"cincuenta y cinco"
+es:"cincuenta y cinco",
+la:"quinquaginta quinque",
+el:"πενήντα πέντε"
 },
 
 
@@ -684,7 +796,9 @@ fr:"cinquante-six",
 en:"fifty-six",
 it:"cinquantasei",
 de:"sechsundfünfzig",
-es:"cincuenta y seis"
+es:"cincuenta y seis",
+la:"quinquaginta sex",
+el:"πενήντα έξι"
 },
 
 
@@ -696,7 +810,9 @@ fr:"cinquante-sept",
 en:"fifty-seven",
 it:"cinquantasette",
 de:"siebenundfünfzig",
-es:"cincuenta y siete"
+es:"cincuenta y siete",
+la:"quinquaginta septem",
+el:"πενήντα επτά"
 },
 
 
@@ -708,7 +824,9 @@ fr:"cinquante-huit",
 en:"fifty-eight",
 it:"cinquantotto",
 de:"achtundfünfzig",
-es:"cincuenta y ocho"
+es:"cincuenta y ocho",
+la:"quinquaginta octo",
+el:"πενήντα οκτώ"
 },
 
 
@@ -720,7 +838,9 @@ fr:"cinquante-neuf",
 en:"fifty-nine",
 it:"cinquantanove",
 de:"neunundfünfzig",
-es:"cincuenta y nueve"
+es:"cincuenta y nueve",
+la:"quinquaginta novem",
+el:"πενήντα εννέα"
 },
 
 
@@ -732,7 +852,9 @@ fr:"soixante",
 en:"sixty",
 it:"sessanta",
 de:"sechzig",
-es:"sesenta"
+es:"sesenta",
+la:"sexaginta",
+el:"εξήντα"
 },
 
 
@@ -744,7 +866,9 @@ fr:"soixante et un",
 en:"sixty-one",
 it:"sessantuno",
 de:"einundsechzig",
-es:"sesenta y uno"
+es:"sesenta y uno",
+la:"sexaginta unus",
+el:"εξήντα ένα"
 },
 
 
@@ -756,7 +880,9 @@ fr:"soixante-deux",
 en:"sixty-two",
 it:"sessantadue",
 de:"zweiundsechzig",
-es:"sesenta y dos"
+es:"sesenta y dos",
+la:"sexaginta duo",
+el:"εξήντα δύο"
 },
 
 
@@ -768,7 +894,9 @@ fr:"soixante-trois",
 en:"sixty-three",
 it:"sessantatré",
 de:"dreiundsechzig",
-es:"sesenta y tres"
+es:"sesenta y tres",
+la:"sexaginta tres",
+el:"εξήντα τρία"
 },
 
 
@@ -780,7 +908,9 @@ fr:"soixante-quatre",
 en:"sixty-four",
 it:"sessantaquattro",
 de:"vierundsechzig",
-es:"sesenta y cuatro"
+es:"sesenta y cuatro",
+la:"sexaginta quattuor",
+el:"εξήντα τέσσερα"
 },
 
 
@@ -792,7 +922,9 @@ fr:"soixante-cinq",
 en:"sixty-five",
 it:"sessantacinque",
 de:"fünfundsechzig",
-es:"sesenta y cinco"
+es:"sesenta y cinco",
+la:"sexaginta quinque",
+el:"εξήντα πέντε"
 },
 
 
@@ -804,7 +936,9 @@ fr:"soixante-six",
 en:"sixty-six",
 it:"sessantasei",
 de:"sechsundsechzig",
-es:"sesenta y seis"
+es:"sesenta y seis",
+la:"sexaginta sex",
+el:"εξήντα έξι"
 },
 
 
@@ -816,7 +950,9 @@ fr:"soixante-sept",
 en:"sixty-seven",
 it:"sessantasette",
 de:"siebenundsechzig",
-es:"sesenta y siete"
+es:"sesenta y siete",
+la:"sexaginta septem",
+el:"εξήντα επτά"
 },
 
 
@@ -828,7 +964,9 @@ fr:"soixante-huit",
 en:"sixty-eight",
 it:"sessantotto",
 de:"achtundsechzig",
-es:"sesenta y ocho"
+es:"sesenta y ocho",
+la:"sexaginta octo",
+el:"εξήντα οκτώ"
 },
 
 
@@ -840,7 +978,9 @@ fr:"soixante-neuf",
 en:"sixty-nine",
 it:"sessantanove",
 de:"neunundsechzig",
-es:"sesenta y nueve"
+es:"sesenta y nueve",
+la:"sexaginta novem",
+el:"εξήντα εννέα"
 },
 
 
@@ -852,7 +992,9 @@ fr:"soixante-dix",
 en:"seventy",
 it:"settanta",
 de:"siebzig",
-es:"setenta"
+es:"setenta",
+la:"septuaginta",
+el:"εβδομήντα"
 },
 
 
@@ -864,7 +1006,9 @@ fr:"soixante et onze",
 en:"seventy-one",
 it:"settantuno",
 de:"einundsiebzig",
-es:"setenta y uno"
+es:"setenta y uno",
+la:"septuaginta unus",
+el:"εβδομήντα ένα"
 },
 
 
@@ -876,7 +1020,9 @@ fr:"soixante-douze",
 en:"seventy-two",
 it:"settantadue",
 de:"zweiundsiebzig",
-es:"setenta y dos"
+es:"setenta y dos",
+la:"septuaginta duo",
+el:"εβδομήντα δύο"
 },
 
 
@@ -888,7 +1034,9 @@ fr:"soixante-treize",
 en:"seventy-three",
 it:"settantatré",
 de:"dreiundsiebzig",
-es:"setenta y tres"
+es:"setenta y tres",
+la:"septuaginta tres",
+el:"εβδομήντα τρία"
 },
 
 
@@ -900,7 +1048,9 @@ fr:"soixante-quatorze",
 en:"seventy-four",
 it:"settantaquattro",
 de:"vierundsiebzig",
-es:"setenta y cuatro"
+es:"setenta y cuatro",
+la:"septuaginta quattuor",
+el:"εβδομήντα τέσσερα"
 },
 
 
@@ -912,7 +1062,9 @@ fr:"soixante-quinze",
 en:"seventy-five",
 it:"settantacinque",
 de:"fünfundsiebzig",
-es:"setenta y cinco"
+es:"setenta y cinco",
+la:"septuaginta quinque",
+el:"εβδομήντα πέντε"
 },
 
 
@@ -924,7 +1076,9 @@ fr:"soixante-seize",
 en:"seventy-six",
 it:"settantasei",
 de:"sechsundsiebzig",
-es:"setenta y seis"
+es:"setenta y seis",
+la:"septuaginta sex",
+el:"εβδομήντα έξι"
 },
 
 
@@ -936,7 +1090,9 @@ fr:"soixante-dix-sept",
 en:"seventy-seven",
 it:"settantasette",
 de:"siebenundsiebzig",
-es:"setenta y siete"
+es:"setenta y siete",
+la:"septuaginta septem",
+el:"εβδομήντα επτά"
 },
 
 
@@ -948,7 +1104,9 @@ fr:"soixante-dix-huit",
 en:"seventy-eight",
 it:"settantotto",
 de:"achtundsiebzig",
-es:"setenta y ocho"
+es:"setenta y ocho",
+la:"septuaginta octo",
+el:"εβδομήντα οκτώ"
 },
 
 
@@ -960,7 +1118,9 @@ fr:"soixante-dix-neuf",
 en:"seventy-nine",
 it:"settantanove",
 de:"neunundsiebzig",
-es:"setenta y nueve"
+es:"setenta y nueve",
+la:"septuaginta novem",
+el:"εβδομήντα εννέα"
 },
 
 
@@ -972,7 +1132,9 @@ fr:"quatre-vingts",
 en:"eighty",
 it:"ottanta",
 de:"achtzig",
-es:"ochenta"
+es:"ochenta",
+la:"octoginta",
+el:"ογδόντα"
 },
 
 
@@ -984,7 +1146,9 @@ fr:"quatre-vingt-un",
 en:"eighty-one",
 it:"ottantuno",
 de:"einundachtzig",
-es:"ochenta y uno"
+es:"ochenta y uno",
+la:"octoginta unus",
+el:"ογδόντα ένα"
 },
 
 
@@ -996,7 +1160,9 @@ fr:"quatre-vingt-deux",
 en:"eighty-two",
 it:"ottantadue",
 de:"zweiundachtzig",
-es:"ochenta y dos"
+es:"ochenta y dos",
+la:"octoginta duo",
+el:"ογδόντα δύο"
 },
 
 
@@ -1008,7 +1174,9 @@ fr:"quatre-vingt-trois",
 en:"eighty-three",
 it:"ottantatré",
 de:"dreiundachtzig",
-es:"ochenta y tres"
+es:"ochenta y tres",
+la:"octoginta tres",
+el:"ογδόντα τρία"
 },
 
 
@@ -1020,7 +1188,9 @@ fr:"quatre-vingt-quatre",
 en:"eighty-four",
 it:"ottantaquattro",
 de:"vierundachtzig",
-es:"ochenta y cuatro"
+es:"ochenta y cuatro",
+la:"octoginta quattuor",
+el:"ογδόντα τέσσερα"
 },
 
 
@@ -1032,7 +1202,9 @@ fr:"quatre-vingt-cinq",
 en:"eighty-five",
 it:"ottantacinque",
 de:"fünfundachtzig",
-es:"ochenta y cinco"
+es:"ochenta y cinco",
+la:"octoginta quinque",
+el:"ογδόντα πέντε"
 },
 
 
@@ -1044,7 +1216,9 @@ fr:"quatre-vingt-six",
 en:"eighty-six",
 it:"ottantasei",
 de:"sechsundachtzig",
-es:"ochenta y seis"
+es:"ochenta y seis",
+la:"octoginta sex",
+el:"ογδόντα έξι"
 },
 
 
@@ -1056,7 +1230,9 @@ fr:"quatre-vingt-sept",
 en:"eighty-seven",
 it:"ottantasette",
 de:"siebenundachtzig",
-es:"ochenta y siete"
+es:"ochenta y siete",
+la:"octoginta septem",
+el:"ογδόντα επτά"
 },
 
 
@@ -1068,7 +1244,9 @@ fr:"quatre-vingt-huit",
 en:"eighty-eight",
 it:"ottantotto",
 de:"achtundachtzig",
-es:"ochenta y ocho"
+es:"ochenta y ocho",
+la:"octoginta octo",
+el:"ογδόντα οκτώ"
 },
 
 
@@ -1080,7 +1258,9 @@ fr:"quatre-vingt-neuf",
 en:"eighty-nine",
 it:"ottantanove",
 de:"neunundachtzig",
-es:"ochenta y nueve"
+es:"ochenta y nueve",
+la:"octoginta novem",
+el:"ογδόντα εννέα"
 },
 
 
@@ -1092,7 +1272,9 @@ fr:"quatre-vingt-dix",
 en:"ninety",
 it:"novanta",
 de:"neunzig",
-es:"noventa"
+es:"noventa",
+la:"nonaginta",
+el:"ενενήντα"
 },
 
 
@@ -1104,7 +1286,9 @@ fr:"quatre-vingt-onze",
 en:"ninety-one",
 it:"novantuno",
 de:"einundneunzig",
-es:"noventa y uno"
+es:"noventa y uno",
+la:"nonaginta unus",
+el:"ενενήντα ένα"
 },
 
 
@@ -1116,7 +1300,9 @@ fr:"quatre-vingt-douze",
 en:"ninety-two",
 it:"novantadue",
 de:"zweiundneunzig",
-es:"noventa y dos"
+es:"noventa y dos",
+la:"nonaginta duo",
+el:"ενενήντα δύο"
 },
 
 
@@ -1128,7 +1314,9 @@ fr:"quatre-vingt-treize",
 en:"ninety-three",
 it:"novantatré",
 de:"dreiundneunzig",
-es:"noventa y tres"
+es:"noventa y tres",
+la:"nonaginta tres",
+el:"ενενήντα τρία"
 },
 
 
@@ -1140,7 +1328,9 @@ fr:"quatre-vingt-quatorze",
 en:"ninety-four",
 it:"novantaquattro",
 de:"vierundneunzig",
-es:"noventa y cuatro"
+es:"noventa y cuatro",
+la:"nonaginta quattuor",
+el:"ενενήντα τέσσερα"
 },
 
 
@@ -1152,7 +1342,9 @@ fr:"quatre-vingt-quinze",
 en:"ninety-five",
 it:"novantacinque",
 de:"fünfundneunzig",
-es:"noventa y cinco"
+es:"noventa y cinco",
+la:"nonaginta quinque",
+el:"ενενήντα πέντε"
 },
 
 
@@ -1164,7 +1356,9 @@ fr:"quatre-vingt-seize",
 en:"ninety-six",
 it:"novantasei",
 de:"sechsundneunzig",
-es:"noventa y seis"
+es:"noventa y seis",
+la:"nonaginta sex",
+el:"ενενήντα έξι"
 },
 
 
@@ -1176,7 +1370,9 @@ fr:"quatre-vingt-dix-sept",
 en:"ninety-seven",
 it:"novantasette",
 de:"siebenundneunzig",
-es:"noventa y siete"
+es:"noventa y siete",
+la:"nonaginta septem",
+el:"ενενήντα επτά"
 },
 
 
@@ -1188,7 +1384,9 @@ fr:"quatre-vingt-dix-huit",
 en:"ninety-eight",
 it:"novantotto",
 de:"achtundneunzig",
-es:"noventa y ocho"
+es:"noventa y ocho",
+la:"nonaginta octo",
+el:"ενενήντα οκτώ"
 },
 
 
@@ -1200,7 +1398,9 @@ fr:"quatre-vingt-dix-neuf",
 en:"ninety-nine",
 it:"novantanove",
 de:"neunundneunzig",
-es:"noventa y nueve"
+es:"noventa y nueve",
+la:"nonaginta novem",
+el:"ενενήντα εννέα"
 },
 
 
@@ -1212,7 +1412,9 @@ fr:"cent",
 en:"hundred",
 it:"centinaio",
 de:"hundert",
-es:"centenar"
+es:"centenar",
+la:"centum",
+el:"εκατό"
 },
 
 
@@ -1224,7 +1426,9 @@ fr:"deux-cent",
 en:"two hundred",
 it:"duecento",
 de:"zweihundert",
-es:"doscientos"
+es:"doscientos",
+la:"ducenti",
+el:"διακόσια"
 },
 
 
@@ -1236,7 +1440,9 @@ fr:"trois-cent",
 en:"three hundred",
 it:"trecento",
 de:"dreihundert",
-es:"trescientos"
+es:"trescientos",
+la:"trecenti",
+el:"τριακόσια"
 },
 
 
@@ -1248,7 +1454,9 @@ fr:"quatre-cent",
 en:"four hundred",
 it:"quattrocento",
 de:"vierhundert",
-es:"cuatrocientos"
+es:"cuatrocientos",
+la:"quadringenti",
+el:"τετρακόσια"
 },
 
 
@@ -1260,7 +1468,9 @@ fr:"cinq-cent",
 en:"five hundred",
 it:"cinquecento",
 de:"fünfhundert",
-es:"quinientos"
+es:"quinientos",
+la:"quingenti",
+el:"πεντακόσια"
 },
 
 
@@ -1272,7 +1482,9 @@ fr:"six-cent",
 en:"six hundred",
 it:"seicento",
 de:"sechshundert",
-es:"seiscientos"
+es:"seiscientos",
+la:"sescenti",
+el:"εξακόσια"
 },
 
 
@@ -1284,7 +1496,9 @@ fr:"sept-cent",
 en:"seven hundred",
 it:"settecento",
 de:"siebenhundert",
-es:"setecientos"
+es:"setecientos",
+la:"septingenti",
+el:"επτακόσια"
 },
 
 
@@ -1296,7 +1510,9 @@ fr:"huit-cent",
 en:"eight hundred",
 it:"ottocento",
 de:"achthundert",
-es:"ochocientos"
+es:"ochocientos",
+la:"octingenti",
+el:"οκτακόσια"
 },
 
 
@@ -1308,7 +1524,9 @@ fr:"neuf-cent",
 en:"nine hundred",
 it:"novecento",
 de:"neunhundert",
-es:"novecientos"
+es:"novecientos",
+la:"nongenti",
+el:"εννιακόσια"
 },
 
 
@@ -1320,7 +1538,9 @@ fr:"mille",
 en:"thousand",
 it:"mille",
 de:"tausend",
-es:"mil"
+es:"mil",
+la:"mille",
+el:"χίλια"
 },
 
 
@@ -1332,7 +1552,9 @@ fr:"dix-mille",
 en:"ten thousand",
 it:"diecimila",
 de:"zehntausend",
-es:"diez mil"
+es:"diez mil",
+la:"decem milia",
+el:"δέκα χιλιάδες"
 },
 
 
@@ -1344,7 +1566,9 @@ fr:"cent-mille",
 en:"one hundred thousand",
 it:"centomila",
 de:"einhunderttausend",
-es:"cien mil"
+es:"cien mil",
+la:"centum milia",
+el:"εκατό χιλιάδες"
 },
 
 
@@ -1356,10 +1580,13 @@ fr:"un million",
 en:"one million",
 it:"un milione",
 de:"eine Million",
-es:"un millón"
+es:"un millón",
+la:"decies centena milia",
+el:"ένα εκατομμύριο"
 },
 
 ],
+
 
 
 

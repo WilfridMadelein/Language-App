@@ -12,7 +12,9 @@ fr:"le vêtement",
 en:"the garment",
 it:"l'indumento",
 de:"das Kleidungsstück",
-es:"la prenda"
+es:"la prenda",
+la:"vestimentum",
+el:"το ένδυμα"
 },
 
 
@@ -24,7 +26,9 @@ fr:"les vêtements",
 en:"clothes",
 it:"gli indumenti",
 de:"Kleidung",
-es:"ropa"
+es:"ropa",
+la:"vestimenta",
+el:"ρούχα"
 },
 
 
@@ -36,7 +40,9 @@ fr:"la robe",
 en:"the dress",
 it:"il vestito",
 de:"das Kleid",
-es:"el vestido"
+es:"el vestido",
+la:"vestis",
+el:"το φόρεμα"
 },
 
 
@@ -48,7 +54,9 @@ fr:"les robes",
 en:"the dresses",
 it:"i vestiti",
 de:"die Kleider",
-es:"los vestidos"
+es:"los vestidos",
+la:"vestes",
+el:"τα φορέματα"
 },
 
 
@@ -60,7 +68,9 @@ fr:"la chausette",
 en:"the sock",
 it:"il calzino",
 de:"die Socke",
-es:"el calcetín"
+es:"el calcetín",
+la:"caliga",
+el:"η κάλτσα"
 },
 
 
@@ -72,7 +82,9 @@ fr:"les chausettes",
 en:"socks",
 it:"calzini",
 de:"Socken",
-es:"los calcetines"
+es:"los calcetines",
+la:"caligas",
+el:"κάλτσες"
 },
 
 
@@ -84,7 +96,9 @@ fr:"la chemise",
 en:"the shirt",
 it:"la camicia",
 de:"das Hemd",
-es:"la camisa"
+es:"la camisa",
+la:"tunica",
+el:"το πουκάμισο"
 },
 
 
@@ -96,7 +110,9 @@ fr:"les chemises",
 en:"the shirts",
 it:"le camicie",
 de:"die Hemden",
-es:"las camisas"
+es:"las camisas",
+la:"tunicae",
+el:"τα πουκάμισα"
 },
 
 
@@ -108,7 +124,9 @@ fr:"le manteau",
 en:"the coat",
 it:"il cappotto",
 de:"der Mantel",
-es:"el abrigo"
+es:"el abrigo",
+la:"pallium",
+el:"το παλτό"
 },
 
 
@@ -120,7 +138,9 @@ fr:"les manteau",
 en:"the coats",
 it:"i cappotti",
 de:"die Mäntel",
-es:"los abrigos"
+es:"los abrigos",
+la:"pallia",
+el:"τα παλτά"
 },
 
 
@@ -132,7 +152,9 @@ fr:"la veste",
 en:"the jacket",
 it:"la giacca",
 de:"die Jacke",
-es:"la chaqueta"
+es:"la chaqueta",
+la:"tunica",
+el:"το σακάκι"
 },
 
 
@@ -144,7 +166,9 @@ fr:"les vestes",
 en:"the jackets",
 it:"le giacche",
 de:"die Jacken",
-es:"las chaquetas"
+es:"las chaquetas",
+la:"tunicae",
+el:"τα μπουφάν"
 },
 
 
@@ -156,7 +180,9 @@ fr:"le chapeau",
 en:"the hat",
 it:"il cappello",
 de:"der Hut",
-es:"el sombrero"
+es:"el sombrero",
+la:"pileus",
+el:"το καπέλο"
 },
 
 
@@ -168,7 +194,9 @@ fr:"les chapeaux",
 en:"hats",
 it:"cappelli",
 de:"Hüte",
-es:"sombreros"
+es:"sombreros",
+la:"pilei",
+el:"καπέλα"
 },
 
 
@@ -180,7 +208,9 @@ fr:"la chaussure",
 en:"the shoe",
 it:"la scarpa",
 de:"der Schuh",
-es:"el zapato"
+es:"el zapato",
+la:"calceus",
+el:"το παπούτσι"
 },
 
 
@@ -189,10 +219,12 @@ cat:"vetements",
 gram:"pl",
 
 fr:"les chaussures",
-en:"the shoes",
-it:"le scarpe",
-de:"die Schuhe",
-es:"los zapatos"
+en:"shoes",
+it:"scarpe",
+de:"Schuhe",
+es:"zapatos",
+la:"calcei",
+el:"παπούτσια"
 },
 
 
@@ -204,7 +236,9 @@ fr:"le chandail",
 en:"the sweater",
 it:"il maglione",
 de:"der Pullover",
-es:"el suéter"
+es:"el suéter",
+la:"tunica",
+el:"το πουλόβερ"
 },
 
 
@@ -216,7 +250,9 @@ fr:"les chandails",
 en:"the sweaters",
 it:"i maglioni",
 de:"die Pullover",
-es:"los suéteres"
+es:"los suéteres",
+la:"tunicae",
+el:"τα πουλόβερ"
 },
 
 
@@ -228,7 +264,9 @@ fr:"la ceinture",
 en:"the belt",
 it:"la cintura",
 de:"der Gürtel",
-es:"el cinturón"
+es:"el cinturón",
+la:"cingulum",
+el:"η ζώνη"
 },
 
 
@@ -240,7 +278,9 @@ fr:"les ceintures",
 en:"the belts",
 it:"le cinture",
 de:"die Gürtel",
-es:"los cinturones"
+es:"los cinturones",
+la:"cingula",
+el:"οι ζώνες"
 },
 
 
@@ -252,11 +292,15 @@ fr:"les pantalons",
 en:"the trousers",
 it:"i pantaloni",
 de:"die Hose",
-es:"los pantalones"
+es:"los pantalones",
+la:"bracae",
+el:"το παντελόνι"
 }
 
 
 ],
+
+
 
 
 

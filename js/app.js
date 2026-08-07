@@ -663,7 +663,9 @@ function analyserFiltres(cartes){
                 cle==="en" ||
                 cle==="it" ||
                 cle==="de" ||
-                cle==="es"
+                cle==="es" ||
+                cle==="la" ||
+                cle==="el"
             ){
                 return;
             }
@@ -958,16 +960,27 @@ function parler(texte, langue){
 
  speechSynthesis.cancel();
 
-    const voix = new SpeechSynthesisUtterance(texte);
+    const utterance = new SpeechSynthesisUtterance(texte);
 
 
-    voix.lang = langue;
+    utterance.lang = langue;
+
+    utterance.rate = 0.8;
+
+    const voixDisponibles = speechSynthesis.getVoices();
 
 
-    voix.rate = 0.8;
+    const voixChoisie = voixDisponibles.find(voix =>
+    voix.lang === langue ||
+    voix.lang.startsWith(langue.split("-")[0])
+);
 
+    if(voixChoisie){
 
-speechSynthesis.speak(voix);
+        utterance.voice = voixChoisie;
+    }
+
+    speechSynthesis.speak(utterance);
 
 }
 
@@ -975,14 +988,12 @@ speechSynthesis.speak(voix);
 const voix = {
 
     fr:"fr-FR",
-
     en:"en-US",
-
     it:"it-IT",
-
     de:"de-CH",
-
     es:"es-ES",
+    la:"la",
+    el:"el-GR"
 
 };
 
