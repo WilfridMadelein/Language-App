@@ -284,6 +284,62 @@ afficherCarte();
 // AFFICHAGE OPTIONS
 // ============================
 
+
+function afficherFiltre(idFiltre, disponibles){
+
+    if(!disponibles[idFiltre]){
+        return "";
+    }
+
+    const compteur = compterValeurs(idFiltre);
+
+    let html = `
+
+    <div class="option-groupe">
+
+        <h4>${filtres[idFiltre].titre}</h4>
+
+    `;
+
+    disponibles[idFiltre].forEach(valeur=>{
+
+        const texte =
+        filtres[idFiltre].options[valeur] ?? valeur;
+
+        const nombre =
+        compteur[valeur] ?? 0;
+
+        html += `
+
+        <label>
+
+            <input
+                type="checkbox"
+                class="option-filtre"
+                data-filtre="${idFiltre}"
+                value="${valeur}"
+                checked
+                ${nombre===0 ? "disabled" : ""}
+                onchange="changerOptionFiltre(this)">
+
+            <span class="option-valeur-texte">
+
+                ${texte} (${nombre})
+
+            </span>
+
+        </label>
+
+        `;
+
+    });
+
+    html += `</div>`;
+
+    return html;
+
+}
+
 function afficherOptions(disponibles){
 
 console.log(
@@ -341,102 +397,13 @@ zone.innerHTML += `
 
 
 
-  // FILTRE : GRAMMAIRE
+// AUTRES FILTRES
 
-  if(disponibles.gram){
+zone.innerHTML += afficherFiltre("gram", disponibles);
+zone.innerHTML += afficherFiltre("type", disponibles);
+zone.innerHTML += afficherFiltre("temps", disponibles);
+zone.innerHTML += afficherFiltre("personne", disponibles);
 
-    const compteur = compterValeurs("gram");
-
-    zone.innerHTML += `
-        <div class="option-groupe">
-            <h4>Grammaire</h4>
-    `;
-
-    disponibles.gram.forEach(valeur=>{
-
-        const texte =
-            libellesFiltres.gram[valeur] ?? valeur;
-
-        const nombre =
-            compteur[valeur] ?? 0;
-
-        zone.innerHTML += `
-
-            <label>
-
-                <input
-                    type="checkbox"
-                    class="option-filtre"
-                        data-filtre="gram"
-                    value="${valeur}"
-                    checked
-                    ${nombre===0 ? "disabled" : ""}
-                    onchange="changerOptionFiltre(this)">
-                
-                <span class="option-valeur-texte">
-                ${texte} (${nombre})
-                </span>
-            </label>
-
-        `;
-
-    });
-
-    zone.innerHTML += `</div>`;
-
-}
-
-// TYPE
-
-if(disponibles.type){
-
-
-    const compteur = compterValeurs("type");
-
-    zone.innerHTML += `
-
-    <div class="option-groupe">
-
-        <h4>Type</h4>
-
-    `;
-
-
-    disponibles.type.forEach(valeur=>{
-
-
-        const texte =
-        libellesFiltres.type[valeur] ?? valeur;
-
-        const nombre =
-        compteur[valeur] ?? 0;
-
-        zone.innerHTML += `
-
-        <label>
-
-            <input
-            type="checkbox"
-            class="option-filtre"
-            data-filtre="type"
-            value="${valeur}"
-            checked
-            ${nombre===0 ? "disabled" : ""}
-            onchange="changerOptionFiltre(this)">
-
-
-            <span class="option-valeur-texte">
-            ${texte} (${nombre})
-            </span>
-        </label>
-
-        `;
-
-    });
-
-    zone.innerHTML += `</div>`;
-
-}
 
 
 }
@@ -661,73 +628,6 @@ function compterValeurs(cle){
 // CONFIGURATION DES FILTRES
 // ============================
 
-const ordreFiltres = {
-
-    gram:[
-        "s",
-        "pl",
-        "inv"
-    ],
-
-    type:[
-        "infinitif",
-        "conju"
-    ],
-
-    temps:[
-        "présent",
-        "passé",
-        "futur"
-    ],
-
-    personne:[
-        "1s",
-        "2s",
-        "3s",
-        "1pl",
-        "2pl",
-        "3pl"
-    ]
-
-};
-
-const libellesFiltres = {
-
-    gram:{
-
-        s:"Singulier",
-        pl:"Pluriel",
-        inv:"Invariable"
-
-    },
-
-    type:{
-
-        infinitif:"Infinitif",
-        conju:"Conjugaison"
-
-    },
-
-    temps:{
-
-        "présent":"Présent",
-        "passé":"Passé",
-        "futur":"Futur"
-
-    },
-
-    personne:{
-
-        "1s":"1er p. - S",
-        "2s":"2e p. - S",
-        "3s":"3e p. - S",
-        "1pl":"1er p. - PL",
-        "2pl":"2e p. - PL",
-        "3pl":"3e p. - PL"
-
-    }
-
-};
 
 function analyserFiltres(cartes){
 
@@ -785,12 +685,12 @@ function analyserFiltres(cartes){
 
     Object.keys(filtres).forEach(cle=>{
 
-    if(ordreFiltres[cle]){
+    if(filtres[cle]?.ordre){
 
         filtres[cle].sort((a,b)=>{
 
-            return ordreFiltres[cle].indexOf(a)
-                 - ordreFiltres[cle].indexOf(b);
+            return filtres[cle].ordre.indexOf(a)
+                 - filtres[cle].ordre.indexOf(b);
 
         });
 
