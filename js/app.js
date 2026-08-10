@@ -206,6 +206,8 @@ function proprietesDisponibles(cartes){
 
 function chargerListe(categorie, liste, bouton){
 
+    arreterAudioBook();
+
     categorieActive = categorie;
 
     listeActive = liste;
@@ -515,13 +517,13 @@ function appliquerFiltre(cle, valeurs){
 
 function rechargerCartes(){
 
+    arreterAudioBook();
 
     if(!categorieActive || !listeActive){
 
         return;
 
     }
-
 
     cartesActuelles =
 categorieActive.cartes.filter(carte => {
@@ -924,7 +926,6 @@ function creerOrdreRandom(){
 
 
 
-
 // ============================
 // AUDIO
 // ============================
@@ -1025,126 +1026,171 @@ let audioBookEnCours = false;
 let audioBookEnPause = false;
 let audioBookIndex = 0;
 let audioBookAnnulation = 0;
+let cartesAudioBook = [];
+
 
 async function demarrerAudioBook(){
 
     console.log("Audio Book démarré");
 
-
+    // Si un Audio Book est déjà en cours, on l'annule
     if(audioBookEnCours){
 
-        return;
+        annulerAudioBook();
 
     }
 
+    // Nouvelle session
+    audioBookAnnulation++;
 
     audioBookAnnulation++;
 
-
     const session =
-    audioBookAnnulation;
-
+        audioBookAnnulation;
 
     audioBookEnCours = true;
-
     audioBookEnPause = false;
-
     audioBookIndex = 0;
 
+    // CRÉER LA LISTE DE L'AUDIO BOOK
+
+    if(configurationActive.mode === "random"){
+
+        console.log("Ordre Random actuel :", ordreRandom);
+
+    cartesAudioBook =
+        [...ordreRandom];
+}
+
+else{
+
+    cartesAudioBook =
+        [...cartesActuelles];
+}
+
+
+    // BOUTON PAUSE
+
+    document.getElementById(
+        "boutonPauseAudioBook"
+    ).disabled = false;
+
+    document.getElementById(
+        "boutonPauseAudioBook"
+    ).textContent = "Pause";
 
     speechSynthesis.cancel();
 
+
+    // PHRASE DE DÉBUT
+    
 
     await parlerAudioBook(
         "Vous avez sélectionné le mode Audio Book",
         "fr"
     );
 
-    if(session !== audioBookAnnulation){
-    return;
-}
-
-    const pauseOK =
-    await attendreAudioBook(3000, session);
-    if(!pauseOK){
-    return;
-}
-
-for(
-    audioBookIndex = 0;
-    audioBookIndex < cartesActuelles.length;
-    audioBookIndex++
-){
 
     if(session !== audioBookAnnulation){
         return;
     }
 
 
-    const carte =
-    cartesActuelles[audioBookIndex];
+    // Pause de 3 secondes
+    const pauseDebut =
+        await attendreAudioBook(
+            3000,
+            session
+        );
+
+    if(!pauseDebut){
+        return;
+    }
 
 
+    // Parcours de toutes les cartes sélectionnées
+    for(
+        audioBookIndex = 0;
+        audioBookIndex < cartesActuelles.length;
+        audioBookIndex++
+    ){
+
+        if(session !== audioBookAnnulation){
+            return;
+        }
+
+
+        const carte =
+            cartesAudioBook[audioBookIndex];
+
+
+        // LANGUE SOURCE
+        await parlerAudioBook(
+            carte[langueSource],
+            langueSource
+        );
+
+
+        if(session !== audioBookAnnulation){
+            return;
+        }
+
+
+        const pauseSource =
+            await attendreAudioBook(
+                3000,
+                session
+            );
+
+        if(!pauseSource){
+            return;
+        }
+
+
+        // LANGUE CIBLE
+        await parlerAudioBook(
+            carte[langueCible],
+            langueCible
+        );
+
+
+        if(session !== audioBookAnnulation){
+            return;
+        }
+
+
+        const pauseCible =
+            await attendreAudioBook(
+                3000,
+                session
+            );
+
+        if(!pauseCible){
+            return;
+        }
+
+    }
+
+
+    // Vérifie encore une fois avant la phrase finale
+    if(session !== audioBookAnnulation){
+        return;
+    }
+
+
+    // Phrase de fin TOUJOURS en français
     await parlerAudioBook(
-        carte[langueSource],
-        langueSource
+        "Félicitations ! Vous avez terminé votre Audio Book. Youpi!",
+        "fr"
     );
 
-
-    if(session !== audioBookAnnulation){
-        return;
-    }
-
-
-    const pauseSource =
-    await attendreAudioBook(
-        3000,
-        session
-    );
-
-
-    if(!pauseSource){
-        return;
-    }
-
-
-    await parlerAudioBook(
-        carte[langueCible],
-        langueCible
-    );
-
-
-    if(session !== audioBookAnnulation){
-        return;
-    }
-
-
-    const pauseCible =
-    await attendreAudioBook(
-        3000,
-        session
-    );
-
-
-    if(!pauseCible){
-        return;
-    }
-
-}
-
-if(session !== audioBookAnnulation){
-    return;
-}
-
-await parlerAudioBook(
-    "Félicitations ! Vous avez terminé votre Audio Book. Youpi!",
-    "fr"
-);
 
     audioBookEnCours = false;
-
     audioBookEnPause = false;
 
+    document.getElementById(
+        "boutonPauseAudioBook"
+    ).disabled = true;
 
 }
 
@@ -1187,6 +1233,32 @@ function annulerAudioBook(){
     speechSynthesis.cancel();
 
     console.log("Audio Book annulé");
+
+}
+
+function arreterAudioBook(){
+
+    // Invalide immédiatement l'Audio Book actuel
+    audioBookAnnulation++;
+
+    audioBookEnCours = false;
+    audioBookEnPause = false;
+
+    speechSynthesis.cancel();
+
+    const bouton =
+        document.getElementById(
+            "boutonPauseAudioBook"
+        );
+
+    if(bouton){
+
+        bouton.disabled = true;
+        bouton.textContent = "Pause";
+
+    }
+
+    console.log("Audio Book arrêté");
 
 }
 
@@ -1243,6 +1315,43 @@ function parlerAudioBook(texte, langue){
         speechSynthesis.speak(utterance);
 
     });
+
+}
+
+function pauseReprendreAudioBook(){
+
+    if(!audioBookEnCours){
+
+        return;
+
+    }
+
+
+    if(audioBookEnPause){
+
+        speechSynthesis.resume();
+
+        audioBookEnPause = false;
+
+
+        document.getElementById(
+            "boutonPauseAudioBook"
+        ).textContent = "Pause";
+
+
+    }
+    else{
+
+        speechSynthesis.pause();
+
+        audioBookEnPause = true;
+
+
+        document.getElementById(
+            "boutonPauseAudioBook"
+        ).textContent = "Play";
+
+    }
 
 }
 
