@@ -22,13 +22,13 @@ el:"μηδέν"
 cat:"chiffres",
 nb:1,
 
-fr:"un",
-en:"A",
-it:"UN",
-de:"A",
-es:"A",
-la:"A",
-el:"ΕΝΑ"
+fr:"uno",
+en:"one",
+it:"uno",
+de:"eins",
+es:"uno",
+la:"unus",
+el:"ένας"
 },
 
 
@@ -1586,7 +1586,6 @@ el:"ένα εκατομμύριο"
 },
 
 ],
-
 
 
 

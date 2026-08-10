@@ -34,7 +34,7 @@ it:"Io ho",
 de:"Ich habe",
 es:"Yo Tengo",
 la:"ego habeo",
-el:"εγώ έχω"
+el:"εγώ Έχω"
 },
 
 
@@ -48,7 +48,7 @@ personne:"2s",
 
 fr:"Tu as",
 en:"You have",
-it:"Tu Hai",
+it:"Tu hai",
 de:"Du hast",
 es:"Tú Tienes",
 la:"tu Habes",
@@ -84,7 +84,7 @@ personne:"1pl",
 
 fr:"Nous avons",
 en:"We have",
-it:"Noi Abbiamo",
+it:"Noi abbiamo",
 de:"Wir haben",
 es:"Nosotros Tenemos",
 la:"nos Habemus",
@@ -102,7 +102,7 @@ personne:"2pl",
 
 fr:"Vous avez",
 en:"You have",
-it:"Voi Hai",
+it:"Voi avete",
 de:"Ihr hast",
 es:"Vosotros Tienes",
 la:"vos Habes",
@@ -192,7 +192,7 @@ personne:"1pl",
 
 fr:"Nous avions",
 en:"We had",
-it:"Noi Avevamo",
+it:"Noi avevamo",
 de:"Wir hatten",
 es:"Nosotros Tuvimos",
 la:"nos habuimus",
@@ -210,7 +210,7 @@ personne:"2pl",
 
 fr:"Vous aviez",
 en:"You had",
-it:"Voi avevi",
+it:"Voi avevate",
 de:"Ihr hattest",
 es:"Vosotros Tenías",
 la:"vos Habuisti",
@@ -228,7 +228,7 @@ personne:"3pl",
 
 fr:"Ils avaient",
 en:"They had",
-it:"Loro Avevano",
+it:"Loro avevano",
 de:"Si hatten",
 es:"Ellos/Ellas tenido",
 la:"illi/illae Habebant",
@@ -264,7 +264,7 @@ personne:"2s",
 
 fr:"Tu auras",
 en:"You will have",
-it:"Tu Avrai",
+it:"Tu avrai",
 de:"Du wirst haben",
 es:"Tú Tendrás",
 la:"tu Habebis",
@@ -300,7 +300,7 @@ personne:"1pl",
 
 fr:"Nous aurons",
 en:"We will have",
-it:"Noi Avremo",
+it:"Noi avremo",
 de:"Wir werden haben",
 es:"Nosotros Tendremos",
 la:"nos Habebimus",
@@ -318,7 +318,7 @@ personne:"2pl",
 
 fr:"Vous aurez",
 en:"You will have",
-it:"Voi Avrai",
+it:"Voi avrete",
 de:"Ihr wirst haben",
 es:"Vosotros Tendrás",
 la:"vos Habebis",
@@ -336,7 +336,7 @@ personne:"3pl",
 
 fr:"Ils/Elles auront",
 en:"They will have",
-it:"Loro Avranno",
+it:"Loro avranno",
 de:"Si werden haben",
 es:"Ellos/Ellas tendrán",
 la:"illi/illae Habebunt",
@@ -346,6 +346,7 @@ el:"αυτοί/αυτές έχουν"
 ]
 
 };
+
 
 
 
