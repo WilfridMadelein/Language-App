@@ -1017,8 +1017,128 @@ function prononcerVerso(){
 
 }
 
+// ============================
+// Audio Book
+// ============================
+
+let audioBookEnCours = false;
+let audioBookIndex = 0;
+
+async function demarrerAudioBook(){
+
+    console.log("Audio Book démarré");
 
 
+    audioBookEnCours = true;
+
+
+    audioBookIndex = 0;
+
+
+    speechSynthesis.cancel();
+
+
+    await parlerAudioBook(
+        "Vous avez sélectionné le mode Audio Book",
+        langueSource
+    );
+
+
+    await attendreAudioBook(3000);
+
+for(
+    audioBookIndex = 0;
+    audioBookIndex < cartesActuelles.length;
+    audioBookIndex++
+){
+
+    const carte =
+cartesActuelles[audioBookIndex];
+
+
+await parlerAudioBook(
+    carte[langueSource],
+    langueSource
+);
+
+
+await attendreAudioBook(3000);
+
+
+await parlerAudioBook(
+    carte[langueCible],
+    langueCible
+);
+
+await attendreAudioBook(3000);
+
+}
+
+await parlerAudioBook(
+    "Félicitations ! Vous avez terminé votre Audio Book. Youpi!",
+    langueSource
+);
+
+    audioBookEnCours = false;
+
+
+}
+
+// temps de pause entre les cartes 
+
+function attendreAudioBook(duree){
+
+    return new Promise(resolve => {
+
+        setTimeout(resolve, duree);
+
+    });
+
+}
+
+function parlerAudioBook(texte, langue){
+
+    return new Promise(resolve => {
+
+        const utterance =
+        new SpeechSynthesisUtterance(texte);
+
+
+        utterance.lang = langue;
+
+
+        utterance.rate = 0.8;
+
+
+        const voixDisponibles =
+        speechSynthesis.getVoices();
+
+
+        const voixChoisie =
+        voixDisponibles.find(voix =>
+            voix.lang === langue
+        );
+
+
+        if(voixChoisie){
+
+            utterance.voice = voixChoisie;
+
+        }
+
+
+        utterance.onend = function(){
+
+            resolve();
+
+        };
+
+
+        speechSynthesis.speak(utterance);
+
+    });
+
+}
 
 // ============================
 // RACCOURCIS CLAVIER
