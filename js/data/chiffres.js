@@ -22,7 +22,7 @@ el:"μηδέν"
 cat:"chiffres",
 nb:1,
 
-fr:"uno",
+fr:"un",
 en:"one",
 it:"uno",
 de:"eins",

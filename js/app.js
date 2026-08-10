@@ -8,7 +8,8 @@ let mode = "ordre";
 
 let carteActuelle = null;
 
-let historiqueRandom = [];
+let ordreRandom = [];
+let indexRandom = 0;
 
 let positionHistorique = -1;
 
@@ -255,19 +256,9 @@ index = 0;
 
  if(configurationActive.mode === "random"){
 
-    historiqueRandom = [];
+    creerOrdreRandom();
 
-
-    positionHistorique = -1;
-
-
-    carteActuelle = choisirCarteAleatoire();
-
-
-    historiqueRandom.push(carteActuelle);
-
-
-    positionHistorique = 0;
+    carteActuelle = ordreRandom[indexRandom];
 
 }
 else {
@@ -587,25 +578,22 @@ categorieActive.cartes.filter(carte => {
     index=0;
 
 
-    if(configurationActive.mode==="random"){
+    if(configurationActive.mode === "random"){
 
+    creerOrdreRandom();
 
-        carteActuelle =
-        choisirCarteAleatoire();
+    carteActuelle =
+    ordreRandom[indexRandom];
 
+}
+else{
 
-    }
-    else{
+    carteActuelle =
+    cartesActuelles[index];
 
+}
 
-        carteActuelle =
-        cartesActuelles[index];
-
-
-    }
-
-
-    afficherCarte();
+afficherCarte();
 
 }
 
@@ -761,11 +749,12 @@ function afficherCarte(){
 
  if(configurationActive.mode === "random"){
 
+    counter.textContent =
+        (indexRandom + 1)
+        + " / "
+        + ordreRandom.length;
 
-        counter.textContent = "Mode aléatoire";
-
-
-    }
+}
 
  else {
     counter.textContent =
@@ -815,32 +804,20 @@ function suivant(){
 
     if(configurationActive.mode === "random"){
 
+    if(indexRandom < ordreRandom.length - 1){
 
-        carteActuelle = choisirCarteAleatoire();
+        indexRandom++;
 
-
-
-        historiqueRandom = historiqueRandom.slice(
-            0,
-            positionHistorique + 1
-        );
-
-
-
-        historiqueRandom.push(carteActuelle);
-
-
-
-        positionHistorique++;
-
-
+        carteActuelle =
+        ordreRandom[indexRandom];
 
         afficherCarte();
 
-
-        return;
-
     }
+
+    return;
+
+}
 
 
 
@@ -873,30 +850,20 @@ function precedent(){
 
     if(configurationActive.mode === "random"){
 
+    if(indexRandom > 0){
 
-        if(positionHistorique > 0){
+        indexRandom--;
 
+        carteActuelle =
+        ordreRandom[indexRandom];
 
-
-            positionHistorique--;
-
-
-
-            carteActuelle = historiqueRandom[positionHistorique];
-
-
-
-            afficherCarte();
-
-
-        }
-
-
-
-        return;
-
+        afficherCarte();
 
     }
+
+    return;
+
+}
 
 
 
@@ -928,23 +895,30 @@ function precedent(){
 // ============================
 
 
-function choisirCarteAleatoire(){
-    
+function creerOrdreRandom(){
+
+    ordreRandom = [...cartesActuelles];
 
 
-    const position = Math.floor(
+    for(let i = ordreRandom.length - 1; i > 0; i--){
 
-        Math.random()
-
-        *
-
-        cartesActuelles.length
-
-    );
+        const j = Math.floor(
+            Math.random() * (i + 1)
+        );
 
 
-    return cartesActuelles[position];
+        [
+            ordreRandom[i],
+            ordreRandom[j]
+        ] = [
+            ordreRandom[j],
+            ordreRandom[i]
+        ];
 
+    }
+
+
+    indexRandom = 0;
 
 }
 
