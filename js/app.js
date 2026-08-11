@@ -888,7 +888,29 @@ function precedent(){
 
 }
 
+function premiereCarte(){
 
+
+    if(configurationActive.mode === "random"){
+
+        indexRandom = 0;
+
+        carteActuelle =
+            ordreRandom[indexRandom];
+
+    }
+    else{
+
+        index = 0;
+
+        carteActuelle =
+            cartesActuelles[index];
+
+    }
+
+    afficherCarte();
+
+}
 
 
 
