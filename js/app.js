@@ -1099,7 +1099,7 @@ else{
 
     document.getElementById(
         "boutonPauseAudioBook"
-    ).textContent = "Pause";
+    ).textContent = "⏸";
 
     speechSynthesis.cancel();
 
@@ -1276,7 +1276,7 @@ function arreterAudioBook(){
     if(bouton){
 
         bouton.disabled = true;
-        bouton.textContent = "Pause";
+        bouton.textContent = "";
 
     }
 
@@ -1358,7 +1358,7 @@ function pauseReprendreAudioBook(){
 
         document.getElementById(
             "boutonPauseAudioBook"
-        ).textContent = "Pause";
+        ).textContent = "⏸";
 
 
     }
