@@ -1371,7 +1371,7 @@ function pauseReprendreAudioBook(){
 
         document.getElementById(
             "boutonPauseAudioBook"
-        ).textContent = "Play";
+        ).textContent = "▶";
 
     }
 
