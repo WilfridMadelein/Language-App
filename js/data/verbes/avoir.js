@@ -65,12 +65,12 @@ temps:"présent",
 personne:"3s",
 
 fr:"Il a",
-en:"He/She has",
-it:"Lui/Lei ha",
-de:"Er/Sie hat",
-es:"Él/Ella tiene",
-la:"ille/illa habet",
-el:"αυτός/αυτή έχει"
+en:"He/She, has",
+it:"Lui/Lei, ha",
+de:"Er/Sie, hat",
+es:"Él/Ella, tiene",
+la:"ille/illa, habet",
+el:"αυτός/αυτή, έχει"
 },
 
 
@@ -100,13 +100,13 @@ model:"indicatif",
 temps:"présent",
 personne:"2pl",
 
-fr:"Vous avez",
+fr:"tous, Vous avez",
 en:"You have",
 it:"Voi avete",
-de:"Ihr hast",
-es:"Vosotros Tienes",
-la:"vos Habes",
-el:"εσείς Έχετε"
+de:"Ihr habt",
+es:"Ustedes tienen",
+la:"vos habetis",
+el:"εσείς έχετε"
 },
 
 
@@ -122,9 +122,9 @@ fr:"Ils ont",
 en:"They have",
 it:"Loro hanno",
 de:"Si haben",
-es:"Ellos/Ellas tienen",
-la:"illi/illae Habent",
-el:"αυτοί/αυτές Έχουν"
+es:"Ellos/Ellas, tienen",
+la:"illi/illae, Habent",
+el:"αυτοί/αυτές, Έχουν"
 },
 
 
@@ -173,12 +173,12 @@ temps:"passé",
 personne:"3s",
 
 fr:"Il avait",
-en:"He/She had",
-it:"Lui/Lei aveva",
-de:"Er/Sie hatte",
-es:"Él/Ella tenía",
-la:"ille/illa habuit",
-el:"αυτός/αυτή Είχε"
+en:"He/She, had",
+it:"Lui/Lei, aveva",
+de:"Er/Sie, hatte",
+es:"Él/Ella, tenía",
+la:"ille/illa, habuit",
+el:"αυτός/αυτή, Είχε"
 },
 
 
@@ -208,13 +208,13 @@ model:"indicatif",
 temps:"passé",
 personne:"2pl",
 
-fr:"Vous aviez",
+fr:"tous, Vous aviez",
 en:"You had",
 it:"Voi avevate",
-de:"Ihr hattest",
-es:"Vosotros Tenías",
-la:"vos Habuisti",
-el:"εσείς Είχες"
+de:"Ihr hattet",
+es:"Ustedes tenían",
+la:"vos habuistis",
+el:"εσείς είχατε"
 },
 
 
@@ -230,9 +230,9 @@ fr:"Ils avaient",
 en:"They had",
 it:"Loro avevano",
 de:"Si hatten",
-es:"Ellos/Ellas tenido",
-la:"illi/illae Habebant",
-el:"αυτοί/αυτές Είχαν"
+es:"Ellos/Ellas, tenido",
+la:"illi/illae, Habebant",
+el:"αυτοί/αυτές, Είχαν"
 },
 
 
@@ -281,12 +281,12 @@ temps:"futur",
 personne:"3s",
 
 fr:"Il aura",
-en:"He/She will have",
-it:"Lui/Lei avrà",
-de:"Er/Sie wird haben",
-es:"Él/Ella tendrá",
-la:"ille/illa Habebit",
-el:"αυτός/αυτή έχει"
+en:"He/She, will have",
+it:"Lui/Lei, avrà",
+de:"Er/Sie, wird haben",
+es:"Él/Ella, tendrá",
+la:"ille/illa, Habebit",
+el:"αυτός/αυτή, έχει"
 },
 
 
@@ -316,13 +316,13 @@ model:"indicatif",
 temps:"futur",
 personne:"2pl",
 
-fr:"Vous aurez",
+fr:"tous, Vous aurez",
 en:"You will have",
 it:"Voi avrete",
-de:"Ihr wirst haben",
-es:"Vosotros Tendrás",
-la:"vos Habebis",
-el:"εσείς έχεις"
+de:"Ihr alle haben",
+es:"Ustedes tendrán",
+la:"vos habebitis",
+el:"εσείς έχετε"
 },
 
 
@@ -334,13 +334,13 @@ model:"indicatif",
 temps:"futur",
 personne:"3pl",
 
-fr:"Ils/Elles auront",
+fr:"Ils/Elles, auront",
 en:"They will have",
 it:"Loro avranno",
 de:"Si werden haben",
-es:"Ellos/Ellas tendrán",
-la:"illi/illae Habebunt",
-el:"αυτοί/αυτές έχουν"
+es:"Ellos/Ellas, tendrán",
+la:"illi/illae, Habebunt",
+el:"αυτοί/αυτές, έχουν"
 }
 
 ]
