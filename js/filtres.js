@@ -31,15 +31,22 @@ const filtres = {
 
         ordre:[
             "infinitif",
-            "conju"
+            "conju",
+            "second"
         ],
 
         options:{
 
             infinitif:"Infinitif",
-            conju:"Conjugaison"
+            conju:"Conjugaison",
+            second:"2e sens"
 
-        }
+        },
+
+        selectionParDefaut:[
+        "infinitif",
+        "conju"
+    ]
 
     },
 

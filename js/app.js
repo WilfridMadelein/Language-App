@@ -226,6 +226,19 @@ function chargerListe(categorie, liste, bouton){
 
     configurationActive.mode = liste.mode;
 
+        Object.keys(filtres).forEach(idFiltre => {
+
+    const filtre = filtres[idFiltre];
+
+    if(filtre.selectionParDefaut){
+
+        configurationActive[idFiltre] =
+            [...filtre.selectionParDefaut];
+
+    }
+
+    });
+
 titreSelection.textContent =
 
 categorie.nom
@@ -249,27 +262,7 @@ console.log(disponibles);
 
 afficherOptions(disponibles);
 
-
-cartesActuelles =
-categorie.cartes.filter(liste.filtre);
-
-
-index = 0;
-
- if(configurationActive.mode === "random"){
-
-    creerOrdreRandom();
-
-    carteActuelle = ordreRandom[indexRandom];
-
-}
-else {
-
-    carteActuelle = cartesActuelles[index];
-
-}
-
-afficherCarte();
+rechargerCartes();
 
 }
 
@@ -302,6 +295,11 @@ function afficherFiltre(idFiltre, disponibles){
         const nombre =
         compteur[valeur] ?? 0;
 
+        const estSelectionne =
+        filtres[idFiltre].selectionParDefaut
+        ? filtres[idFiltre].selectionParDefaut.includes(valeur)
+        : true;
+
         html += `
 
         <label>
@@ -311,7 +309,7 @@ function afficherFiltre(idFiltre, disponibles){
                 class="option-filtre"
                 data-filtre="${idFiltre}"
                 value="${valeur}"
-                checked
+                ${estSelectionne ? "checked" : ""}
                 ${nombre===0 ? "disabled" : ""}
                 onchange="changerOptionFiltre(this)">
 
