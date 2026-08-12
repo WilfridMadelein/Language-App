@@ -33,8 +33,16 @@ const filtres = {
             "infinitif",
             "conju",
             "second",
+
             "fam",
-            "gens"
+            "gens",
+
+            "boie",
+            "prots",
+            "plat",
+            "vege",
+            "ingr",
+            "repa",
         ],
 
         options:{
@@ -42,16 +50,32 @@ const filtres = {
             infinitif:"Infinitif",
             conju:"Conjugaison",
             second:"2e sens",
+
             fam:"Famille",
-            gens:"Gens"
+            gens:"Gens",
+
+            boie:"Boissons",
+            prots:"Protéines",
+            plat:"Plats",
+            vege:"Fruits & Légumes",
+            ingr:"Ingrédients",
+            repa:"Repas",
 
         },
 
         selectionParDefaut:[
         "infinitif",
         "conju",
+
+        "fam",
         "gens",
-        "fam"
+
+        "boie",
+        "prots",
+        "plat",
+        "vege",
+        "ingr",
+        "repa",
     ]
 
     },

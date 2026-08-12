@@ -23,7 +23,20 @@ let configurationActive = {
 
     gram:["s","pl","inv"],
 
-    type:["infinitif","conju","gens","fam"],
+    type:[
+        "infinitif",
+        "conju",
+
+        "fam",
+        "gens",
+
+        "boie",
+        "prots",
+        "plat",
+        "vege",
+        "ingr",
+        "repa",
+    ],
 
     temps:["présent","passé","futur"]
 

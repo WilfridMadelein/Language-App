@@ -11,4 +11,6 @@ verbes:verbes,
 
 personnes:personnes,
 
+nourriture:nourriture,
+
 };
