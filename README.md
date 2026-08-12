@@ -44,11 +44,10 @@ AJOUTER CATÉGORIES :
 
         listes:{
 
-            nom:"Directions",
+            nom:"Nom",
             filtre: () => true
 
         },
-
     }
     };
 
@@ -129,21 +128,19 @@ AJOUTER FILTRE
         },
     --------
 
-    - dans let configurationActive , ajouter la mémoire du choix :
+    - dans let configurationActive (app.js), ajouter la mémoire du choix :
 
     --
 
         *filtre*:["*option1*","*option2*",...]
 
-    --------
+    -------
 
-    - dans // CHANGEMENT D'OPTION , ajouter la fonction :
+    - dans fonction afficherOption (app.js), dans // AUTRES FILTRES , colle :
 
     --
 
-        function changerOption*filtre"(){
-
-            (copie-colle ce qui existe en changant pour *filtre*)
+        zone.innerHTML += afficherFiltre("*filtre*", disponibles);
 
     -------
 

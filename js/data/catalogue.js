@@ -9,4 +9,6 @@ directions:directions,
 
 verbes:verbes,
 
+personnes:personnes,
+
 };

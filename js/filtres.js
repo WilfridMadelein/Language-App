@@ -32,20 +32,26 @@ const filtres = {
         ordre:[
             "infinitif",
             "conju",
-            "second"
+            "second",
+            "fam",
+            "gens"
         ],
 
         options:{
 
             infinitif:"Infinitif",
             conju:"Conjugaison",
-            second:"2e sens"
+            second:"2e sens",
+            fam:"Famille",
+            gens:"Gens"
 
         },
 
         selectionParDefaut:[
         "infinitif",
-        "conju"
+        "conju",
+        "gens",
+        "fam"
     ]
 
     },
