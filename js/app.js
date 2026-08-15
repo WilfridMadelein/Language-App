@@ -666,7 +666,8 @@ function analyserFiltres(cartes){
                 cle==="de" ||
                 cle==="es" ||
                 cle==="la" ||
-                cle==="el"
+                cle==="el" ||
+                cle==="zh"
             ){
                 return;
             }
@@ -1001,7 +1002,8 @@ const voix = {
     de:"de-CH",
     es:"es-ES",
     la:"la",
-    el:"el-GR"
+    el:"el-GR",
+    zh:"zh-CN"
 
 };
 

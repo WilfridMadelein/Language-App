@@ -15,7 +15,8 @@ it:"la persona",
 de:"die Person",
 es:"la persona",
 la:"persona",
-el:"το άτομο"
+el:"το άτομο",
+zh:"这个人"
 },
 
 
@@ -30,7 +31,8 @@ it:"persone",
 de:"Menschen",
 es:"gente",
 la:"homines",
-el:"άνθρωποι"
+el:"άνθρωποι",
+zh:"人们"
 },
 
 
@@ -45,7 +47,8 @@ it:"l'uomo",
 de:"der Mann",
 es:"el hombre",
 la:"vir",
-el:"ο άντρας"
+el:"ο άντρας",
+zh:"男人"
 },
 
 
@@ -60,7 +63,8 @@ it:"uomini",
 de:"Männer",
 es:"hombres",
 la:"viri",
-el:"άνδρες"
+el:"άνδρες",
+zh:"男人"
 },
 
 
@@ -75,7 +79,8 @@ it:"la donna",
 de:"die Frau",
 es:"la mujer",
 la:"mulier",
-el:"η γυναίκα"
+el:"η γυναίκα",
+zh:"那个女人"
 },
 
 
@@ -90,7 +95,8 @@ it:"donne",
 de:"Frauen",
 es:"mujer",
 la:"mulieres",
-el:"γυναίκες"
+el:"γυναίκες",
+zh:"女性"
 },
 
 
@@ -105,7 +111,8 @@ it:"il bambino",
 de:"das Kind",
 es:"el niño",
 la:"puer",
-el:"το παιδί"
+el:"το παιδί",
+zh:"孩子"
 },
 
 
@@ -120,7 +127,8 @@ it:"bambini",
 de:"Kinder",
 es:"niños",
 la:"liberi",
-el:"παιδιά"
+el:"παιδιά",
+zh:"孩子们"
 },
 
 
@@ -135,7 +143,8 @@ it:"il ragazzo",
 de:"der Junge",
 es:"el niño",
 la:"puer",
-el:"το αγόρι"
+el:"το αγόρι",
+zh:"男孩"
 },
 
 
@@ -145,12 +154,13 @@ gram:"pl",
 type:"gens",
 
 fr:"les garçons",
-en:"the boys",
-it:"i ragazzi",
-de:"die Jungs",
-es:"los chicos",
+en:"boys",
+it:"ragazzi",
+de:"Jungs",
+es:"chicos",
 la:"pueri",
-el:"τα αγόρια"
+el:"αγόρια",
+zh:"男孩们"
 },
 
 
@@ -165,7 +175,8 @@ it:"la ragazza",
 de:"das Mädchen",
 es:"la niña",
 la:"puella",
-el:"το κορίτσι"
+el:"το κορίτσι",
+zh:"那个女孩"
 },
 
 
@@ -180,7 +191,8 @@ it:"ragazze",
 de:"Mädchen",
 es:"chicas",
 la:"puellae",
-el:"κορίτσια"
+el:"κορίτσια",
+zh:"女孩们"
 },
 
 
@@ -195,7 +207,8 @@ it:"il bambino",
 de:"das Baby",
 es:"el bebé",
 la:"infans",
-el:"το μωρό"
+el:"το μωρό",
+zh:"婴儿"
 },
 
 
@@ -210,7 +223,8 @@ it:"bambini",
 de:"Babys",
 es:"criaturas",
 la:"infantes",
-el:"μωρά"
+el:"μωρά",
+zh:"婴儿"
 },
 
 
@@ -225,7 +239,8 @@ it:"la famiglia",
 de:"die Familie",
 es:"la familia",
 la:"familia",
-el:"η οικογένεια"
+el:"η οικογένεια",
+zh:"家人"
 },
 
 
@@ -240,7 +255,8 @@ it:"famiglie",
 de:"Familien",
 es:"familias",
 la:"familiae",
-el:"οικογένειες"
+el:"οικογένειες",
+zh:"家庭"
 },
 
 
@@ -255,7 +271,8 @@ it:"la madre",
 de:"die Mutter",
 es:"la madre",
 la:"mater",
-el:"η μητέρα"
+el:"η μητέρα",
+zh:"母亲"
 },
 
 
@@ -270,7 +287,8 @@ it:"madri",
 de:"Mütter",
 es:"madres",
 la:"matres",
-el:"μητέρες"
+el:"μητέρες",
+zh:"母亲们"
 },
 
 
@@ -285,7 +303,8 @@ it:"il padre",
 de:"der Vater",
 es:"el padre",
 la:"pater",
-el:"ο πατέρας"
+el:"ο πατέρας",
+zh:"父亲"
 },
 
 
@@ -300,14 +319,15 @@ it:"i padri",
 de:"die Väter",
 es:"los padres",
 la:"patres",
-el:"οι πατέρες"
+el:"οι πατέρες",
+zh:"先贤们"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"gens",
+type:"fam",
 
 fr:"le parent",
 en:"the parent",
@@ -315,14 +335,15 @@ it:"il genitore",
 de:"der Elternteil",
 es:"el padre",
 la:"parens",
-el:"ο γονέας"
+el:"ο γονέας",
+zh:"父母"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"gens",
+type:"fam",
 
 fr:"les parents",
 en:"the parents",
@@ -330,7 +351,8 @@ it:"i genitori",
 de:"die Eltern",
 es:"los padres",
 la:"parentes",
-el:"οι γονείς"
+el:"οι γονείς",
+zh:"父母"
 },
 
 
@@ -345,7 +367,8 @@ it:"il figlio",
 de:"der Sohn",
 es:"el hijo",
 la:"filius",
-el:"ο γιος"
+el:"ο γιος",
+zh:"儿子"
 },
 
 
@@ -360,7 +383,8 @@ it:"i fili",
 de:"die Fäden",
 es:"los hilos",
 la:"fila",
-el:"τα νήματα"
+el:"τα νήματα",
+zh:"线"
 },
 
 
@@ -375,7 +399,8 @@ it:"la ragazza",
 de:"das Mädchen",
 es:"la niña",
 la:"puella",
-el:"το κορίτσι"
+el:"το κορίτσι",
+zh:"那个女孩"
 },
 
 
@@ -390,7 +415,8 @@ it:"ragazze",
 de:"Mädchen",
 es:"chicas",
 la:"puellae",
-el:"κορίτσια"
+el:"κορίτσια",
+zh:"女孩们"
 },
 
 
@@ -405,7 +431,8 @@ it:"il fratello",
 de:"der Bruder",
 es:"el hermano",
 la:"frater",
-el:"ο αδελφός"
+el:"ο αδελφός",
+zh:"兄弟"
 },
 
 
@@ -420,7 +447,8 @@ it:"i fratelli",
 de:"die Brüder",
 es:"los hermanos",
 la:"fratres",
-el:"οι αδελφοί"
+el:"οι αδελφοί",
+zh:"兄弟俩"
 },
 
 
@@ -435,7 +463,8 @@ it:"la sorella",
 de:"die Schwester",
 es:"la hermana",
 la:"soror",
-el:"η αδερφή"
+el:"η αδερφή",
+zh:"姐姐"
 },
 
 
@@ -450,7 +479,8 @@ it:"le sorelle",
 de:"die Schwestern",
 es:"las hermanas",
 la:"sorores",
-el:"οι αδελφές"
+el:"οι αδελφές",
+zh:"姐妹俩"
 },
 
 
@@ -465,7 +495,8 @@ it:"il nonno",
 de:"der Großvater",
 es:"el abuelo",
 la:"avus",
-el:"ο παππούς"
+el:"ο παππούς",
+zh:"祖父"
 },
 
 
@@ -480,7 +511,8 @@ it:"nonni",
 de:"Großväter",
 es:"abuelos",
 la:"avi",
-el:"παππούδες"
+el:"παππούδες",
+zh:"祖父们"
 },
 
 
@@ -495,7 +527,8 @@ it:"la nonna",
 de:"die Großmutter",
 es:"la abuela",
 la:"avia",
-el:"η γιαγιά"
+el:"η γιαγιά",
+zh:"祖母"
 },
 
 
@@ -510,7 +543,8 @@ it:"nonne",
 de:"Großmütter",
 es:"abuelas",
 la:"aviae",
-el:"γιαγιάδες"
+el:"γιαγιάδες",
+zh:"祖母们"
 },
 
 
@@ -525,7 +559,8 @@ it:"lo zio",
 de:"der Onkel",
 es:"el tío",
 la:"avunculus",
-el:"ο θείος"
+el:"ο θείος",
+zh:"叔叔"
 },
 
 
@@ -540,7 +575,8 @@ it:"gli zii",
 de:"die Onkel",
 es:"los tíos",
 la:"avunculi",
-el:"οι θείοι"
+el:"οι θείοι",
+zh:"叔叔们"
 },
 
 
@@ -555,7 +591,8 @@ it:"la zia",
 de:"die Tante",
 es:"la tía",
 la:"amita",
-el:"η θεία"
+el:"η θεία",
+zh:"姑妈"
 },
 
 
@@ -570,7 +607,8 @@ it:"le zie",
 de:"die Tanten",
 es:"las tías",
 la:"amitae",
-el:"οι θείες"
+el:"οι θείες",
+zh:"姑妈们"
 },
 
 
@@ -585,7 +623,8 @@ it:"il cugino",
 de:"der Cousin",
 es:"el primo",
 la:"consobrinus",
-el:"ο ξάδερφος"
+el:"ο ξάδερφος",
+zh:"表亲"
 },
 
 
@@ -600,7 +639,8 @@ it:"i cugini",
 de:"die Cousins",
 es:"los primos",
 la:"consobrini",
-el:"τα ξαδέρφια"
+el:"τα ξαδέρφια",
+zh:"表兄弟姐妹"
 },
 
 
@@ -615,7 +655,8 @@ it:"la cugina femmina",
 de:"die weibliche Cousine",
 es:"la prima",
 la:"consobrina femina",
-el:"η ξαδέρφη"
+el:"η ξαδέρφη",
+zh:"女性表亲"
 },
 
 
@@ -630,7 +671,8 @@ it:"le cugine",
 de:"die weiblichen Cousinen",
 es:"las primas",
 la:"consobrinae feminae",
-el:"οι ξαδέρφες"
+el:"οι ξαδέρφες",
+zh:"女性表亲"
 },
 
 
@@ -645,7 +687,8 @@ it:"il marito",
 de:"der Ehemann",
 es:"el marido",
 la:"maritus",
-el:"ο σύζυγος"
+el:"ο σύζυγος",
+zh:"丈夫"
 },
 
 
@@ -660,7 +703,8 @@ it:"i mariti",
 de:"die Ehemänner",
 es:"los maridos",
 la:"mariti",
-el:"οι σύζυγοι"
+el:"οι σύζυγοι",
+zh:"丈夫们"
 },
 
 
@@ -675,7 +719,8 @@ it:"la moglie",
 de:"die Ehefrau",
 es:"la esposa",
 la:"uxor",
-el:"η σύζυγος"
+el:"η σύζυγος",
+zh:"妻子"
 },
 
 
@@ -690,7 +735,8 @@ it:"le mogli",
 de:"die Ehefrauen",
 es:"las esposas",
 la:"uxores",
-el:"οι σύζυγοι"
+el:"οι σύζυγοι",
+zh:"妻子们"
 },
 
 
@@ -705,7 +751,8 @@ it:"il char",
 de:"der Nachbar",
 es:"el vecino",
 la:"vicinus",
-el:"ο γείτονας"
+el:"ο γείτονας",
+zh:"邻居"
 },
 
 
@@ -720,7 +767,8 @@ it:"i vicini",
 de:"die Nachbarn",
 es:"los vecinos",
 la:"vicini",
-el:"οι γείτονες"
+el:"οι γείτονες",
+zh:"邻居们"
 },
 
 
@@ -735,7 +783,8 @@ it:"la vicina di casa",
 de:"die Nachbarin",
 es:"la vecina",
 la:"vicina femina",
-el:"η γειτόνισσα"
+el:"η γειτόνισσα",
+zh:"女邻居"
 },
 
 
@@ -750,7 +799,8 @@ it:"le vicine di casa",
 de:"die weiblichen Nachbarinnen",
 es:"las vecinas",
 la:"vicinae feminae",
-el:"οι γειτόνισσες"
+el:"οι γειτόνισσες",
+zh:"女邻居们"
 },
 
 
@@ -765,7 +815,8 @@ it:"Mio amico",
 de:"mein Freund",
 es:"mi amigo",
 la:"amicus meus",
-el:"ο φίλος μου"
+el:"ο φίλος μου",
+zh:"我的朋友"
 },
 
 
@@ -780,7 +831,8 @@ it:"amici",
 de:"Freunde",
 es:"amigos",
 la:"amici",
-el:"φίλοι"
+el:"φίλοι",
+zh:"朋友们"
 },
 
 
@@ -795,7 +847,8 @@ it:"l'amica",
 de:"die Freundin",
 es:"la amiga",
 la:"amica femina",
-el:"η φίλη"
+el:"η φίλη",
+zh:"女性朋友"
 },
 
 
@@ -810,7 +863,8 @@ it:"amiche",
 de:"Freundinnen",
 es:"amigas",
 la:"amicae feminae",
-el:"φίλες"
+el:"φίλες",
+zh:"女性朋友"
 },
 
 
@@ -825,7 +879,8 @@ it:"il collega",
 de:"der Kollege",
 es:"el colega",
 la:"collega",
-el:"ο συνάδελφος"
+el:"ο συνάδελφος",
+zh:"同事"
 },
 
 
@@ -834,13 +889,14 @@ cat:"personnes",
 gram:"pl",
 type:"gens",
 
-fr:"le père",
-en:"the father",
-it:"il padre",
-de:"der Vater",
-es:"el padre",
-la:"pater",
-el:"ο πατέρας"
+fr:"les collègues",
+en:"colleagues",
+it:"colleghi",
+de:"Kollegen",
+es:"colegas",
+la:"collegae",
+el:"συνάδελφοι",
+zh:"同事"
 }
 
 

@@ -15,7 +15,8 @@ it:"acqua",
 de:"Wasser",
 es:"agua",
 la:"aqua",
-el:"νερό"
+el:"νερό",
+zh:"水"
 },
 
 
@@ -30,7 +31,8 @@ it:"Latte",
 de:"Milch",
 es:"Leche",
 la:"Lac",
-el:"Γάλα"
+el:"Γάλα",
+zh:"牛奶"
 },
 
 
@@ -45,7 +47,8 @@ it:"caffè",
 de:"Kaffee",
 es:"café",
 la:"coffea",
-el:"καφές"
+el:"καφές",
+zh:"咖啡"
 },
 
 
@@ -60,7 +63,8 @@ it:"caffè",
 de:"Cafés",
 es:"cafés",
 la:"cauponae",
-el:"καφετέριες"
+el:"καφετέριες",
+zh:"咖啡馆"
 },
 
 
@@ -75,7 +79,8 @@ it:"tè",
 de:"Tee",
 es:"té",
 la:"thea",
-el:"τσάι"
+el:"τσάι",
+zh:"茶"
 },
 
 
@@ -90,7 +95,8 @@ it:"tè",
 de:"Tees",
 es:"tés",
 la:"theae",
-el:"τσάγια"
+el:"τσάγια",
+zh:"茶"
 },
 
 
@@ -105,7 +111,8 @@ it:"la bevanda",
 de:"das Getränk",
 es:"la bebida",
 la:"potus",
-el:"το ποτό"
+el:"το ποτό",
+zh:"饮料"
 },
 
 
@@ -120,7 +127,8 @@ it:"bevande",
 de:"Getränke",
 es:"bebidas",
 la:"potiones",
-el:"αναψυκτικά"
+el:"αναψυκτικά",
+zh:"饮料"
 },
 
 
@@ -135,7 +143,8 @@ it:"il succo",
 de:"der Saft",
 es:"el jugo",
 la:"succus",
-el:"ο χυμός"
+el:"ο χυμός",
+zh:"果汁"
 },
 
 
@@ -150,7 +159,8 @@ it:"i succhi",
 de:"die Säfte",
 es:"los zumos",
 la:"suci",
-el:"οι χυμοί"
+el:"οι χυμοί",
+zh:"果汁"
 },
 
 
@@ -165,7 +175,8 @@ it:"pane",
 de:"brot",
 es:"pan",
 la:"panis",
-el:"ψωμί"
+el:"ψωμί",
+zh:"面包"
 },
 
 
@@ -180,7 +191,8 @@ it:"le pagnotte di pane",
 de:"die Brote",
 es:"los panes",
 la:"panes",
-el:"τα καρβέλια ψωμί"
+el:"τα καρβέλια ψωμί",
+zh:"面包"
 },
 
 
@@ -195,7 +207,8 @@ it:"formaggio",
 de:"Käse",
 es:"queso",
 la:"caseus",
-el:"τυρί"
+el:"τυρί",
+zh:"奶酪"
 },
 
 
@@ -210,7 +223,8 @@ it:"formaggi",
 de:"Käse",
 es:"quesos",
 la:"casei",
-el:"τυριά"
+el:"τυριά",
+zh:"奶酪"
 },
 
 
@@ -225,7 +239,8 @@ it:"l'uovo",
 de:"das Ei",
 es:"el huevo",
 la:"ovum",
-el:"το αυγό"
+el:"το αυγό",
+zh:"鸡蛋"
 },
 
 
@@ -240,7 +255,8 @@ it:"uova",
 de:"Eier",
 es:"huevos",
 la:"ova",
-el:"αυγά"
+el:"αυγά",
+zh:"鸡蛋"
 },
 
 
@@ -255,7 +271,8 @@ it:"carne",
 de:"Fleisch",
 es:"carne",
 la:"caro",
-el:"κρέας"
+el:"κρέας",
+zh:"肉"
 },
 
 
@@ -270,7 +287,8 @@ it:"carni",
 de:"Fleisch",
 es:"carnes",
 la:"carnes",
-el:"κρέατα"
+el:"κρέατα",
+zh:"肉类"
 },
 
 
@@ -285,7 +303,8 @@ it:"manzo",
 de:"Rindfleisch",
 es:"carne de res",
 la:"bubula",
-el:"βοδινό κρέας"
+el:"βοδινό κρέας",
+zh:"牛肉"
 },
 
 
@@ -300,7 +319,8 @@ it:"il maiale",
 de:"das Schwein",
 es:"el cerdo",
 la:"porcus",
-el:"το γουρούνι"
+el:"το γουρούνι",
+zh:"猪"
 },
 
 
@@ -315,7 +335,8 @@ it:"il pollo",
 de:"das Huhn",
 es:"el pollo",
 la:"gallina",
-el:"το κοτόπουλο"
+el:"το κοτόπουλο",
+zh:"鸡"
 },
 
 
@@ -330,7 +351,8 @@ it:"il pesce",
 de:"der Fisch",
 es:"el pez",
 la:"piscis",
-el:"το ψάρι"
+el:"το ψάρι",
+zh:"鱼"
 },
 
 
@@ -345,7 +367,8 @@ it:"tutti i pesci",
 de:"alle Fische",
 es:"todos los peces",
 la:"omnes pisces",
-el:"όλα τα ψάρια"
+el:"όλα τα ψάρια",
+zh:"所有的鱼"
 },
 
 
@@ -360,7 +383,8 @@ it:"riso",
 de:"Reis",
 es:"arroz",
 la:"oryza",
-el:"ρύζι"
+el:"ρύζι",
+zh:"米"
 },
 
 
@@ -375,7 +399,8 @@ it:"pasta",
 de:"Pasta",
 es:"pastas",
 la:"pasta",
-el:"ζυμαρικά"
+el:"ζυμαρικά",
+zh:"面食"
 },
 
 
@@ -390,7 +415,8 @@ it:"minestra",
 de:"Suppe",
 es:"sopa",
 la:"iusculum",
-el:"σούπα"
+el:"σούπα",
+zh:"汤"
 },
 
 
@@ -405,7 +431,8 @@ it:"zuppe",
 de:"Suppen",
 es:"sopas",
 la:"iuscula",
-el:"σούπες"
+el:"σούπες",
+zh:"汤"
 },
 
 
@@ -420,7 +447,8 @@ it:"l'insalata",
 de:"der Salat",
 es:"la ensalada",
 la:"acetaria",
-el:"η σαλάτα"
+el:"η σαλάτα",
+zh:"沙拉"
 },
 
 
@@ -435,7 +463,8 @@ it:"insalate",
 de:"Salate",
 es:"ensaladas",
 la:"acetaria",
-el:"σαλάτες"
+el:"σαλάτες",
+zh:"沙拉"
 },
 
 
@@ -449,8 +478,9 @@ en:"the sandwich",
 it:"il panino",
 de:"das Sandwich",
 es:"el sándwich",
-la:"sandwichum",
-el:"το σάντουιτς"
+la:"sandwich",
+el:"το σάντουιτς",
+zh:"三明治"
 },
 
 
@@ -465,7 +495,8 @@ it:"panini",
 de:"Sandwiches",
 es:"sándwiches",
 la:"sandwiches",
-el:"σάντουιτς"
+el:"σάντουιτς",
+zh:"三明治"
 },
 
 
@@ -480,7 +511,8 @@ it:"la mela",
 de:"der Apfel",
 es:"la manzana",
 la:"malum",
-el:"το μήλο"
+el:"το μήλο",
+zh:"苹果"
 },
 
 
@@ -495,7 +527,8 @@ it:"mele",
 de:"Äpfel",
 es:"manzanas",
 la:"mala",
-el:"μήλα"
+el:"μήλα",
+zh:"苹果"
 },
 
 
@@ -510,7 +543,8 @@ it:"la banana",
 de:"die Banane",
 es:"el plátano",
 la:"banana",
-el:"η μπανάνα"
+el:"η μπανάνα",
+zh:"香蕉"
 },
 
 
@@ -525,7 +559,8 @@ it:"banane",
 de:"Bananen",
 es:"plátanos",
 la:"bananae",
-el:"μπανάνες"
+el:"μπανάνες",
+zh:"香蕉"
 },
 
 
@@ -540,7 +575,8 @@ it:"l'arancione",
 de:"die Orange",
 es:"la naranja",
 la:"aurantium",
-el:"το πορτοκάλι"
+el:"το πορτοκάλι",
+zh:"橙子"
 },
 
 
@@ -555,7 +591,8 @@ it:"arance",
 de:"Orangen",
 es:"naranjas",
 la:"aurantia",
-el:"πορτοκάλια"
+el:"πορτοκάλια",
+zh:"橙子"
 },
 
 
@@ -570,7 +607,8 @@ it:"la fragola",
 de:"die Erdbeere",
 es:"la fresa",
 la:"fragaria",
-el:"η φράουλα"
+el:"η φράουλα",
+zh:"草莓"
 },
 
 
@@ -585,7 +623,8 @@ it:"fragole",
 de:"Erdbeeren",
 es:"fresas",
 la:"fragae",
-el:"φράουλες"
+el:"φράουλες",
+zh:"草莓"
 },
 
 
@@ -600,7 +639,8 @@ it:"il pomodoro",
 de:"die Tomate",
 es:"el tomate",
 la:"lycopersicum",
-el:"η ντομάτα"
+el:"η ντομάτα",
+zh:"番茄"
 },
 
 
@@ -615,7 +655,8 @@ it:"pomodori",
 de:"Tomaten",
 es:"tomates",
 la:"lycopersica",
-el:"ντομάτες"
+el:"ντομάτες",
+zh:"西红柿"
 },
 
 
@@ -630,7 +671,8 @@ it:"la patata",
 de:"die Kartoffel",
 es:"la patata",
 la:"solanum tuberosum",
-el:"η πατάτα"
+el:"η πατάτα",
+zh:"土豆"
 },
 
 
@@ -645,7 +687,8 @@ it:"patate",
 de:"Kartoffeln",
 es:"papas",
 la:"solana tubera",
-el:"πατάτες"
+el:"πατάτες",
+zh:"土豆"
 },
 
 
@@ -660,7 +703,8 @@ it:"la carota",
 de:"die Karotte",
 es:"la zanahoria",
 la:"carota",
-el:"το καρότο"
+el:"το καρότο",
+zh:"胡萝卜"
 },
 
 
@@ -675,7 +719,8 @@ it:"carote",
 de:"Karotten",
 es:"zanahorias",
 la:"carotae",
-el:"καρότα"
+el:"καρότα",
+zh:"胡萝卜"
 },
 
 
@@ -690,7 +735,8 @@ it:"la cipolla",
 de:"die Zwiebel",
 es:"la cebolla",
 la:"cepa",
-el:"το κρεμμύδι"
+el:"το κρεμμύδι",
+zh:"洋葱"
 },
 
 
@@ -705,7 +751,8 @@ it:"mandorle",
 de:"Zwiebeln",
 es:"cebollas",
 la:"cepae",
-el:"κρεμμύδια"
+el:"κρεμμύδια",
+zh:"洋葱"
 },
 
 
@@ -720,7 +767,8 @@ it:"sale",
 de:"Salz",
 es:"sal",
 la:"sal",
-el:"άλας"
+el:"άλας",
+zh:"盐"
 },
 
 
@@ -735,7 +783,8 @@ it:"zucchero",
 de:"Zucker",
 es:"azúcar",
 la:"saccharum",
-el:"ζάχαρη"
+el:"ζάχαρη",
+zh:"糖"
 },
 
 
@@ -750,7 +799,8 @@ it:"olio",
 de:"Öl",
 es:"aceite",
 la:"oleum",
-el:"έλαιο"
+el:"έλαιο",
+zh:"油"
 },
 
 
@@ -765,7 +815,8 @@ it:"farina",
 de:"Mehl",
 es:"harina",
 la:"farina",
-el:"αλεύρι"
+el:"αλεύρι",
+zh:"面粉"
 },
 
 
@@ -780,7 +831,8 @@ it:"spezie",
 de:"Gewürze",
 es:"especias",
 la:"aromata",
-el:"μπαχαρικά"
+el:"μπαχαρικά",
+zh:"香料"
 },
 
 
@@ -795,7 +847,8 @@ it:"colazione",
 de:"Frühstück",
 es:"desayuno",
 la:"ientaculum",
-el:"πρωινό"
+el:"πρωινό",
+zh:"早餐"
 },
 
 
@@ -810,7 +863,8 @@ it:"colazioni",
 de:"Frühstück",
 es:"desayunos",
 la:"ientacula",
-el:"πρωινά"
+el:"πρωινά",
+zh:"早餐"
 },
 
 
@@ -825,7 +879,8 @@ it:"pranzo",
 de:"Mittagessen",
 es:"almuerzo",
 la:"prandium",
-el:"μεσημεριανό"
+el:"μεσημεριανό",
+zh:"午餐"
 },
 
 
@@ -840,7 +895,8 @@ it:"pranzi",
 de:"Mittagessen",
 es:"almuerzos",
 la:"prandia",
-el:"γεύματα"
+el:"γεύματα",
+zh:"午餐"
 },
 
 
@@ -855,7 +911,8 @@ it:"cena",
 de:"Abendessen",
 es:"cena",
 la:"cena",
-el:"δείπνο"
+el:"δείπνο",
+zh:"晚餐"
 },
 
 
@@ -870,7 +927,8 @@ it:"cene",
 de:"Abendessen",
 es:"cenas",
 la:"cenae",
-el:"δείπνα"
+el:"δείπνα",
+zh:"晚餐"
 },
 
 
@@ -885,7 +943,8 @@ it:"il pasto",
 de:"das Essen",
 es:"la comida",
 la:"cena",
-el:"το γεύμα"
+el:"το γεύμα",
+zh:"餐"
 },
 
 
@@ -900,7 +959,8 @@ it:"pasti",
 de:"Mahlzeiten",
 es:"comidas",
 la:"cenae",
-el:"γεύματα"
+el:"γεύματα",
+zh:"餐"
 }
 
 

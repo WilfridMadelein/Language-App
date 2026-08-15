@@ -14,7 +14,8 @@ it:"Avere",
 de:"Um zu haben",
 es:"Tener",
 la:"Habere",
-el:"Να έχεις"
+el:"Να έχεις",
+zh:"拥有"
 },
 
 
@@ -34,7 +35,8 @@ it:"Io ho",
 de:"Ich habe",
 es:"Yo Tengo",
 la:"ego habeo",
-el:"εγώ Έχω"
+el:"εγώ Έχω",
+zh:"我 我有"
 },
 
 
@@ -52,7 +54,8 @@ it:"Tu hai",
 de:"Du hast",
 es:"Tú Tienes",
 la:"tu Habes",
-el:"εσύ Έχετε"
+el:"εσύ Έχετε",
+zh:"你 你有"
 },
 
 
@@ -70,7 +73,8 @@ it:"Lui/Lei, ha",
 de:"Er/Sie, hat",
 es:"Él/Ella, tiene",
 la:"ille/illa, habet",
-el:"αυτός/αυτή, έχει"
+el:"αυτός/αυτή, έχει",
+zh:"他/ 她 他有"
 },
 
 
@@ -88,7 +92,8 @@ it:"Noi abbiamo",
 de:"Wir haben",
 es:"Nosotros Tenemos",
 la:"nos Habemus",
-el:"εμείς Έχουμε"
+el:"εμείς Έχουμε",
+zh:"我们 我们有"
 },
 
 
@@ -106,7 +111,8 @@ it:"Voi avete",
 de:"Ihr habt",
 es:"Ustedes tienen",
 la:"vos habetis",
-el:"εσείς έχετε"
+el:"εσείς έχετε",
+zh:"你们 你们有"
 },
 
 
@@ -124,7 +130,8 @@ it:"Loro hanno",
 de:"Si haben",
 es:"Ellos/Ellas, tienen",
 la:"illi/illae, Habent",
-el:"αυτοί/αυτές, Έχουν"
+el:"αυτοί/αυτές, Έχουν",
+zh:"他们 他们有"
 },
 
 
@@ -142,7 +149,8 @@ it:"Io avevo",
 de:"Ich hatte",
 es:"Yo tenía",
 la:"ego habui",
-el:"εγώ είχα"
+el:"εγώ είχα",
+zh:"我 我曾"
 },
 
 
@@ -160,7 +168,8 @@ it:"Tu avevi",
 de:"Du hattest",
 es:"Tú Tenías",
 la:"tu Habuisti",
-el:"εσύ Είχες"
+el:"εσύ Είχες",
+zh:"你 你曾"
 },
 
 
@@ -178,7 +187,8 @@ it:"Lui/Lei, aveva",
 de:"Er/Sie, hatte",
 es:"Él/Ella, tenía",
 la:"ille/illa, habuit",
-el:"αυτός/αυτή, Είχε"
+el:"αυτός/αυτή, Είχε",
+zh:"他/ 她 他曾"
 },
 
 
@@ -196,7 +206,8 @@ it:"Noi avevamo",
 de:"Wir hatten",
 es:"Nosotros Tuvimos",
 la:"nos habuimus",
-el:"εμείς Είχαμε"
+el:"εμείς Είχαμε",
+zh:"我们 我们曾"
 },
 
 
@@ -214,7 +225,8 @@ it:"Voi avevate",
 de:"Ihr hattet",
 es:"Ustedes tenían",
 la:"vos habuistis",
-el:"εσείς είχατε"
+el:"εσείς είχατε",
+zh:"你们 你们曾有"
 },
 
 
@@ -232,7 +244,8 @@ it:"Loro avevano",
 de:"Si hatten",
 es:"Ellos/Ellas, tenido",
 la:"illi/illae, Habebant",
-el:"αυτοί/αυτές, Είχαν"
+el:"αυτοί/αυτές, Είχαν",
+zh:"他们 他们有"
 },
 
 
@@ -250,7 +263,8 @@ it:"Io avrò",
 de:"Ich werde haben",
 es:"Yo Tendré",
 la:"ego Habebo",
-el:"εγώ έχω"
+el:"εγώ έχω",
+zh:"我 我将拥有"
 },
 
 
@@ -268,7 +282,8 @@ it:"Tu avrai",
 de:"Du wirst haben",
 es:"Tú Tendrás",
 la:"tu Habebis",
-el:"εσύ έχεις"
+el:"εσύ έχεις",
+zh:"你 你将拥有"
 },
 
 
@@ -286,7 +301,8 @@ it:"Lui/Lei, avrà",
 de:"Er/Sie, wird haben",
 es:"Él/Ella, tendrá",
 la:"ille/illa, Habebit",
-el:"αυτός/αυτή, έχει"
+el:"αυτός/αυτή, έχει",
+zh:"他/ 她 他将拥有"
 },
 
 
@@ -304,7 +320,8 @@ it:"Noi avremo",
 de:"Wir werden haben",
 es:"Nosotros Tendremos",
 la:"nos Habebimus",
-el:"εμείς έχουμε"
+el:"εμείς έχουμε",
+zh:"我们 我们将拥有"
 },
 
 
@@ -322,7 +339,8 @@ it:"Voi avrete",
 de:"Ihr alle haben",
 es:"Ustedes tendrán",
 la:"vos habebitis",
-el:"εσείς έχετε"
+el:"εσείς έχετε",
+zh:"你们 你们都会有"
 },
 
 
@@ -340,13 +358,13 @@ it:"Loro avranno",
 de:"Si werden haben",
 es:"Ellos/Ellas, tendrán",
 la:"illi/illae, Habebunt",
-el:"αυτοί/αυτές, έχουν"
-}
+el:"αυτοί/αυτές, έχουν",
+zh:"他们 他们将拥有"
+},
 
 ]
 
 };
-
 
 
 
