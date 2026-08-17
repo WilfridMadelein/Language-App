@@ -16,7 +16,8 @@ de:"Wasser",
 es:"agua",
 la:"aqua",
 el:"νερό",
-zh:"水"
+zh:"水",
+ru:"вода"
 },
 
 
@@ -32,7 +33,8 @@ de:"Milch",
 es:"Leche",
 la:"Lac",
 el:"Γάλα",
-zh:"牛奶"
+zh:"牛奶",
+ru:"Молоко"
 },
 
 
@@ -48,7 +50,8 @@ de:"Kaffee",
 es:"café",
 la:"coffea",
 el:"καφές",
-zh:"咖啡"
+zh:"咖啡",
+ru:"кофе"
 },
 
 
@@ -64,7 +67,8 @@ de:"Cafés",
 es:"cafés",
 la:"cauponae",
 el:"καφετέριες",
-zh:"咖啡馆"
+zh:"咖啡馆",
+ru:"кафе"
 },
 
 
@@ -80,7 +84,8 @@ de:"Tee",
 es:"té",
 la:"thea",
 el:"τσάι",
-zh:"茶"
+zh:"茶",
+ru:"чай"
 },
 
 
@@ -96,7 +101,8 @@ de:"Tees",
 es:"tés",
 la:"theae",
 el:"τσάγια",
-zh:"茶"
+zh:"茶",
+ru:"чаи"
 },
 
 
@@ -112,7 +118,8 @@ de:"das Getränk",
 es:"la bebida",
 la:"potus",
 el:"το ποτό",
-zh:"饮料"
+zh:"饮料",
+ru:"напиток"
 },
 
 
@@ -128,7 +135,8 @@ de:"Getränke",
 es:"bebidas",
 la:"potiones",
 el:"αναψυκτικά",
-zh:"饮料"
+zh:"饮料",
+ru:"напитки"
 },
 
 
@@ -144,7 +152,8 @@ de:"der Saft",
 es:"el jugo",
 la:"succus",
 el:"ο χυμός",
-zh:"果汁"
+zh:"果汁",
+ru:"сок"
 },
 
 
@@ -160,14 +169,15 @@ de:"die Säfte",
 es:"los zumos",
 la:"suci",
 el:"οι χυμοί",
-zh:"果汁"
+zh:"果汁",
+ru:"соки"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"plat",
+type:"boie",
 
 fr:"le pain",
 en:"bread",
@@ -176,14 +186,15 @@ de:"brot",
 es:"pan",
 la:"panis",
 el:"ψωμί",
-zh:"面包"
+zh:"面包",
+ru:"хлеб"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"plat",
+type:"boie",
 
 fr:"les pains",
 en:"the loaves of bread",
@@ -192,14 +203,15 @@ de:"die Brote",
 es:"los panes",
 la:"panes",
 el:"τα καρβέλια ψωμί",
-zh:"面包"
+zh:"面包",
+ru:"буханки хлеба"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"prots",
+type:"boie",
 
 fr:"le fromage",
 en:"cheese",
@@ -208,14 +220,15 @@ de:"Käse",
 es:"queso",
 la:"caseus",
 el:"τυρί",
-zh:"奶酪"
+zh:"奶酪",
+ru:"сыр"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"prots",
+type:"boie",
 
 fr:"les fromages",
 en:"cheeses",
@@ -224,14 +237,15 @@ de:"Käse",
 es:"quesos",
 la:"casei",
 el:"τυριά",
-zh:"奶酪"
+zh:"奶酪",
+ru:"сыры"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"prots",
+type:"boie",
 
 fr:"l’œuf",
 en:"the egg",
@@ -240,14 +254,15 @@ de:"das Ei",
 es:"el huevo",
 la:"ovum",
 el:"το αυγό",
-zh:"鸡蛋"
+zh:"鸡蛋",
+ru:"яйцо"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"prots",
+type:"boie",
 
 fr:"les œufs",
 en:"eggs",
@@ -256,14 +271,15 @@ de:"Eier",
 es:"huevos",
 la:"ova",
 el:"αυγά",
-zh:"鸡蛋"
+zh:"鸡蛋",
+ru:"яйца"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"prots",
+type:"boie",
 
 fr:"la viande",
 en:"meat",
@@ -272,14 +288,15 @@ de:"Fleisch",
 es:"carne",
 la:"caro",
 el:"κρέας",
-zh:"肉"
+zh:"肉",
+ru:"мясо"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"prots",
+type:"boie",
 
 fr:"les viandes",
 en:"meats",
@@ -288,14 +305,15 @@ de:"Fleisch",
 es:"carnes",
 la:"carnes",
 el:"κρέατα",
-zh:"肉类"
+zh:"肉类",
+ru:"мясо"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"prots",
+type:"boie",
 
 fr:"le boeuf",
 en:"beef",
@@ -304,14 +322,15 @@ de:"Rindfleisch",
 es:"carne de res",
 la:"bubula",
 el:"βοδινό κρέας",
-zh:"牛肉"
+zh:"牛肉",
+ru:"говядина"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"prots",
+type:"boie",
 
 fr:"le porc",
 en:"the pig",
@@ -320,14 +339,15 @@ de:"das Schwein",
 es:"el cerdo",
 la:"porcus",
 el:"το γουρούνι",
-zh:"猪"
+zh:"猪",
+ru:"свинья"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"prots",
+type:"boie",
 
 fr:"le poulet",
 en:"the chicken",
@@ -336,14 +356,15 @@ de:"das Huhn",
 es:"el pollo",
 la:"gallina",
 el:"το κοτόπουλο",
-zh:"鸡"
+zh:"鸡",
+ru:"курица"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"prots",
+type:"boie",
 
 fr:"le poisson",
 en:"the fish",
@@ -352,14 +373,15 @@ de:"der Fisch",
 es:"el pez",
 la:"piscis",
 el:"το ψάρι",
-zh:"鱼"
+zh:"鱼",
+ru:"рыба"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"prots",
+type:"boie",
 
 fr:"tous les poissons",
 en:"all the fish",
@@ -368,14 +390,15 @@ de:"alle Fische",
 es:"todos los peces",
 la:"omnes pisces",
 el:"όλα τα ψάρια",
-zh:"所有的鱼"
+zh:"所有的鱼",
+ru:"вся рыба"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"plat",
+type:"boie",
 
 fr:"le riz",
 en:"rice",
@@ -384,14 +407,15 @@ de:"Reis",
 es:"arroz",
 la:"oryza",
 el:"ρύζι",
-zh:"米"
+zh:"米",
+ru:"рис"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"plat",
+type:"boie",
 
 fr:"les pâtes",
 en:"pasta",
@@ -400,30 +424,32 @@ de:"Pasta",
 es:"pastas",
 la:"pasta",
 el:"ζυμαρικά",
-zh:"面食"
+zh:"面食",
+ru:"паста"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"plat",
+type:"boie",
 
 fr:"la soupe",
-en:"soup",
-it:"minestra",
-de:"Suppe",
-es:"sopa",
+en:"the soup",
+it:"la zuppa",
+de:"die Suppe",
+es:"la sopa",
 la:"iusculum",
-el:"σούπα",
-zh:"汤"
+el:"η σούπα",
+zh:"汤",
+ru:"суп"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"plat",
+type:"boie",
 
 fr:"les soupes",
 en:"soups",
@@ -432,14 +458,15 @@ de:"Suppen",
 es:"sopas",
 la:"iuscula",
 el:"σούπες",
-zh:"汤"
+zh:"汤",
+ru:"супы"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"plat",
+type:"boie",
 
 fr:"la salade",
 en:"the salad",
@@ -448,14 +475,15 @@ de:"der Salat",
 es:"la ensalada",
 la:"acetaria",
 el:"η σαλάτα",
-zh:"沙拉"
+zh:"沙拉",
+ru:"салат"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"plat",
+type:"boie",
 
 fr:"les salades",
 en:"salads",
@@ -464,30 +492,32 @@ de:"Salate",
 es:"ensaladas",
 la:"acetaria",
 el:"σαλάτες",
-zh:"沙拉"
+zh:"沙拉",
+ru:"салаты"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"plat",
+type:"boie",
 
 fr:"le sandwich",
 en:"the sandwich",
 it:"il panino",
 de:"das Sandwich",
 es:"el sándwich",
-la:"sandwich",
+la:"sandwichum",
 el:"το σάντουιτς",
-zh:"三明治"
+zh:"三明治",
+ru:"сэндвич"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"plat",
+type:"boie",
 
 fr:"les sandwichs",
 en:"sandwiches",
@@ -496,14 +526,15 @@ de:"Sandwiches",
 es:"sándwiches",
 la:"sandwiches",
 el:"σάντουιτς",
-zh:"三明治"
+zh:"三明治",
+ru:"сэндвичи"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"vege",
+type:"boie",
 
 fr:"la pomme",
 en:"the apple",
@@ -512,14 +543,15 @@ de:"der Apfel",
 es:"la manzana",
 la:"malum",
 el:"το μήλο",
-zh:"苹果"
+zh:"苹果",
+ru:"яблоко"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"vege",
+type:"boie",
 
 fr:"les pommes",
 en:"apples",
@@ -528,14 +560,15 @@ de:"Äpfel",
 es:"manzanas",
 la:"mala",
 el:"μήλα",
-zh:"苹果"
+zh:"苹果",
+ru:"яблоки"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"vege",
+type:"boie",
 
 fr:"la banane",
 en:"the banana",
@@ -544,14 +577,15 @@ de:"die Banane",
 es:"el plátano",
 la:"banana",
 el:"η μπανάνα",
-zh:"香蕉"
+zh:"香蕉",
+ru:"банан"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"vege",
+type:"boie",
 
 fr:"les bananes",
 en:"bananas",
@@ -560,14 +594,15 @@ de:"Bananen",
 es:"plátanos",
 la:"bananae",
 el:"μπανάνες",
-zh:"香蕉"
+zh:"香蕉",
+ru:"бананы"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"vege",
+type:"boie",
 
 fr:"l’orange",
 en:"the orange",
@@ -576,14 +611,15 @@ de:"die Orange",
 es:"la naranja",
 la:"aurantium",
 el:"το πορτοκάλι",
-zh:"橙子"
+zh:"橙子",
+ru:"апельсин"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"vege",
+type:"boie",
 
 fr:"les oranges",
 en:"oranges",
@@ -592,14 +628,15 @@ de:"Orangen",
 es:"naranjas",
 la:"aurantia",
 el:"πορτοκάλια",
-zh:"橙子"
+zh:"橙子",
+ru:"апельсины"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"vege",
+type:"boie",
 
 fr:"la fraise",
 en:"the strawberry",
@@ -608,14 +645,15 @@ de:"die Erdbeere",
 es:"la fresa",
 la:"fragaria",
 el:"η φράουλα",
-zh:"草莓"
+zh:"草莓",
+ru:"клубника"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"vege",
+type:"boie",
 
 fr:"les fraises",
 en:"strawberries",
@@ -624,14 +662,15 @@ de:"Erdbeeren",
 es:"fresas",
 la:"fragae",
 el:"φράουλες",
-zh:"草莓"
+zh:"草莓",
+ru:"клубника"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"vege",
+type:"boie",
 
 fr:"la tomate",
 en:"the tomato",
@@ -640,14 +679,15 @@ de:"die Tomate",
 es:"el tomate",
 la:"lycopersicum",
 el:"η ντομάτα",
-zh:"番茄"
+zh:"番茄",
+ru:"помидор"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"vege",
+type:"boie",
 
 fr:"les tomates",
 en:"tomatoes",
@@ -656,14 +696,15 @@ de:"Tomaten",
 es:"tomates",
 la:"lycopersica",
 el:"ντομάτες",
-zh:"西红柿"
+zh:"西红柿",
+ru:"помидоры"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"vege",
+type:"boie",
 
 fr:"la pomme de terre",
 en:"the potato",
@@ -672,14 +713,15 @@ de:"die Kartoffel",
 es:"la patata",
 la:"solanum tuberosum",
 el:"η πατάτα",
-zh:"土豆"
+zh:"土豆",
+ru:"картофелина"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"vege",
+type:"boie",
 
 fr:"les pommes de terre",
 en:"potatoes",
@@ -688,14 +730,15 @@ de:"Kartoffeln",
 es:"papas",
 la:"solana tubera",
 el:"πατάτες",
-zh:"土豆"
+zh:"土豆",
+ru:"картофель"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"vege",
+type:"boie",
 
 fr:"la carotte",
 en:"the carrot",
@@ -704,14 +747,15 @@ de:"die Karotte",
 es:"la zanahoria",
 la:"carota",
 el:"το καρότο",
-zh:"胡萝卜"
+zh:"胡萝卜",
+ru:"морковь"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"vege",
+type:"boie",
 
 fr:"les carottes",
 en:"carrots",
@@ -720,14 +764,15 @@ de:"Karotten",
 es:"zanahorias",
 la:"carotae",
 el:"καρότα",
-zh:"胡萝卜"
+zh:"胡萝卜",
+ru:"морковь"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"vege",
+type:"boie",
 
 fr:"l’oignon",
 en:"the onion",
@@ -736,14 +781,15 @@ de:"die Zwiebel",
 es:"la cebolla",
 la:"cepa",
 el:"το κρεμμύδι",
-zh:"洋葱"
+zh:"洋葱",
+ru:"лук"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"vege",
+type:"boie",
 
 fr:"les oignons",
 en:"onions",
@@ -752,14 +798,15 @@ de:"Zwiebeln",
 es:"cebollas",
 la:"cepae",
 el:"κρεμμύδια",
-zh:"洋葱"
+zh:"洋葱",
+ru:"лук"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"ingr",
+type:"boie",
 
 fr:"le sel",
 en:"salt",
@@ -768,14 +815,15 @@ de:"Salz",
 es:"sal",
 la:"sal",
 el:"άλας",
-zh:"盐"
+zh:"盐",
+ru:"соль"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"ingr",
+type:"boie",
 
 fr:"le sucre",
 en:"sugar",
@@ -784,14 +832,15 @@ de:"Zucker",
 es:"azúcar",
 la:"saccharum",
 el:"ζάχαρη",
-zh:"糖"
+zh:"糖",
+ru:"сахар"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"ingr",
+type:"boie",
 
 fr:"l'huile",
 en:"oil",
@@ -800,14 +849,15 @@ de:"Öl",
 es:"aceite",
 la:"oleum",
 el:"έλαιο",
-zh:"油"
+zh:"油",
+ru:"масло"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"ingr",
+type:"boie",
 
 fr:"la farine",
 en:"flour",
@@ -816,14 +866,15 @@ de:"Mehl",
 es:"harina",
 la:"farina",
 el:"αλεύρι",
-zh:"面粉"
+zh:"面粉",
+ru:"мука"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"ingr",
+type:"boie",
 
 fr:"les épices",
 en:"spices",
@@ -832,14 +883,15 @@ de:"Gewürze",
 es:"especias",
 la:"aromata",
 el:"μπαχαρικά",
-zh:"香料"
+zh:"香料",
+ru:"специи"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"repa",
+type:"boie",
 
 fr:"le déjeuner",
 en:"breakfast",
@@ -848,14 +900,15 @@ de:"Frühstück",
 es:"desayuno",
 la:"ientaculum",
 el:"πρωινό",
-zh:"早餐"
+zh:"早餐",
+ru:"завтрак"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"repa",
+type:"boie",
 
 fr:"les déjeuners",
 en:"breakfasts",
@@ -864,14 +917,15 @@ de:"Frühstück",
 es:"desayunos",
 la:"ientacula",
 el:"πρωινά",
-zh:"早餐"
+zh:"早餐",
+ru:"завтраки"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"repa",
+type:"boie",
 
 fr:"le dîner",
 en:"lunch",
@@ -880,14 +934,15 @@ de:"Mittagessen",
 es:"almuerzo",
 la:"prandium",
 el:"μεσημεριανό",
-zh:"午餐"
+zh:"午餐",
+ru:"обед"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"repa",
+type:"boie",
 
 fr:"les dîners",
 en:"lunches",
@@ -896,14 +951,15 @@ de:"Mittagessen",
 es:"almuerzos",
 la:"prandia",
 el:"γεύματα",
-zh:"午餐"
+zh:"午餐",
+ru:"обеды"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"repa",
+type:"boie",
 
 fr:"le souper",
 en:"dinner",
@@ -912,14 +968,15 @@ de:"Abendessen",
 es:"cena",
 la:"cena",
 el:"δείπνο",
-zh:"晚餐"
+zh:"晚餐",
+ru:"ужин"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"repa",
+type:"boie",
 
 fr:"les soupers",
 en:"dinners",
@@ -928,14 +985,15 @@ de:"Abendessen",
 es:"cenas",
 la:"cenae",
 el:"δείπνα",
-zh:"晚餐"
+zh:"晚餐",
+ru:"ужины"
 },
 
 
 {
 cat:"nourriture",
 gram:"s",
-type:"repa",
+type:"boie",
 
 fr:"le repas",
 en:"the meal",
@@ -944,14 +1002,15 @@ de:"das Essen",
 es:"la comida",
 la:"cena",
 el:"το γεύμα",
-zh:"餐"
+zh:"餐",
+ru:"еда"
 },
 
 
 {
 cat:"nourriture",
 gram:"pl",
-type:"repa",
+type:"boie",
 
 fr:"les repas",
 en:"meals",
@@ -960,11 +1019,15 @@ de:"Mahlzeiten",
 es:"comidas",
 la:"cenae",
 el:"γεύματα",
-zh:"餐"
-}
+zh:"餐",
+ru:"питание"
+},
+
+
 
 
 ],
+
 
 
 

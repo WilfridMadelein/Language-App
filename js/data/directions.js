@@ -8,6 +8,7 @@ cartes:[
 cat:"directions",
 gram:"inv",
 
+
 fr:"où sont",
 en:"where are",
 it:"dove sono",
@@ -15,13 +16,15 @@ de:"wo sind",
 es:"¿Dónde están?",
 la:"ubi sunt",
 el:"πού είναι",
-zh:"在哪里"
+zh:"在哪里",
+ru:"где находятся"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"à gauche",
 en:"left",
@@ -30,13 +33,15 @@ de:"links",
 es:"izquierda",
 la:"sinistra",
 el:"αριστερά",
-zh:"左边"
+zh:"左边",
+ru:"левый"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"à droite",
 en:"right",
@@ -45,13 +50,15 @@ de:"Rechts",
 es:"bien",
 la:"dexter",
 el:"δικαίωμα",
-zh:"正确的"
+zh:"正确的",
+ru:"верно"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"tout droit",
 en:"straight ahead",
@@ -60,13 +67,15 @@ de:"geradeaus",
 es:"todo derecho",
 la:"recto ante",
 el:"ευθεία μπροστά",
-zh:"直行"
+zh:"直行",
+ru:"прямо"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"devant",
 en:"in front",
@@ -75,13 +84,15 @@ de:"vorne",
 es:"Al frente",
 la:"ante",
 el:"μπροστά",
-zh:"在前"
+zh:"在前",
+ru:"спереди"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"derrière",
 en:"behind",
@@ -90,13 +101,15 @@ de:"hinter",
 es:"detrás",
 la:"post tergum",
 el:"πίσω",
-zh:"在后面"
+zh:"在后面",
+ru:"позади"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"tourne",
 en:"turned",
@@ -105,13 +118,15 @@ de:"umgedreht",
 es:"transformado",
 la:"versus",
 el:"γύρισε",
-zh:"转向"
+zh:"转向",
+ru:"повернулся"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"avance",
 en:"advance",
@@ -120,13 +135,15 @@ de:"Vorauszahlung",
 es:"avance",
 la:"progressus",
 el:"προκαταβολή",
-zh:"进步"
+zh:"进步",
+ru:"продвигать"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"recule",
 en:"retreat",
@@ -135,13 +152,15 @@ de:"Rückzug",
 es:"retiro",
 la:"refugium",
 el:"υποχώρηση",
-zh:"撤退"
+zh:"撤退",
+ru:"отступление"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"arrête",
 en:"stop",
@@ -150,13 +169,15 @@ de:"stoppen",
 es:"detener",
 la:"siste",
 el:"στάση",
-zh:"停止"
+zh:"停止",
+ru:"останавливаться"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"ici",
 en:"here",
@@ -165,13 +186,15 @@ de:"Hier",
 es:"aquí",
 la:"hic",
 el:"εδώ",
-zh:"这里"
+zh:"这里",
+ru:"здесь"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"là",
 en:"there",
@@ -180,13 +203,15 @@ de:"Dort",
 es:"allá",
 la:"ibi",
 el:"εκεί",
-zh:"那里"
+zh:"那里",
+ru:"там"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"là-bas",
 en:"over there",
@@ -195,13 +220,15 @@ de:"da drüben",
 es:"allí",
 la:"illic",
 el:"εκεί πέρα",
-zh:"在那边"
+zh:"在那边",
+ru:"вон там"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"en dessous",
 en:"below",
@@ -210,13 +237,15 @@ de:"unten",
 es:"abajo",
 la:"infra",
 el:"παρακάτω",
-zh:"以下"
+zh:"以下",
+ru:"ниже"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"au-dessus",
 en:"above",
@@ -225,13 +254,15 @@ de:"über",
 es:"arriba",
 la:"supra",
 el:"πάνω από",
-zh:"多于"
+zh:"多于",
+ru:"выше"
 },
 
 
 {
 cat:"directions",
 gram:"inv",
+
 
 fr:"dedans",
 en:"inside",
@@ -240,13 +271,15 @@ de:"innen",
 es:"adentro",
 la:"intus",
 el:"μέσα",
-zh:"里面"
+zh:"里面",
+ru:"внутри"
 },
 
 
 {
 cat:"directions",
-gram:"",
+gram:"inv",
+
 
 fr:"à côté de",
 en:"next to",
@@ -255,8 +288,11 @@ de:"neben",
 es:"junto a",
 la:"iuxta",
 el:"δίπλα σε",
-zh:"旁边"
-}
+zh:"旁边",
+ru:"рядом с"
+},
+
+
 
 
 ],

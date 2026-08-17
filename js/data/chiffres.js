@@ -15,7 +15,8 @@ de:"null",
 es:"cero",
 la:"nihilum",
 el:"μηδέν",
-zh:"零"
+zh:"零",
+ru:"ноль"
 },
 
 
@@ -30,7 +31,8 @@ de:"eins",
 es:"uno",
 la:"unus",
 el:"ένας",
-zh:"一"
+zh:"一",
+ru:"один"
 },
 
 
@@ -45,7 +47,8 @@ de:"zwei",
 es:"dos",
 la:"duo",
 el:"δυο",
-zh:"二"
+zh:"二",
+ru:"два"
 },
 
 
@@ -60,7 +63,8 @@ de:"drei",
 es:"tres",
 la:"tres",
 el:"τρία",
-zh:"三"
+zh:"三",
+ru:"три"
 },
 
 
@@ -75,7 +79,8 @@ de:"vier",
 es:"cuatro",
 la:"quattuor",
 el:"τέσσερα",
-zh:"四"
+zh:"四",
+ru:"четыре"
 },
 
 
@@ -90,7 +95,8 @@ de:"fünf",
 es:"cinco",
 la:"quinque",
 el:"πέντε",
-zh:"五"
+zh:"五",
+ru:"пять"
 },
 
 
@@ -105,7 +111,8 @@ de:"sechs",
 es:"seis",
 la:"sex",
 el:"έξι",
-zh:"六"
+zh:"六",
+ru:"шесть"
 },
 
 
@@ -120,7 +127,8 @@ de:"Sieben",
 es:"Siete",
 la:"septem",
 el:"επτά",
-zh:"七"
+zh:"七",
+ru:"Семь"
 },
 
 
@@ -135,7 +143,8 @@ de:"acht",
 es:"ocho",
 la:"octo",
 el:"οκτώ",
-zh:"八"
+zh:"八",
+ru:"восемь"
 },
 
 
@@ -150,7 +159,8 @@ de:"neun",
 es:"nueve",
 la:"novem",
 el:"εννέα",
-zh:"九"
+zh:"九",
+ru:"девять"
 },
 
 
@@ -165,7 +175,8 @@ de:"zehn",
 es:"diez",
 la:"decem",
 el:"δέκα",
-zh:"十"
+zh:"十",
+ru:"десять"
 },
 
 
@@ -180,7 +191,8 @@ de:"elf",
 es:"once",
 la:"undecim",
 el:"έντεκα",
-zh:"十一"
+zh:"十一",
+ru:"одиннадцать"
 },
 
 
@@ -195,7 +207,8 @@ de:"zwölf",
 es:"doce",
 la:"duodecim",
 el:"δώδεκα",
-zh:"十二"
+zh:"十二",
+ru:"двенадцать"
 },
 
 
@@ -210,7 +223,8 @@ de:"dreizehn",
 es:"trece",
 la:"tredecim",
 el:"δεκατρείς",
-zh:"十三"
+zh:"十三",
+ru:"тринадцать"
 },
 
 
@@ -225,7 +239,8 @@ de:"vierzehn",
 es:"catorce",
 la:"quattuordecim",
 el:"δεκατέσσερα",
-zh:"十四"
+zh:"十四",
+ru:"четырнадцать"
 },
 
 
@@ -240,7 +255,8 @@ de:"fünfzehn",
 es:"quince",
 la:"quindecim",
 el:"δεκαπέντε",
-zh:"十五"
+zh:"十五",
+ru:"пятнадцать"
 },
 
 
@@ -255,7 +271,8 @@ de:"sechzehn",
 es:"dieciséis",
 la:"sedecim",
 el:"δεκαέξι",
-zh:"十六"
+zh:"十六",
+ru:"шестнадцать"
 },
 
 
@@ -270,7 +287,8 @@ de:"siebzehn",
 es:"diecisiete",
 la:"septemdecim",
 el:"δεκαεπτά",
-zh:"十七"
+zh:"十七",
+ru:"семнадцать"
 },
 
 
@@ -285,7 +303,8 @@ de:"achtzehn",
 es:"dieciocho",
 la:"duodeviginti",
 el:"δεκαοχτώ",
-zh:"十八"
+zh:"十八",
+ru:"восемнадцать"
 },
 
 
@@ -300,7 +319,8 @@ de:"neunzehn",
 es:"diecinueve",
 la:"undeviginti",
 el:"δεκαεννέα",
-zh:"十九"
+zh:"十九",
+ru:"девятнадцать"
 },
 
 
@@ -315,7 +335,8 @@ de:"zwanzig",
 es:"veinte",
 la:"viginti",
 el:"είκοσι",
-zh:"二十"
+zh:"二十",
+ru:"двадцать"
 },
 
 
@@ -330,7 +351,8 @@ de:"einundzwanzig",
 es:"veintiuno",
 la:"viginti unus",
 el:"είκοσι ένα",
-zh:"21"
+zh:"21",
+ru:"двадцать один"
 },
 
 
@@ -345,7 +367,8 @@ de:"zweiundzwanzig",
 es:"Veintidós",
 la:"viginti duo",
 el:"είκοσι δύο",
-zh:"22"
+zh:"22",
+ru:"двадцать два"
 },
 
 
@@ -360,7 +383,8 @@ de:"dreiundzwanzig",
 es:"veintitrés",
 la:"viginti tres",
 el:"είκοσι τρία",
-zh:"23"
+zh:"23",
+ru:"двадцать три"
 },
 
 
@@ -375,7 +399,8 @@ de:"vierundzwanzig",
 es:"veinticuatro",
 la:"viginti quattuor",
 el:"είκοσι τέσσερα",
-zh:"24"
+zh:"24",
+ru:"двадцать четыре"
 },
 
 
@@ -390,7 +415,8 @@ de:"fünfundzwanzig",
 es:"Veinticinco",
 la:"viginti quinque",
 el:"είκοσι πέντε",
-zh:"二十五"
+zh:"二十五",
+ru:"двадцать пять"
 },
 
 
@@ -405,7 +431,8 @@ de:"sechsundzwanzig",
 es:"veintiséis",
 la:"viginti sex",
 el:"είκοσι έξι",
-zh:"二十六"
+zh:"二十六",
+ru:"двадцать шесть"
 },
 
 
@@ -420,7 +447,8 @@ de:"siebenundzwanzig",
 es:"veintisiete",
 la:"viginti septem",
 el:"είκοσι επτά",
-zh:"二十七"
+zh:"二十七",
+ru:"двадцать семь"
 },
 
 
@@ -435,7 +463,8 @@ de:"achtundzwanzig",
 es:"veintiocho",
 la:"viginti octo",
 el:"είκοσι οκτώ",
-zh:"二十八"
+zh:"二十八",
+ru:"двадцать восемь"
 },
 
 
@@ -450,7 +479,8 @@ de:"neunundzwanzig",
 es:"veintinueve",
 la:"viginti novem",
 el:"είκοσι εννέα",
-zh:"二十九"
+zh:"二十九",
+ru:"двадцать девять"
 },
 
 
@@ -465,7 +495,8 @@ de:"dreißig",
 es:"treinta",
 la:"triginta",
 el:"τριάντα",
-zh:"三十"
+zh:"三十",
+ru:"тридцать"
 },
 
 
@@ -480,7 +511,8 @@ de:"einunddreißig",
 es:"treinta y uno",
 la:"triginta unus",
 el:"τριάντα ένα",
-zh:"三十一"
+zh:"三十一",
+ru:"тридцать один"
 },
 
 
@@ -495,7 +527,8 @@ de:"zweiunddreißig",
 es:"treinta y dos",
 la:"triginta duo",
 el:"τριάντα δύο",
-zh:"三十二"
+zh:"三十二",
+ru:"тридцать два"
 },
 
 
@@ -510,7 +543,8 @@ de:"dreiunddreißig",
 es:"treinta y tres",
 la:"triginta tres",
 el:"τριάντα τρία",
-zh:"三十三"
+zh:"三十三",
+ru:"тридцать три"
 },
 
 
@@ -525,7 +559,8 @@ de:"vierunddreißig",
 es:"treinta y cuatro",
 la:"triginta quattuor",
 el:"τριάντα τέσσερα",
-zh:"三十四"
+zh:"三十四",
+ru:"тридцать четыре"
 },
 
 
@@ -540,7 +575,8 @@ de:"fünfunddreißig",
 es:"treinta y cinco",
 la:"triginta quinque",
 el:"τριάντα πέντε",
-zh:"三十五"
+zh:"三十五",
+ru:"тридцать пять"
 },
 
 
@@ -555,7 +591,8 @@ de:"sechsunddreißig",
 es:"treinta y seis",
 la:"triginta sex",
 el:"τριάντα έξι",
-zh:"三十六"
+zh:"三十六",
+ru:"тридцать шесть"
 },
 
 
@@ -570,7 +607,8 @@ de:"siebenunddreißig",
 es:"treinta y siete",
 la:"triginta septem",
 el:"τριάντα επτά",
-zh:"三十七"
+zh:"三十七",
+ru:"тридцать семь"
 },
 
 
@@ -585,7 +623,8 @@ de:"achtunddreißig",
 es:"treinta y ocho",
 la:"triginta octo",
 el:"τριάντα οκτώ",
-zh:"三十八"
+zh:"三十八",
+ru:"тридцать восемь"
 },
 
 
@@ -600,7 +639,8 @@ de:"neununddreißig",
 es:"treinta y nueve",
 la:"triginta novem",
 el:"τριάντα εννέα",
-zh:"三十九"
+zh:"三十九",
+ru:"тридцать девять"
 },
 
 
@@ -615,7 +655,8 @@ de:"vierzig",
 es:"cuarenta",
 la:"quadraginta",
 el:"σαράντα",
-zh:"四十"
+zh:"四十",
+ru:"сорок"
 },
 
 
@@ -630,7 +671,8 @@ de:"einundvierzig",
 es:"cuarenta y uno",
 la:"quadraginta unus",
 el:"σαράντα ένα",
-zh:"四十一"
+zh:"四十一",
+ru:"сорок один"
 },
 
 
@@ -645,7 +687,8 @@ de:"zweiundvierzig",
 es:"cuarenta y dos",
 la:"quadraginta duo",
 el:"σαράντα δύο",
-zh:"四十二"
+zh:"四十二",
+ru:"сорок два"
 },
 
 
@@ -660,7 +703,8 @@ de:"dreiundvierzig",
 es:"cuarenta y tres",
 la:"quadraginta tres",
 el:"σαράντα τρία",
-zh:"四十三"
+zh:"四十三",
+ru:"сорок три"
 },
 
 
@@ -675,7 +719,8 @@ de:"vierundvierzig",
 es:"cuarenta y cuatro",
 la:"quadraginta quattuor",
 el:"σαράντα τέσσερα",
-zh:"四十四"
+zh:"四十四",
+ru:"сорок четыре"
 },
 
 
@@ -690,7 +735,8 @@ de:"fünfundvierzig",
 es:"Cuarenta y cinco",
 la:"quadraginta quinque",
 el:"σαράντα πέντε",
-zh:"45"
+zh:"45",
+ru:"сорок пять"
 },
 
 
@@ -705,7 +751,8 @@ de:"sechsundvierzig",
 es:"cuarenta y seis",
 la:"quadraginta sex",
 el:"σαράντα έξι",
-zh:"四十六"
+zh:"四十六",
+ru:"сорок шесть"
 },
 
 
@@ -720,7 +767,8 @@ de:"siebenundvierzig",
 es:"cuarenta y siete",
 la:"quadraginta septem",
 el:"σαράντα επτά",
-zh:"四十七"
+zh:"四十七",
+ru:"сорок семь"
 },
 
 
@@ -735,7 +783,8 @@ de:"achtundvierzig",
 es:"cuarenta y ocho",
 la:"quadraginta octo",
 el:"σαράντα οκτώ",
-zh:"四十八"
+zh:"四十八",
+ru:"сорок восемь"
 },
 
 
@@ -750,7 +799,8 @@ de:"neunundvierzig",
 es:"cuarenta y nueve",
 la:"quadraginta novem",
 el:"σαράντα εννέα",
-zh:"四十九"
+zh:"四十九",
+ru:"сорок девять"
 },
 
 
@@ -765,7 +815,8 @@ de:"fünfzig",
 es:"cincuenta",
 la:"quinquaginta",
 el:"πενήντα",
-zh:"五十"
+zh:"五十",
+ru:"пятьдесят"
 },
 
 
@@ -780,7 +831,8 @@ de:"einundfünfzig",
 es:"cincuenta y uno",
 la:"quinquaginta unus",
 el:"πενήντα ένα",
-zh:"五十一"
+zh:"五十一",
+ru:"пятьдесят один"
 },
 
 
@@ -795,7 +847,8 @@ de:"zweiundfünfzig",
 es:"cincuenta y dos",
 la:"quinquaginta duo",
 el:"πενήντα δύο",
-zh:"五十二"
+zh:"五十二",
+ru:"пятьдесят два"
 },
 
 
@@ -810,7 +863,8 @@ de:"dreiundfünfzig",
 es:"cincuenta y tres",
 la:"quinquaginta tres",
 el:"πενήντα τρία",
-zh:"五十三"
+zh:"五十三",
+ru:"пятьдесят три"
 },
 
 
@@ -825,7 +879,8 @@ de:"vierundfünfzig",
 es:"cincuenta y cuatro",
 la:"quinquaginta quattuor",
 el:"πενήντα τέσσερα",
-zh:"五十四"
+zh:"五十四",
+ru:"пятьдесят четыре"
 },
 
 
@@ -840,7 +895,8 @@ de:"fünfundfünfzig",
 es:"cincuenta y cinco",
 la:"quinquaginta quinque",
 el:"πενήντα πέντε",
-zh:"五十五"
+zh:"五十五",
+ru:"пятьдесят пять"
 },
 
 
@@ -855,7 +911,8 @@ de:"sechsundfünfzig",
 es:"cincuenta y seis",
 la:"quinquaginta sex",
 el:"πενήντα έξι",
-zh:"五十六"
+zh:"五十六",
+ru:"пятьдесят шесть"
 },
 
 
@@ -870,7 +927,8 @@ de:"siebenundfünfzig",
 es:"cincuenta y siete",
 la:"quinquaginta septem",
 el:"πενήντα επτά",
-zh:"五十七"
+zh:"五十七",
+ru:"пятьдесят семь"
 },
 
 
@@ -885,7 +943,8 @@ de:"achtundfünfzig",
 es:"cincuenta y ocho",
 la:"quinquaginta octo",
 el:"πενήντα οκτώ",
-zh:"五十八"
+zh:"五十八",
+ru:"пятьдесят восемь"
 },
 
 
@@ -900,7 +959,8 @@ de:"neunundfünfzig",
 es:"cincuenta y nueve",
 la:"quinquaginta novem",
 el:"πενήντα εννέα",
-zh:"五十九"
+zh:"五十九",
+ru:"пятьдесят девять"
 },
 
 
@@ -915,7 +975,8 @@ de:"sechzig",
 es:"sesenta",
 la:"sexaginta",
 el:"εξήντα",
-zh:"六十"
+zh:"六十",
+ru:"шестьдесят"
 },
 
 
@@ -930,7 +991,8 @@ de:"einundsechzig",
 es:"sesenta y uno",
 la:"sexaginta unus",
 el:"εξήντα ένα",
-zh:"六十一"
+zh:"六十一",
+ru:"шестьдесят один"
 },
 
 
@@ -945,7 +1007,8 @@ de:"zweiundsechzig",
 es:"sesenta y dos",
 la:"sexaginta duo",
 el:"εξήντα δύο",
-zh:"六十二"
+zh:"六十二",
+ru:"шестьдесят два"
 },
 
 
@@ -960,7 +1023,8 @@ de:"dreiundsechzig",
 es:"sesenta y tres",
 la:"sexaginta tres",
 el:"εξήντα τρία",
-zh:"六十三"
+zh:"六十三",
+ru:"шестьдесят три"
 },
 
 
@@ -975,7 +1039,8 @@ de:"vierundsechzig",
 es:"sesenta y cuatro",
 la:"sexaginta quattuor",
 el:"εξήντα τέσσερα",
-zh:"六十四"
+zh:"六十四",
+ru:"шестьдесят четыре"
 },
 
 
@@ -990,7 +1055,8 @@ de:"fünfundsechzig",
 es:"sesenta y cinco",
 la:"sexaginta quinque",
 el:"εξήντα πέντε",
-zh:"六十五"
+zh:"六十五",
+ru:"шестьдесят пять"
 },
 
 
@@ -1005,7 +1071,8 @@ de:"sechsundsechzig",
 es:"sesenta y seis",
 la:"sexaginta sex",
 el:"εξήντα έξι",
-zh:"六十六"
+zh:"六十六",
+ru:"шестьдесят шесть"
 },
 
 
@@ -1020,7 +1087,8 @@ de:"siebenundsechzig",
 es:"sesenta y siete",
 la:"sexaginta septem",
 el:"εξήντα επτά",
-zh:"六十七"
+zh:"六十七",
+ru:"шестьдесят семь"
 },
 
 
@@ -1035,7 +1103,8 @@ de:"achtundsechzig",
 es:"sesenta y ocho",
 la:"sexaginta octo",
 el:"εξήντα οκτώ",
-zh:"六十八"
+zh:"六十八",
+ru:"шестьдесят восемь"
 },
 
 
@@ -1050,7 +1119,8 @@ de:"neunundsechzig",
 es:"sesenta y nueve",
 la:"sexaginta novem",
 el:"εξήντα εννέα",
-zh:"六十九"
+zh:"六十九",
+ru:"шестьдесят девять"
 },
 
 
@@ -1065,7 +1135,8 @@ de:"siebzig",
 es:"setenta",
 la:"septuaginta",
 el:"εβδομήντα",
-zh:"七十"
+zh:"七十",
+ru:"семьдесят"
 },
 
 
@@ -1080,7 +1151,8 @@ de:"einundsiebzig",
 es:"setenta y uno",
 la:"septuaginta unus",
 el:"εβδομήντα ένα",
-zh:"七十一"
+zh:"七十一",
+ru:"семьдесят один"
 },
 
 
@@ -1095,7 +1167,8 @@ de:"zweiundsiebzig",
 es:"setenta y dos",
 la:"septuaginta duo",
 el:"εβδομήντα δύο",
-zh:"七十二"
+zh:"七十二",
+ru:"семьдесят два"
 },
 
 
@@ -1110,7 +1183,8 @@ de:"dreiundsiebzig",
 es:"setenta y tres",
 la:"septuaginta tres",
 el:"εβδομήντα τρία",
-zh:"七十三"
+zh:"七十三",
+ru:"семьдесят три"
 },
 
 
@@ -1125,7 +1199,8 @@ de:"vierundsiebzig",
 es:"setenta y cuatro",
 la:"septuaginta quattuor",
 el:"εβδομήντα τέσσερα",
-zh:"七十四"
+zh:"七十四",
+ru:"семьдесят четыре"
 },
 
 
@@ -1140,7 +1215,8 @@ de:"fünfundsiebzig",
 es:"setenta y cinco",
 la:"septuaginta quinque",
 el:"εβδομήντα πέντε",
-zh:"七十五"
+zh:"七十五",
+ru:"семьдесят пять"
 },
 
 
@@ -1155,7 +1231,8 @@ de:"sechsundsiebzig",
 es:"setenta y seis",
 la:"septuaginta sex",
 el:"εβδομήντα έξι",
-zh:"七十六"
+zh:"七十六",
+ru:"семьдесят шесть"
 },
 
 
@@ -1170,7 +1247,8 @@ de:"siebenundsiebzig",
 es:"setenta y siete",
 la:"septuaginta septem",
 el:"εβδομήντα επτά",
-zh:"七十七"
+zh:"七十七",
+ru:"семьдесят семь"
 },
 
 
@@ -1185,7 +1263,8 @@ de:"achtundsiebzig",
 es:"setenta y ocho",
 la:"septuaginta octo",
 el:"εβδομήντα οκτώ",
-zh:"七十八"
+zh:"七十八",
+ru:"семьдесят восемь"
 },
 
 
@@ -1200,7 +1279,8 @@ de:"neunundsiebzig",
 es:"setenta y nueve",
 la:"septuaginta novem",
 el:"εβδομήντα εννέα",
-zh:"七十九"
+zh:"七十九",
+ru:"семьдесят девять"
 },
 
 
@@ -1215,7 +1295,8 @@ de:"achtzig",
 es:"ochenta",
 la:"octoginta",
 el:"ογδόντα",
-zh:"八十"
+zh:"八十",
+ru:"восемьдесят"
 },
 
 
@@ -1230,7 +1311,8 @@ de:"einundachtzig",
 es:"ochenta y uno",
 la:"octoginta unus",
 el:"ογδόντα ένα",
-zh:"八十一"
+zh:"八十一",
+ru:"восемьдесят один"
 },
 
 
@@ -1245,7 +1327,8 @@ de:"zweiundachtzig",
 es:"ochenta y dos",
 la:"octoginta duo",
 el:"ογδόντα δύο",
-zh:"八十二"
+zh:"八十二",
+ru:"восемьдесят два"
 },
 
 
@@ -1260,7 +1343,8 @@ de:"dreiundachtzig",
 es:"ochenta y tres",
 la:"octoginta tres",
 el:"ογδόντα τρία",
-zh:"八十三"
+zh:"八十三",
+ru:"восемьдесят три"
 },
 
 
@@ -1275,7 +1359,8 @@ de:"vierundachtzig",
 es:"ochenta y cuatro",
 la:"octoginta quattuor",
 el:"ογδόντα τέσσερα",
-zh:"八十四"
+zh:"八十四",
+ru:"восемьдесят четыре"
 },
 
 
@@ -1290,7 +1375,8 @@ de:"fünfundachtzig",
 es:"ochenta y cinco",
 la:"octoginta quinque",
 el:"ογδόντα πέντε",
-zh:"八十五"
+zh:"八十五",
+ru:"восемьдесят пять"
 },
 
 
@@ -1305,7 +1391,8 @@ de:"sechsundachtzig",
 es:"ochenta y seis",
 la:"octoginta sex",
 el:"ογδόντα έξι",
-zh:"八十六"
+zh:"八十六",
+ru:"восемьдесят шесть"
 },
 
 
@@ -1320,7 +1407,8 @@ de:"siebenundachtzig",
 es:"ochenta y siete",
 la:"octoginta septem",
 el:"ογδόντα επτά",
-zh:"八十七"
+zh:"八十七",
+ru:"восемьдесят семь"
 },
 
 
@@ -1335,7 +1423,8 @@ de:"achtundachtzig",
 es:"ochenta y ocho",
 la:"octoginta octo",
 el:"ογδόντα οκτώ",
-zh:"八十八"
+zh:"八十八",
+ru:"восемьдесят восемь"
 },
 
 
@@ -1350,7 +1439,8 @@ de:"neunundachtzig",
 es:"ochenta y nueve",
 la:"octoginta novem",
 el:"ογδόντα εννέα",
-zh:"八十九"
+zh:"八十九",
+ru:"восемьдесят девять"
 },
 
 
@@ -1365,7 +1455,8 @@ de:"neunzig",
 es:"noventa",
 la:"nonaginta",
 el:"ενενήντα",
-zh:"九十"
+zh:"九十",
+ru:"девяносто"
 },
 
 
@@ -1380,7 +1471,8 @@ de:"einundneunzig",
 es:"noventa y uno",
 la:"nonaginta unus",
 el:"ενενήντα ένα",
-zh:"九十一"
+zh:"九十一",
+ru:"девяносто один"
 },
 
 
@@ -1395,7 +1487,8 @@ de:"zweiundneunzig",
 es:"noventa y dos",
 la:"nonaginta duo",
 el:"ενενήντα δύο",
-zh:"九十二"
+zh:"九十二",
+ru:"девяносто два"
 },
 
 
@@ -1410,7 +1503,8 @@ de:"dreiundneunzig",
 es:"noventa y tres",
 la:"nonaginta tres",
 el:"ενενήντα τρία",
-zh:"九十三"
+zh:"九十三",
+ru:"девяносто три"
 },
 
 
@@ -1425,7 +1519,8 @@ de:"vierundneunzig",
 es:"noventa y cuatro",
 la:"nonaginta quattuor",
 el:"ενενήντα τέσσερα",
-zh:"九十四"
+zh:"九十四",
+ru:"девяносто четыре"
 },
 
 
@@ -1440,7 +1535,8 @@ de:"fünfundneunzig",
 es:"noventa y cinco",
 la:"nonaginta quinque",
 el:"ενενήντα πέντε",
-zh:"九十五"
+zh:"九十五",
+ru:"девяносто пять"
 },
 
 
@@ -1455,7 +1551,8 @@ de:"sechsundneunzig",
 es:"noventa y seis",
 la:"nonaginta sex",
 el:"ενενήντα έξι",
-zh:"九十六"
+zh:"九十六",
+ru:"девяносто шесть"
 },
 
 
@@ -1470,7 +1567,8 @@ de:"siebenundneunzig",
 es:"noventa y siete",
 la:"nonaginta septem",
 el:"ενενήντα επτά",
-zh:"九十七"
+zh:"九十七",
+ru:"девяносто семь"
 },
 
 
@@ -1485,7 +1583,8 @@ de:"achtundneunzig",
 es:"noventa y ocho",
 la:"nonaginta octo",
 el:"ενενήντα οκτώ",
-zh:"九十八"
+zh:"九十八",
+ru:"девяносто восемь"
 },
 
 
@@ -1500,7 +1599,8 @@ de:"neunundneunzig",
 es:"noventa y nueve",
 la:"nonaginta novem",
 el:"ενενήντα εννέα",
-zh:"九十九"
+zh:"九十九",
+ru:"девяносто девять"
 },
 
 
@@ -1515,7 +1615,8 @@ de:"hundert",
 es:"centenar",
 la:"centum",
 el:"εκατό",
-zh:"百"
+zh:"百",
+ru:"сто"
 },
 
 
@@ -1530,7 +1631,8 @@ de:"zweihundert",
 es:"doscientos",
 la:"ducenti",
 el:"διακόσια",
-zh:"二百"
+zh:"二百",
+ru:"двести"
 },
 
 
@@ -1545,7 +1647,8 @@ de:"dreihundert",
 es:"trescientos",
 la:"trecenti",
 el:"τριακόσια",
-zh:"三百"
+zh:"三百",
+ru:"триста"
 },
 
 
@@ -1560,7 +1663,8 @@ de:"vierhundert",
 es:"cuatrocientos",
 la:"quadringenti",
 el:"τετρακόσια",
-zh:"四百"
+zh:"四百",
+ru:"четыреста"
 },
 
 
@@ -1575,7 +1679,8 @@ de:"fünfhundert",
 es:"quinientos",
 la:"quingenti",
 el:"πεντακόσια",
-zh:"五百"
+zh:"五百",
+ru:"пятьсот"
 },
 
 
@@ -1590,7 +1695,8 @@ de:"sechshundert",
 es:"seiscientos",
 la:"sescenti",
 el:"εξακόσια",
-zh:"六百"
+zh:"六百",
+ru:"шестьсот"
 },
 
 
@@ -1605,7 +1711,8 @@ de:"siebenhundert",
 es:"setecientos",
 la:"septingenti",
 el:"επτακόσια",
-zh:"七百"
+zh:"七百",
+ru:"семьсот"
 },
 
 
@@ -1620,7 +1727,8 @@ de:"achthundert",
 es:"ochocientos",
 la:"octingenti",
 el:"οκτακόσια",
-zh:"八百"
+zh:"八百",
+ru:"восемьсот"
 },
 
 
@@ -1635,7 +1743,8 @@ de:"neunhundert",
 es:"novecientos",
 la:"nongenti",
 el:"εννιακόσια",
-zh:"九百"
+zh:"九百",
+ru:"девятьсот"
 },
 
 
@@ -1650,7 +1759,8 @@ de:"tausend",
 es:"mil",
 la:"mille",
 el:"χίλια",
-zh:"千"
+zh:"千",
+ru:"тысяча"
 },
 
 
@@ -1665,7 +1775,8 @@ de:"zehntausend",
 es:"diez mil",
 la:"decem milia",
 el:"δέκα χιλιάδες",
-zh:"万"
+zh:"万",
+ru:"десять тысяч"
 },
 
 
@@ -1680,7 +1791,8 @@ de:"einhunderttausend",
 es:"cien mil",
 la:"centum milia",
 el:"εκατό χιλιάδες",
-zh:"十万"
+zh:"十万",
+ru:"сто тысяч"
 },
 
 
@@ -1695,10 +1807,15 @@ de:"eine Million",
 es:"un millón",
 la:"decies centena milia",
 el:"ένα εκατομμύριο",
-zh:"一百万"
+zh:"一百万",
+ru:"один миллион"
 },
 
+
+
+
 ],
+
 
 
 
