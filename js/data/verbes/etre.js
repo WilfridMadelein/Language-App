@@ -16,7 +16,8 @@ es:"Ser",
 la:"Esto",
 el:"Είναι",
 zh:"是",
-ru:"Быть"
+ru:"Быть",
+ja:"なれ"
 },
 
 
@@ -38,7 +39,8 @@ es:"Yo Soy",
 la:"ego Sum",
 el:"εγώ Είμαι",
 zh:" 我是",
-ru:" Я"
+ru:" Я",
+ja:"私は"
 },
 
 
@@ -58,7 +60,8 @@ es:"Tú Eres",
 la:"tu es",
 el:"εσύ Είσθε",
 zh:" 你是",
-ru:" Ты"
+ru:" Ты",
+ja:"あなたは"
 },
 
 
@@ -78,7 +81,8 @@ es:"Él/Ella, es",
 la:"ille/illa, est",
 el:"αυτός/αυτή, είναι",
 zh:" 他/她是",
-ru:" Он/Она"
+ru:" Он/Она",
+ja:"彼／彼女は"
 },
 
 
@@ -98,7 +102,8 @@ es:"Nosotros Somos",
 la:"nos sumus",
 el:"εμείς Είμαστε",
 zh:" 我们是",
-ru:" Мы"
+ru:" Мы",
+ja:"私たちは"
 },
 
 
@@ -118,7 +123,8 @@ es:"Ustedes son",
 la:"vos estis",
 el:"εσείς Είστε",
 zh:" 你们是",
-ru:" Вы —"
+ru:" Вы —",
+ja:"あなたは"
 },
 
 
@@ -138,7 +144,8 @@ es:"Ellos/Ellas, son",
 la:"illi/illae, Sunt",
 el:"αυτοί/αυτές, Είναι",
 zh:" 他们是",
-ru:" Они есть"
+ru:" Они есть",
+ja:"彼らです"
 },
 
 
@@ -158,7 +165,8 @@ es:"Yo Era",
 la:"ego Eram",
 el:"εγώ Ήμουν",
 zh:" 我当时",
-ru:" Я был"
+ru:" Я был",
+ja:"私は"
 },
 
 
@@ -178,7 +186,8 @@ es:"Tú eras",
 la:"tu Eras",
 el:"εσύ Ήσουν",
 zh:" 你曾是",
-ru:" Ты был"
+ru:" Ты был",
+ja:"あなたは"
 },
 
 
@@ -198,7 +207,8 @@ es:"Él/Ella, era",
 la:"ille/illa, erat",
 el:"αυτός/αυτή, ήταν",
 zh:" 他/她是",
-ru:" Он/Она был"
+ru:" Он/Она был",
+ja:"彼／彼女は"
 },
 
 
@@ -218,7 +228,8 @@ es:"Nosotros éramos",
 la:"nos Eramus",
 el:"εμείς Ήμασταν",
 zh:" 我们曾",
-ru:" Мы были"
+ru:" Мы были",
+ja:"私たちは"
 },
 
 
@@ -238,7 +249,8 @@ es:"Ustedes eran",
 la:"vos Eratis",
 el:"εσείς Ήσασταν",
 zh:" 你们都是",
-ru:" Вы были"
+ru:" Вы были",
+ja:"あなたは"
 },
 
 
@@ -258,7 +270,8 @@ es:"Ellos/Ellas, eran",
 la:"illi/illae, Erant",
 el:"αυτοί/αυτές, Ήταν",
 zh:" 他们是",
-ru:" Они были"
+ru:" Они были",
+ja:"彼らはいた"
 },
 
 
@@ -278,7 +291,8 @@ es:"Yo estaré",
 la:"ego Ero",
 el:"εγώ είμαι",
 zh:" 我将",
-ru:" Я буду"
+ru:" Я буду",
+ja:"私はそうなるでしょう"
 },
 
 
@@ -298,7 +312,8 @@ es:"Tú será",
 la:"tu Eris",
 el:"εσύ είσαι",
 zh:" 你会",
-ru:" Вы будете"
+ru:" Вы будете",
+ja:"あなたはなれます"
 },
 
 
@@ -318,7 +333,8 @@ es:"Él/Ella, será",
 la:"ille/illa, erit",
 el:"αυτός/αυτή, είναι",
 zh:" 他/她将是",
-ru:" Он/Она будет"
+ru:" Он/Она будет",
+ja:"彼／彼女は"
 },
 
 
@@ -338,7 +354,8 @@ es:"Nosotros Estaremos",
 la:"nos erimus",
 el:"εμείς είμαστε",
 zh:" 我们将是",
-ru:" Мы будем"
+ru:" Мы будем",
+ja:"私たちはそうなるでしょう"
 },
 
 
@@ -358,7 +375,8 @@ es:"Ustedes Serán",
 la:"vos eritis",
 el:"εσείς είστε",
 zh:" 你们将会是",
-ru:" все вы. Вы будете"
+ru:" все вы. Вы будете",
+ja:"あなたはなれます"
 },
 
 
@@ -378,7 +396,8 @@ es:"Ellos/Ellas, serán",
 la:"illi/illae, Erunt",
 el:"αυτοί/αυτές, είναι",
 zh:" 他们将是",
-ru:" Они будут"
+ru:" Они будут",
+ja:"そうなるだろう"
 },
 
 
@@ -396,7 +415,8 @@ es:"Ser (2)",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -414,7 +434,8 @@ es:"Yo Soy",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -432,7 +453,8 @@ es:"Tú Eres",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -450,7 +472,8 @@ es:"Él/Ella, es",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -468,7 +491,8 @@ es:"Nosotros Somos",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -486,7 +510,8 @@ es:"Ustedes son",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -504,7 +529,8 @@ es:"Ellos/Ellas, son",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -522,7 +548,8 @@ es:"Yo Era",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -540,7 +567,8 @@ es:"Tú eras",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -558,7 +586,8 @@ es:"Él/Ella, era",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -576,7 +605,8 @@ es:"Nosotros éramos",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -594,7 +624,8 @@ es:"Ustedes eran",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -612,7 +643,8 @@ es:"Ellos/Ellas, eran",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -630,7 +662,8 @@ es:"Yo estaré",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -648,7 +681,8 @@ es:"Tú estarás",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -666,7 +700,8 @@ es:"Él/Ella, estará",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -684,7 +719,8 @@ es:"Nosotros estaremos",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -702,7 +738,8 @@ es:"Ustedes estaréis",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 
@@ -720,7 +757,8 @@ es:"Ellos/Ellas, estarán",
 la:"",
 el:"",
 zh:"",
-ru:""
+ru:"",
+ja:""
 },
 
 

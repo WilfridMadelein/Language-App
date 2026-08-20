@@ -7,7 +7,7 @@ cartes:[
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"la personne",
 en:"the person",
@@ -17,14 +17,15 @@ es:"la persona",
 la:"persona",
 el:"το άτομο",
 zh:"这个人",
-ru:"человек"
+ru:"человек",
+ja:"その人"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les personnes",
 en:"people",
@@ -34,14 +35,15 @@ es:"gente",
 la:"homines",
 el:"άνθρωποι",
 zh:"人们",
-ru:"люди"
+ru:"люди",
+ja:"その人"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"l’homme",
 en:"the man",
@@ -51,14 +53,15 @@ es:"el hombre",
 la:"vir",
 el:"ο άντρας",
 zh:"男人",
-ru:"тот человек"
+ru:"тот человек",
+ja:"人々"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les hommes",
 en:"men",
@@ -68,14 +71,15 @@ es:"hombres",
 la:"viri",
 el:"άνδρες",
 zh:"男人",
-ru:"мужчины"
+ru:"мужчины",
+ja:"その男"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"la femme",
 en:"the woman",
@@ -85,14 +89,15 @@ es:"la mujer",
 la:"mulier",
 el:"η γυναίκα",
 zh:"那个女人",
-ru:"женщина"
+ru:"женщина",
+ja:"男性"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les femmes",
 en:"women",
@@ -102,14 +107,15 @@ es:"mujer",
 la:"mulieres",
 el:"γυναίκες",
 zh:"女性",
-ru:"женщины"
+ru:"женщины",
+ja:"その女性"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"l’enfant",
 en:"the child",
@@ -119,14 +125,15 @@ es:"el niño",
 la:"puer",
 el:"το παιδί",
 zh:"孩子",
-ru:"ребенок"
+ru:"ребенок",
+ja:"女性"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les enfants",
 en:"children",
@@ -136,14 +143,15 @@ es:"niños",
 la:"liberi",
 el:"παιδιά",
 zh:"孩子们",
-ru:"дети"
+ru:"дети",
+ja:"その子供"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"le garçon",
 en:"the boy",
@@ -153,31 +161,33 @@ es:"el niño",
 la:"puer",
 el:"το αγόρι",
 zh:"男孩",
-ru:"мальчик"
+ru:"мальчик",
+ja:"子供たち"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les garçons",
-en:"boys",
-it:"ragazzi",
-de:"Jungs",
-es:"chicos",
+en:"the boys",
+it:"i ragazzi",
+de:"die Jungs",
+es:"los chicos",
 la:"pueri",
-el:"αγόρια",
+el:"τα αγόρια",
 zh:"男孩们",
-ru:"мальчики"
+ru:"мальчики",
+ja:"少年"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"la fille",
 en:"the girl",
@@ -187,14 +197,15 @@ es:"la niña",
 la:"puella",
 el:"το κορίτσι",
 zh:"那个女孩",
-ru:"девочка"
+ru:"девочка",
+ja:"少年たち"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les filles",
 en:"girls",
@@ -204,14 +215,15 @@ es:"chicas",
 la:"puellae",
 el:"κορίτσια",
 zh:"女孩们",
-ru:"девушки"
+ru:"девушки",
+ja:"その少女"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"le bébé",
 en:"the baby",
@@ -221,14 +233,15 @@ es:"el bebé",
 la:"infans",
 el:"το μωρό",
 zh:"婴儿",
-ru:"младенец"
+ru:"младенец",
+ja:"女の子"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les bébés",
 en:"babies",
@@ -238,14 +251,15 @@ es:"criaturas",
 la:"infantes",
 el:"μωρά",
 zh:"婴儿",
-ru:"младенцы"
+ru:"младенцы",
+ja:"赤ちゃん"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"la famille",
 en:"the family",
@@ -255,14 +269,15 @@ es:"la familia",
 la:"familia",
 el:"η οικογένεια",
 zh:"家人",
-ru:"семья"
+ru:"семья",
+ja:"赤ちゃん"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les familles",
 en:"families",
@@ -272,7 +287,8 @@ es:"familias",
 la:"familiae",
 el:"οικογένειες",
 zh:"家庭",
-ru:"семьи"
+ru:"семьи",
+ja:"家族"
 },
 
 
@@ -289,7 +305,8 @@ es:"la madre",
 la:"mater",
 el:"η μητέρα",
 zh:"母亲",
-ru:"мать"
+ru:"мать",
+ja:"家族"
 },
 
 
@@ -306,7 +323,8 @@ es:"madres",
 la:"matres",
 el:"μητέρες",
 zh:"母亲们",
-ru:"матерей"
+ru:"матерей",
+ja:"母親"
 },
 
 
@@ -323,7 +341,8 @@ es:"el padre",
 la:"pater",
 el:"ο πατέρας",
 zh:"父亲",
-ru:"отец"
+ru:"отец",
+ja:"母親たち"
 },
 
 
@@ -340,7 +359,8 @@ es:"los padres",
 la:"patres",
 el:"οι πατέρες",
 zh:"先贤们",
-ru:"отцы"
+ru:"отцы",
+ja:"父親"
 },
 
 
@@ -357,7 +377,8 @@ es:"el padre",
 la:"parens",
 el:"ο γονέας",
 zh:"父母",
-ru:"родитель"
+ru:"родитель",
+ja:"父親たち"
 },
 
 
@@ -374,7 +395,8 @@ es:"los padres",
 la:"parentes",
 el:"οι γονείς",
 zh:"父母",
-ru:"родители"
+ru:"родители",
+ja:"親"
 },
 
 
@@ -391,7 +413,8 @@ es:"el hijo",
 la:"filius",
 el:"ο γιος",
 zh:"儿子",
-ru:"сын"
+ru:"сын",
+ja:"両親"
 },
 
 
@@ -408,7 +431,8 @@ es:"los hilos",
 la:"fila",
 el:"τα νήματα",
 zh:"线",
-ru:"нити"
+ru:"нити",
+ja:"息子"
 },
 
 
@@ -425,7 +449,8 @@ es:"la niña",
 la:"puella",
 el:"το κορίτσι",
 zh:"那个女孩",
-ru:"девочка"
+ru:"девочка",
+ja:"糸"
 },
 
 
@@ -442,7 +467,8 @@ es:"chicas",
 la:"puellae",
 el:"κορίτσια",
 zh:"女孩们",
-ru:"девушки"
+ru:"девушки",
+ja:"その少女"
 },
 
 
@@ -459,7 +485,8 @@ es:"el hermano",
 la:"frater",
 el:"ο αδελφός",
 zh:"兄弟",
-ru:"брат"
+ru:"брат",
+ja:"女の子"
 },
 
 
@@ -476,7 +503,8 @@ es:"los hermanos",
 la:"fratres",
 el:"οι αδελφοί",
 zh:"兄弟俩",
-ru:"братья"
+ru:"братья",
+ja:"兄弟"
 },
 
 
@@ -493,7 +521,8 @@ es:"la hermana",
 la:"soror",
 el:"η αδερφή",
 zh:"姐姐",
-ru:"сестра"
+ru:"сестра",
+ja:"兄弟たち"
 },
 
 
@@ -510,7 +539,8 @@ es:"las hermanas",
 la:"sorores",
 el:"οι αδελφές",
 zh:"姐妹俩",
-ru:"сестры"
+ru:"сестры",
+ja:"妹"
 },
 
 
@@ -527,7 +557,8 @@ es:"el abuelo",
 la:"avus",
 el:"ο παππούς",
 zh:"祖父",
-ru:"дедушка"
+ru:"дедушка",
+ja:"姉妹たち"
 },
 
 
@@ -544,7 +575,8 @@ es:"abuelos",
 la:"avi",
 el:"παππούδες",
 zh:"祖父们",
-ru:"деды"
+ru:"деды",
+ja:"祖父"
 },
 
 
@@ -561,7 +593,8 @@ es:"la abuela",
 la:"avia",
 el:"η γιαγιά",
 zh:"祖母",
-ru:"бабушка"
+ru:"бабушка",
+ja:"祖父たち"
 },
 
 
@@ -578,7 +611,8 @@ es:"abuelas",
 la:"aviae",
 el:"γιαγιάδες",
 zh:"祖母们",
-ru:"бабушки"
+ru:"бабушки",
+ja:"おばあちゃん"
 },
 
 
@@ -595,7 +629,8 @@ es:"el tío",
 la:"avunculus",
 el:"ο θείος",
 zh:"叔叔",
-ru:"дядя"
+ru:"дядя",
+ja:"おばあちゃんたち"
 },
 
 
@@ -612,7 +647,8 @@ es:"los tíos",
 la:"avunculi",
 el:"οι θείοι",
 zh:"叔叔们",
-ru:"дяди"
+ru:"дяди",
+ja:"叔父"
 },
 
 
@@ -629,7 +665,8 @@ es:"la tía",
 la:"amita",
 el:"η θεία",
 zh:"姑妈",
-ru:"тетя"
+ru:"тетя",
+ja:"叔父たち"
 },
 
 
@@ -646,7 +683,8 @@ es:"las tías",
 la:"amitae",
 el:"οι θείες",
 zh:"姑妈们",
-ru:"тети"
+ru:"тети",
+ja:"叔母"
 },
 
 
@@ -663,7 +701,8 @@ es:"el primo",
 la:"consobrinus",
 el:"ο ξάδερφος",
 zh:"表亲",
-ru:"двоюродный брат"
+ru:"двоюродный брат",
+ja:"叔母たち"
 },
 
 
@@ -680,7 +719,8 @@ es:"los primos",
 la:"consobrini",
 el:"τα ξαδέρφια",
 zh:"表兄弟姐妹",
-ru:"двоюродные братья"
+ru:"двоюродные братья",
+ja:"いとこ"
 },
 
 
@@ -697,7 +737,8 @@ es:"la prima",
 la:"consobrina femina",
 el:"η ξαδέρφη",
 zh:"女性表亲",
-ru:"кузина"
+ru:"кузина",
+ja:"いとこたち"
 },
 
 
@@ -714,7 +755,8 @@ es:"las primas",
 la:"consobrinae feminae",
 el:"οι ξαδέρφες",
 zh:"女性表亲",
-ru:"двоюродные сестры"
+ru:"двоюродные сестры",
+ja:"女性のいとこ"
 },
 
 
@@ -731,7 +773,8 @@ es:"el marido",
 la:"maritus",
 el:"ο σύζυγος",
 zh:"丈夫",
-ru:"муж"
+ru:"муж",
+ja:"女性のいとこたち"
 },
 
 
@@ -748,7 +791,8 @@ es:"los maridos",
 la:"mariti",
 el:"οι σύζυγοι",
 zh:"丈夫们",
-ru:"мужья"
+ru:"мужья",
+ja:"夫"
 },
 
 
@@ -765,7 +809,8 @@ es:"la esposa",
 la:"uxor",
 el:"η σύζυγος",
 zh:"妻子",
-ru:"жена"
+ru:"жена",
+ja:"夫たち"
 },
 
 
@@ -782,14 +827,15 @@ es:"las esposas",
 la:"uxores",
 el:"οι σύζυγοι",
 zh:"妻子们",
-ru:"жёны"
+ru:"жёны",
+ja:"妻"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"le voisin",
 en:"the neighbor",
@@ -799,14 +845,15 @@ es:"el vecino",
 la:"vicinus",
 el:"ο γείτονας",
 zh:"邻居",
-ru:"сосед"
+ru:"сосед",
+ja:"妻たち"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les voisins",
 en:"the neighbors",
@@ -816,14 +863,15 @@ es:"los vecinos",
 la:"vicini",
 el:"οι γείτονες",
 zh:"邻居们",
-ru:"соседи"
+ru:"соседи",
+ja:"隣人"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"la voisine femme",
 en:"the female neighbor",
@@ -833,14 +881,15 @@ es:"la vecina",
 la:"vicina femina",
 el:"η γειτόνισσα",
 zh:"女邻居",
-ru:"соседка"
+ru:"соседка",
+ja:"隣人"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les voisines femmes",
 en:"the female neighbors",
@@ -850,14 +899,15 @@ es:"las vecinas",
 la:"vicinae feminae",
 el:"οι γειτόνισσες",
 zh:"女邻居们",
-ru:"соседки"
+ru:"соседки",
+ja:"女性の隣人"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"l’ami",
 en:"my friend",
@@ -867,14 +917,15 @@ es:"mi amigo",
 la:"amicus meus",
 el:"ο φίλος μου",
 zh:"我的朋友",
-ru:"мой друг"
+ru:"мой друг",
+ja:"女性の隣人"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les amis",
 en:"friends",
@@ -884,14 +935,15 @@ es:"amigos",
 la:"amici",
 el:"φίλοι",
 zh:"朋友们",
-ru:"друзья"
+ru:"друзья",
+ja:"私の友人"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"l’amie femme",
 en:"the female friend",
@@ -901,14 +953,15 @@ es:"la amiga",
 la:"amica femina",
 el:"η φίλη",
 zh:"女性朋友",
-ru:"подруга"
+ru:"подруга",
+ja:"友達"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les amies femmes",
 en:"female friends",
@@ -918,14 +971,15 @@ es:"amigas",
 la:"amicae feminae",
 el:"φίλες",
 zh:"女性朋友",
-ru:"подруги"
+ru:"подруги",
+ja:"女友達"
 },
 
 
 {
 cat:"personnes",
 gram:"s",
-type:"fam",
+type:"gens",
 
 fr:"le collègue",
 en:"the colleague",
@@ -935,14 +989,15 @@ es:"el colega",
 la:"collega",
 el:"ο συνάδελφος",
 zh:"同事",
-ru:"коллега"
+ru:"коллега",
+ja:"女友達"
 },
 
 
 {
 cat:"personnes",
 gram:"pl",
-type:"fam",
+type:"gens",
 
 fr:"les collègues",
 en:"colleagues",
@@ -952,14 +1007,14 @@ es:"colegas",
 la:"collegae",
 el:"συνάδελφοι",
 zh:"同事",
-ru:"коллеги"
+ru:"коллеги",
+ja:"同僚"
 },
 
 
 
 
 ],
-
 
 
 
